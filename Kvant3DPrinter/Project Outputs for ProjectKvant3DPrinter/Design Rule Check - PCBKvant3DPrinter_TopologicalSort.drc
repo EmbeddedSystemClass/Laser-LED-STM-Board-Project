@@ -1,0 +1,1061 @@
+Protel Design System Design Rule Check
+PCB File : D:\Проекты Altium\Kvant3DPrinter\PCBKvant3DPrinter_TopologicalSort.PcbDoc
+Date     : 14.09.2015
+Time     : 13:30:10
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+Processing Rule : Room IOPorts (Bounding Region = (131.191mm, 27.94mm, 151.13mm, 119.761mm) (InComponentClass('IOPorts'))
+Rule Violations :0
+
+Processing Rule : Room MCUSetup (Bounding Region = (157.107mm, 42.291mm, 179.459mm, 126.619mm) (InComponentClass('MCUSetup'))
+Rule Violations :0
+
+Processing Rule : Room Kvant3DPrinter (Bounding Region = (79.756mm, 127.254mm, 90.551mm, 135.255mm) (InComponentClass('Kvant3DPrinter'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=1.016mm) (Preferred=0.254mm) (InNetClass('SignalNets'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint (3.18mm > 2.54mm) : Pad J1-17(38.329mm,140.739mm)  Multi-Layer
+   Violation between Hole Size Constraint (3.18mm > 2.54mm) : Pad J1-16(38.329mm,107.419mm)  Multi-Layer
+   Violation between Hole Size Constraint (3.25mm > 2.54mm) : Via (39.751mm,87.62mm) Top Layer to Bottom Layer
+   Violation between Hole Size Constraint (3.25mm > 2.54mm) : Via (39.751mm,99.06mm) Top Layer to Bottom Layer
+Rule Violations :4
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Text "C46" (48.133mm,122.784mm)  Top Overlay and 
+                     Pad U10-16(49.035mm,123.444mm)  Top Layer
+   Violation between Text "C49" (161.29mm,107.036mm)  Top Overlay and 
+                     Pad U13-1(163.172mm,109.317mm)  Top Layer
+   Violation between Text "C49" (161.29mm,107.036mm)  Top Overlay and 
+                     Pad U13-2(163.972mm,109.317mm)  Top Layer
+   Violation between Text "C49" (161.29mm,107.036mm)  Top Overlay and 
+                     Pad U13-3(164.772mm,109.317mm)  Top Layer
+   Violation between Text "C49" (161.29mm,107.036mm)  Top Overlay and 
+                     Pad U13-4(165.572mm,109.317mm)  Top Layer
+   Violation between Text "U9_RS485_UART1" (125.095mm,121.539mm)  Top Overlay and 
+                     Pad U8_RS485_UART1-1(132.08mm,122.999mm)  Top Layer
+   Violation between Text "R50_RS485_UART1" (126.492mm,123.317mm)  Top Overlay and 
+                     Pad U8_RS485_UART1-1(132.08mm,122.999mm)  Top Layer
+   Violation between Text "U9_RS485_UART1" (125.095mm,121.539mm)  Top Overlay and 
+                     Pad U8_RS485_UART1-2(133.35mm,122.999mm)  Top Layer
+   Violation between Text "R50_RS485_UART1" (126.492mm,123.317mm)  Top Overlay and 
+                     Pad U8_RS485_UART1-2(133.35mm,122.999mm)  Top Layer
+   Violation between Text "U9_RS485_UART1" (125.095mm,121.539mm)  Top Overlay and 
+                     Pad U8_RS485_UART1-3(134.62mm,122.999mm)  Top Layer
+   Violation between Text "R50_RS485_UART1" (126.492mm,123.317mm)  Top Overlay and 
+                     Pad U8_RS485_UART1-3(134.62mm,122.999mm)  Top Layer
+   Violation between Text "U9_RS485_UART1" (125.095mm,121.539mm)  Top Overlay and 
+                     Pad U8_RS485_UART1-4(135.89mm,122.999mm)  Top Layer
+   Violation between Text "R50_RS485_UART1" (126.492mm,123.317mm)  Top Overlay and 
+                     Pad U8_RS485_UART1-4(135.89mm,122.999mm)  Top Layer
+   Violation between Text "R51_RS485_UART1" (108.585mm,124.968mm)  Top Overlay and 
+                     Pad U7_RS485_UART1-4(117.348mm,126.365mm)  Top Layer
+   Violation between Text "R49_RS485_UART1" (108.585mm,128.143mm)  Top Overlay and 
+                     Pad U7_RS485_UART1-3(117.348mm,127.635mm)  Top Layer
+   Violation between Text "R49_RS485_UART1" (108.585mm,128.143mm)  Top Overlay and 
+                     Pad U7_RS485_UART1-2(117.348mm,128.905mm)  Top Layer
+   Violation between Text "U7_RS485_UART1" (118.745mm,131.064mm)  Top Overlay and 
+                     Pad C42_RS485_UART1-1(127.54mm,130.175mm)  Top Layer
+   Violation between Text "C42_RS485_UART1" (124.587mm,131.318mm)  Top Overlay and 
+                     Pad C42_RS485_UART1-1(127.54mm,130.175mm)  Top Layer
+   Violation between Text "U7_RS485_UART1" (118.745mm,131.064mm)  Top Overlay and 
+                     Pad C42_RS485_UART1-2(125.19mm,130.175mm)  Top Layer
+   Violation between Text "U9_RS485_UART2" (125.095mm,133.985mm)  Top Overlay and 
+                     Pad U8_RS485_UART2-1(132.08mm,135.445mm)  Top Layer
+   Violation between Text "R50_RS485_UART2" (126.492mm,135.763mm)  Top Overlay and 
+                     Pad U8_RS485_UART2-1(132.08mm,135.445mm)  Top Layer
+   Violation between Text "U9_RS485_UART2" (125.095mm,133.985mm)  Top Overlay and 
+                     Pad U8_RS485_UART2-2(133.35mm,135.445mm)  Top Layer
+   Violation between Text "R50_RS485_UART2" (126.492mm,135.763mm)  Top Overlay and 
+                     Pad U8_RS485_UART2-2(133.35mm,135.445mm)  Top Layer
+   Violation between Text "U9_RS485_UART2" (125.095mm,133.985mm)  Top Overlay and 
+                     Pad U8_RS485_UART2-3(134.62mm,135.445mm)  Top Layer
+   Violation between Text "R50_RS485_UART2" (126.492mm,135.763mm)  Top Overlay and 
+                     Pad U8_RS485_UART2-3(134.62mm,135.445mm)  Top Layer
+   Violation between Text "U9_RS485_UART2" (125.095mm,133.985mm)  Top Overlay and 
+                     Pad U8_RS485_UART2-4(135.89mm,135.445mm)  Top Layer
+   Violation between Text "R50_RS485_UART2" (126.492mm,135.763mm)  Top Overlay and 
+                     Pad U8_RS485_UART2-4(135.89mm,135.445mm)  Top Layer
+   Violation between Text "U7_RS485_UART2" (118.745mm,143.51mm)  Top Overlay and 
+                     Pad C42_RS485_UART2-1(127.54mm,142.621mm)  Top Layer
+   Violation between Text "C42_RS485_UART2" (124.587mm,143.764mm)  Top Overlay and 
+                     Pad C42_RS485_UART2-1(127.54mm,142.621mm)  Top Layer
+   Violation between Text "U7_RS485_UART2" (118.745mm,143.51mm)  Top Overlay and 
+                     Pad C42_RS485_UART2-2(125.19mm,142.621mm)  Top Layer
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Pad U7_RS485_UART2-4(117.348mm,138.811mm)  Top Layer
+   Violation between Text "R49_RS485_UART2" (108.585mm,140.589mm)  Top Overlay and 
+                     Pad U7_RS485_UART2-3(117.348mm,140.081mm)  Top Layer
+   Violation between Text "R49_RS485_UART2" (108.585mm,140.589mm)  Top Overlay and 
+                     Pad U7_RS485_UART2-2(117.348mm,141.351mm)  Top Layer
+   Violation between Text "C38" (143.408mm,117.221mm)  Top Overlay and 
+                     Pad C34-1(144.24mm,118.11mm)  Top Layer
+   Violation between Text "C39" (134.518mm,117.221mm)  Top Overlay and 
+                     Pad C35-1(135.35mm,118.11mm)  Top Layer
+   Violation between Text "R55_InputPort8" (125.679mm,117.45mm)  Top Overlay and 
+                     Pad C35-1(135.35mm,118.11mm)  Top Layer
+   Violation between Text "R47_OutputPort1" (125.679mm,31.725mm)  Top Overlay and 
+                     Pad R46_OutputPort1-2(129.441mm,32.385mm)  Top Layer
+   Violation between Text "R47_OutputPort1" (125.679mm,31.725mm)  Top Overlay and 
+                     Pad R46_OutputPort1-1(126.591mm,32.385mm)  Top Layer
+   Violation between Text "R47_OutputPort2" (125.679mm,37.44mm)  Top Overlay and 
+                     Pad R46_OutputPort2-2(129.441mm,38.1mm)  Top Layer
+   Violation between Text "R47_OutputPort2" (125.679mm,37.44mm)  Top Overlay and 
+                     Pad R46_OutputPort2-1(126.591mm,38.1mm)  Top Layer
+   Violation between Text "R47_OutputPort3" (125.679mm,43.155mm)  Top Overlay and 
+                     Pad R46_OutputPort3-2(129.441mm,43.815mm)  Top Layer
+   Violation between Text "R47_OutputPort3" (125.679mm,43.155mm)  Top Overlay and 
+                     Pad R46_OutputPort3-1(126.591mm,43.815mm)  Top Layer
+   Violation between Text "R47_OutputPort4" (125.679mm,48.87mm)  Top Overlay and 
+                     Pad R46_OutputPort4-2(129.441mm,49.53mm)  Top Layer
+   Violation between Text "R47_OutputPort4" (125.679mm,48.87mm)  Top Overlay and 
+                     Pad R46_OutputPort4-1(126.591mm,49.53mm)  Top Layer
+   Violation between Text "R47_OutputPort5" (125.679mm,54.585mm)  Top Overlay and 
+                     Pad R46_OutputPort5-2(129.441mm,55.245mm)  Top Layer
+   Violation between Text "R47_OutputPort5" (125.679mm,54.585mm)  Top Overlay and 
+                     Pad R46_OutputPort5-1(126.591mm,55.245mm)  Top Layer
+   Violation between Text "R47_OutputPort6" (125.679mm,60.3mm)  Top Overlay and 
+                     Pad R46_OutputPort6-2(129.441mm,60.96mm)  Top Layer
+   Violation between Text "R47_OutputPort6" (125.679mm,60.3mm)  Top Overlay and 
+                     Pad R46_OutputPort6-1(126.591mm,60.96mm)  Top Layer
+   Violation between Text "R47_OutputPort7" (125.679mm,66.015mm)  Top Overlay and 
+                     Pad R46_OutputPort7-2(129.441mm,66.675mm)  Top Layer
+   Violation between Text "R47_OutputPort7" (125.679mm,66.015mm)  Top Overlay and 
+                     Pad R46_OutputPort7-1(126.591mm,66.675mm)  Top Layer
+   Violation between Text "R47_OutputPort8" (125.679mm,71.73mm)  Top Overlay and 
+                     Pad R46_OutputPort8-2(129.441mm,72.39mm)  Top Layer
+   Violation between Text "R47_OutputPort8" (125.679mm,71.73mm)  Top Overlay and 
+                     Pad R46_OutputPort8-1(126.591mm,72.39mm)  Top Layer
+   Violation between Text "R46_OutputPort1" (125.679mm,34.265mm)  Top Overlay and 
+                     Pad R47_OutputPort2-2(129.441mm,35.56mm)  Top Layer
+   Violation between Text "R46_OutputPort1" (125.679mm,34.265mm)  Top Overlay and 
+                     Pad R47_OutputPort2-1(126.591mm,35.56mm)  Top Layer
+   Violation between Text "R46_OutputPort2" (125.679mm,39.98mm)  Top Overlay and 
+                     Pad R47_OutputPort3-2(129.441mm,41.275mm)  Top Layer
+   Violation between Text "U4_OutputPort2" (115.214mm,40.564mm)  Top Overlay and 
+                     Pad R47_OutputPort3-1(126.591mm,41.275mm)  Top Layer
+   Violation between Text "R46_OutputPort2" (125.679mm,39.98mm)  Top Overlay and 
+                     Pad R47_OutputPort3-1(126.591mm,41.275mm)  Top Layer
+   Violation between Text "R46_OutputPort3" (125.679mm,45.695mm)  Top Overlay and 
+                     Pad R47_OutputPort4-2(129.441mm,46.99mm)  Top Layer
+   Violation between Text "U4_OutputPort3" (115.214mm,46.279mm)  Top Overlay and 
+                     Pad R47_OutputPort4-1(126.591mm,46.99mm)  Top Layer
+   Violation between Text "R46_OutputPort3" (125.679mm,45.695mm)  Top Overlay and 
+                     Pad R47_OutputPort4-1(126.591mm,46.99mm)  Top Layer
+   Violation between Text "R46_OutputPort4" (125.679mm,51.41mm)  Top Overlay and 
+                     Pad R47_OutputPort5-2(129.441mm,52.705mm)  Top Layer
+   Violation between Text "U4_OutputPort4" (115.214mm,51.994mm)  Top Overlay and 
+                     Pad R47_OutputPort5-1(126.591mm,52.705mm)  Top Layer
+   Violation between Text "R46_OutputPort4" (125.679mm,51.41mm)  Top Overlay and 
+                     Pad R47_OutputPort5-1(126.591mm,52.705mm)  Top Layer
+   Violation between Text "R46_OutputPort5" (125.679mm,57.125mm)  Top Overlay and 
+                     Pad R47_OutputPort6-2(129.441mm,58.42mm)  Top Layer
+   Violation between Text "U4_OutputPort5" (115.214mm,57.709mm)  Top Overlay and 
+                     Pad R47_OutputPort6-1(126.591mm,58.42mm)  Top Layer
+   Violation between Text "R46_OutputPort5" (125.679mm,57.125mm)  Top Overlay and 
+                     Pad R47_OutputPort6-1(126.591mm,58.42mm)  Top Layer
+   Violation between Text "R46_OutputPort6" (125.679mm,62.84mm)  Top Overlay and 
+                     Pad R47_OutputPort7-2(129.441mm,64.135mm)  Top Layer
+   Violation between Text "U4_OutputPort6" (115.214mm,63.424mm)  Top Overlay and 
+                     Pad R47_OutputPort7-1(126.591mm,64.135mm)  Top Layer
+   Violation between Text "R46_OutputPort6" (125.679mm,62.84mm)  Top Overlay and 
+                     Pad R47_OutputPort7-1(126.591mm,64.135mm)  Top Layer
+   Violation between Text "R46_OutputPort7" (125.679mm,68.555mm)  Top Overlay and 
+                     Pad R47_OutputPort8-2(129.441mm,69.85mm)  Top Layer
+   Violation between Text "U4_OutputPort7" (115.214mm,69.139mm)  Top Overlay and 
+                     Pad R47_OutputPort8-1(126.591mm,69.85mm)  Top Layer
+   Violation between Text "R46_OutputPort7" (125.679mm,68.555mm)  Top Overlay and 
+                     Pad R47_OutputPort8-1(126.591mm,69.85mm)  Top Layer
+   Violation between Text "R45_OutputPort8" (109.169mm,74.27mm)  Top Overlay and 
+                     Pad R54_InputPort1-2(110.081mm,75.565mm)  Top Layer
+   Violation between Text "R45_OutputPort8" (109.169mm,74.27mm)  Top Overlay and 
+                     Pad R54_InputPort1-1(112.931mm,75.565mm)  Top Layer
+   Violation between Text "R46_OutputPort8" (125.679mm,74.27mm)  Top Overlay and 
+                     Pad R55_InputPort1-2(129.441mm,75.565mm)  Top Layer
+   Violation between Text "U4_OutputPort8" (115.214mm,74.854mm)  Top Overlay and 
+                     Pad R55_InputPort1-1(126.591mm,75.565mm)  Top Layer
+   Violation between Text "R46_OutputPort8" (125.679mm,74.27mm)  Top Overlay and 
+                     Pad R55_InputPort1-1(126.591mm,75.565mm)  Top Layer
+   Violation between Text "C44" (59.69mm,121.641mm)  Top Overlay and 
+                     Pad U12-8(60.808mm,121.92mm)  Top Layer
+   Violation between Text "C45" (59.944mm,132.944mm)  Top Overlay and 
+                     Pad U14-8(60.808mm,133.35mm)  Top Layer
+   Violation between Text "C9" (76.358mm,72.899mm)  Top Overlay and 
+                     Pad C10-2(77.184mm,73.787mm)  Top Layer
+   Violation between Text "R13" (29.521mm,49.733mm)  Top Overlay and 
+                     Pad D8-1(30.127mm,50.673mm)  Top Layer
+   Violation between Text "R8" (70.541mm,72.848mm)  Top Overlay and 
+                     Pad L1-1(71.148mm,73.787mm)  Top Layer
+   Violation between Text "D8" (29.013mm,52.553mm)  Top Overlay and 
+                     Pad P2-7(31.46mm,54.351mm)  Top Layer
+   Violation between Text "D1" (29.013mm,69.063mm)  Top Overlay and 
+                     Pad R11-1(30.198mm,69.596mm)  Top Layer
+   Violation between Text "R16" (40.062mm,47.193mm)  Top Overlay and 
+                     Pad R17-2(40.993mm,48.514mm)  Top Layer
+   Violation between Text "R19" (40.316mm,61.671mm)  Top Overlay and 
+                     Pad R18-2(41.247mm,62.103mm)  Top Layer
+   Violation between Text "R20" (40.316mm,59.639mm)  Top Overlay and 
+                     Pad R19-2(41.247mm,60.071mm)  Top Layer
+   Violation between Text "R21" (40.316mm,57.607mm)  Top Overlay and 
+                     Pad R20-2(41.247mm,58.039mm)  Top Layer
+   Violation between Text "U8_RS485_UART2" (137.16mm,137.414mm)  Top Overlay and 
+                     Pad P3_RS485_UART2-2(147.32mm,137.795mm)  Multi-Layer
+   Violation between Text "U8_RS485_UART1" (137.16mm,124.968mm)  Top Overlay and 
+                     Pad P3_RS485_UART1-1(147.32mm,126.365mm)  Multi-Layer
+   Violation between Text "R51_RS485_UART1" (108.585mm,124.968mm)  Top Overlay and 
+                     Pad U9_RS485_UART1-1(115.951mm,123.825mm)  Multi-Layer
+   Violation between Text "U11_InputPort8" (115.214mm,120.396mm)  Top Overlay and 
+                     Pad U9_RS485_UART1-2(115.951mm,121.285mm)  Multi-Layer
+   Violation between Text "U11_InputPort8" (115.214mm,120.396mm)  Top Overlay and 
+                     Pad U9_RS485_UART1-3(123.571mm,121.285mm)  Multi-Layer
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Pad U9_RS485_UART2-1(115.951mm,136.271mm)  Multi-Layer
+   Violation between Text "Q2_OutputPort1" (131.572mm,34.341mm)  Top Overlay and 
+                     Pad Q2_OutputPort2-1(134.366mm,36.195mm)  Multi-Layer
+   Violation between Text "Q2_OutputPort2" (131.572mm,40.056mm)  Top Overlay and 
+                     Pad Q2_OutputPort3-1(134.366mm,41.91mm)  Multi-Layer
+   Violation between Text "Q2_OutputPort3" (131.572mm,45.771mm)  Top Overlay and 
+                     Pad Q2_OutputPort4-1(134.366mm,47.625mm)  Multi-Layer
+   Violation between Text "Q2_OutputPort4" (131.572mm,51.486mm)  Top Overlay and 
+                     Pad Q2_OutputPort5-1(134.366mm,53.34mm)  Multi-Layer
+   Violation between Text "Q2_OutputPort5" (131.572mm,57.201mm)  Top Overlay and 
+                     Pad Q2_OutputPort6-1(134.366mm,59.055mm)  Multi-Layer
+   Violation between Text "Q2_OutputPort6" (131.572mm,62.916mm)  Top Overlay and 
+                     Pad Q2_OutputPort7-1(134.366mm,64.77mm)  Multi-Layer
+   Violation between Text "Q2_OutputPort7" (131.572mm,68.631mm)  Top Overlay and 
+                     Pad Q2_OutputPort8-1(134.366mm,70.485mm)  Multi-Layer
+   Violation between Text "U4_OutputPort1" (115.214mm,34.849mm)  Top Overlay and 
+                     Pad U4_OutputPort2-2(115.951mm,35.56mm)  Multi-Layer
+   Violation between Text "R45_OutputPort1" (109.169mm,34.265mm)  Top Overlay and 
+                     Pad U4_OutputPort2-2(115.951mm,35.56mm)  Multi-Layer
+   Violation between Text "U4_OutputPort1" (115.214mm,34.849mm)  Top Overlay and 
+                     Pad U4_OutputPort2-3(123.571mm,35.56mm)  Multi-Layer
+   Violation between Text "U4_OutputPort2" (115.214mm,40.564mm)  Top Overlay and 
+                     Pad U4_OutputPort3-2(115.951mm,41.275mm)  Multi-Layer
+   Violation between Text "R45_OutputPort2" (109.169mm,39.98mm)  Top Overlay and 
+                     Pad U4_OutputPort3-2(115.951mm,41.275mm)  Multi-Layer
+   Violation between Text "U4_OutputPort2" (115.214mm,40.564mm)  Top Overlay and 
+                     Pad U4_OutputPort3-3(123.571mm,41.275mm)  Multi-Layer
+   Violation between Text "R45_OutputPort3" (109.169mm,45.695mm)  Top Overlay and 
+                     Pad U4_OutputPort4-2(115.951mm,46.99mm)  Multi-Layer
+   Violation between Text "U4_OutputPort3" (115.214mm,46.279mm)  Top Overlay and 
+                     Pad U4_OutputPort4-2(115.951mm,46.99mm)  Multi-Layer
+   Violation between Text "U4_OutputPort3" (115.214mm,46.279mm)  Top Overlay and 
+                     Pad U4_OutputPort4-3(123.571mm,46.99mm)  Multi-Layer
+   Violation between Text "R45_OutputPort4" (109.169mm,51.41mm)  Top Overlay and 
+                     Pad U4_OutputPort5-2(115.951mm,52.705mm)  Multi-Layer
+   Violation between Text "U4_OutputPort4" (115.214mm,51.994mm)  Top Overlay and 
+                     Pad U4_OutputPort5-2(115.951mm,52.705mm)  Multi-Layer
+   Violation between Text "U4_OutputPort4" (115.214mm,51.994mm)  Top Overlay and 
+                     Pad U4_OutputPort5-3(123.571mm,52.705mm)  Multi-Layer
+   Violation between Text "U4_OutputPort5" (115.214mm,57.709mm)  Top Overlay and 
+                     Pad U4_OutputPort6-2(115.951mm,58.42mm)  Multi-Layer
+   Violation between Text "R45_OutputPort5" (109.169mm,57.125mm)  Top Overlay and 
+                     Pad U4_OutputPort6-2(115.951mm,58.42mm)  Multi-Layer
+   Violation between Text "U4_OutputPort5" (115.214mm,57.709mm)  Top Overlay and 
+                     Pad U4_OutputPort6-3(123.571mm,58.42mm)  Multi-Layer
+   Violation between Text "U4_OutputPort6" (115.214mm,63.424mm)  Top Overlay and 
+                     Pad U4_OutputPort7-2(115.951mm,64.135mm)  Multi-Layer
+   Violation between Text "R45_OutputPort6" (109.169mm,62.84mm)  Top Overlay and 
+                     Pad U4_OutputPort7-2(115.951mm,64.135mm)  Multi-Layer
+   Violation between Text "U4_OutputPort6" (115.214mm,63.424mm)  Top Overlay and 
+                     Pad U4_OutputPort7-3(123.571mm,64.135mm)  Multi-Layer
+   Violation between Text "U4_OutputPort7" (115.214mm,69.139mm)  Top Overlay and 
+                     Pad U4_OutputPort8-2(115.951mm,69.85mm)  Multi-Layer
+   Violation between Text "R45_OutputPort7" (109.169mm,68.555mm)  Top Overlay and 
+                     Pad U4_OutputPort8-2(115.951mm,69.85mm)  Multi-Layer
+   Violation between Text "U4_OutputPort7" (115.214mm,69.139mm)  Top Overlay and 
+                     Pad U4_OutputPort8-3(123.571mm,69.85mm)  Multi-Layer
+   Violation between Text "U4_OutputPort8" (115.214mm,74.854mm)  Top Overlay and 
+                     Pad U11_InputPort1-1(123.571mm,75.565mm)  Multi-Layer
+   Violation between Text "U4_OutputPort8" (115.214mm,74.854mm)  Top Overlay and 
+                     Pad U11_InputPort1-4(115.951mm,75.565mm)  Multi-Layer
+   Violation between Text "R45_OutputPort8" (109.169mm,74.27mm)  Top Overlay and 
+                     Pad U11_InputPort1-4(115.951mm,75.565mm)  Multi-Layer
+   Violation between Text "R54_InputPort1" (109.169mm,77.445mm)  Top Overlay and 
+                     Pad U11_InputPort1-3(115.951mm,78.105mm)  Multi-Layer
+   Violation between Text "U11_InputPort1" (115.214mm,80.391mm)  Top Overlay and 
+                     Pad U11_InputPort2-1(123.571mm,81.28mm)  Multi-Layer
+   Violation between Text "U11_InputPort1" (115.214mm,80.391mm)  Top Overlay and 
+                     Pad U11_InputPort2-4(115.951mm,81.28mm)  Multi-Layer
+   Violation between Text "R54_InputPort2" (109.169mm,83.16mm)  Top Overlay and 
+                     Pad U11_InputPort2-3(115.951mm,83.82mm)  Multi-Layer
+   Violation between Text "U11_InputPort2" (115.214mm,86.106mm)  Top Overlay and 
+                     Pad U11_InputPort3-1(123.571mm,86.995mm)  Multi-Layer
+   Violation between Text "U11_InputPort2" (115.214mm,86.106mm)  Top Overlay and 
+                     Pad U11_InputPort3-4(115.951mm,86.995mm)  Multi-Layer
+   Violation between Text "R54_InputPort3" (109.169mm,88.875mm)  Top Overlay and 
+                     Pad U11_InputPort3-3(115.951mm,89.535mm)  Multi-Layer
+   Violation between Text "U11_InputPort3" (115.214mm,91.821mm)  Top Overlay and 
+                     Pad U11_InputPort4-1(123.571mm,92.71mm)  Multi-Layer
+   Violation between Text "U11_InputPort3" (115.214mm,91.821mm)  Top Overlay and 
+                     Pad U11_InputPort4-4(115.951mm,92.71mm)  Multi-Layer
+   Violation between Text "R54_InputPort4" (109.169mm,94.59mm)  Top Overlay and 
+                     Pad U11_InputPort4-3(115.951mm,95.25mm)  Multi-Layer
+   Violation between Text "U11_InputPort4" (115.214mm,97.536mm)  Top Overlay and 
+                     Pad U11_InputPort5-1(123.571mm,98.425mm)  Multi-Layer
+   Violation between Text "U11_InputPort4" (115.214mm,97.536mm)  Top Overlay and 
+                     Pad U11_InputPort5-4(115.951mm,98.425mm)  Multi-Layer
+   Violation between Text "R54_InputPort5" (109.169mm,100.305mm)  Top Overlay and 
+                     Pad U11_InputPort5-3(115.951mm,100.965mm)  Multi-Layer
+   Violation between Text "U11_InputPort5" (115.214mm,103.251mm)  Top Overlay and 
+                     Pad U11_InputPort6-1(123.571mm,104.14mm)  Multi-Layer
+   Violation between Text "U11_InputPort5" (115.214mm,103.251mm)  Top Overlay and 
+                     Pad U11_InputPort6-4(115.951mm,104.14mm)  Multi-Layer
+   Violation between Text "R54_InputPort6" (109.169mm,106.02mm)  Top Overlay and 
+                     Pad U11_InputPort6-3(115.951mm,106.68mm)  Multi-Layer
+   Violation between Text "U11_InputPort6" (115.214mm,108.966mm)  Top Overlay and 
+                     Pad U11_InputPort7-1(123.571mm,109.855mm)  Multi-Layer
+   Violation between Text "U11_InputPort6" (115.214mm,108.966mm)  Top Overlay and 
+                     Pad U11_InputPort7-4(115.951mm,109.855mm)  Multi-Layer
+   Violation between Text "R54_InputPort7" (109.169mm,111.735mm)  Top Overlay and 
+                     Pad U11_InputPort7-3(115.951mm,112.395mm)  Multi-Layer
+   Violation between Text "U11_InputPort7" (115.214mm,114.681mm)  Top Overlay and 
+                     Pad U11_InputPort8-1(123.571mm,115.57mm)  Multi-Layer
+   Violation between Text "U11_InputPort7" (115.214mm,114.681mm)  Top Overlay and 
+                     Pad U11_InputPort8-4(115.951mm,115.57mm)  Multi-Layer
+   Violation between Text "R54_InputPort8" (109.169mm,117.45mm)  Top Overlay and 
+                     Pad U11_InputPort8-3(115.951mm,118.11mm)  Multi-Layer
+   Violation between Text "C2" (70.211mm,59.437mm)  Bottom Overlay and 
+                     Pad C3-1(69.691mm,61.214mm)  Bottom Layer
+   Violation between Text "C1" (69.932mm,56.897mm)  Bottom Overlay and 
+                     Pad C2-1(69.691mm,57.785mm)  Bottom Layer
+   Violation between Text "C6" (51.923mm,53.087mm)  Bottom Overlay and 
+                     Pad C13-1(51.403mm,53.594mm)  Bottom Layer
+   Violation between Text "C3" (70.211mm,62.866mm)  Bottom Overlay and 
+                     Pad C8-2(69.691mm,63.373mm)  Bottom Layer
+   Violation between Text "C8" (70.211mm,65.025mm)  Bottom Overlay and 
+                     Pad C7-2(69.691mm,65.532mm)  Bottom Layer
+Rule Violations :152
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Text "U8_RS485_UART2" (137.16mm,137.414mm)  Top Overlay and 
+                     Arc (144.463mm,137.795mm)  Top Overlay
+   Violation between Text "U8_RS485_UART1" (137.16mm,124.968mm)  Top Overlay and 
+                     Arc (144.463mm,126.365mm)  Top Overlay
+   Violation between Text "R50_RS485_UART1" (126.492mm,123.317mm)  Top Overlay and 
+                     Arc (131.23mm,122.999mm)  Top Overlay
+   Violation between Text "R51_RS485_UART1" (108.585mm,124.968mm)  Top Overlay and 
+                     Arc (119.761mm,125.105mm)  Top Overlay
+   Violation between Text "R51_RS485_UART1" (108.585mm,124.968mm)  Top Overlay and 
+                     Arc (115.951mm,125.125mm)  Top Overlay
+   Violation between Text "R51_RS485_UART1" (108.585mm,124.968mm)  Top Overlay and 
+                     Arc (118.111mm,124.105mm)  Top Overlay
+   Violation between Text "R48_RS485_UART1" (108.585mm,131.318mm)  Top Overlay and 
+                     Arc (117.348mm,131.191mm)  Top Overlay
+   Violation between Text "R50_RS485_UART2" (126.492mm,135.763mm)  Top Overlay and 
+                     Arc (131.23mm,135.445mm)  Top Overlay
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Arc (119.761mm,137.551mm)  Top Overlay
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Arc (115.951mm,137.571mm)  Top Overlay
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Arc (118.111mm,136.551mm)  Top Overlay
+   Violation between Text "R48_RS485_UART2" (108.585mm,143.764mm)  Top Overlay and 
+                     Arc (117.348mm,143.637mm)  Top Overlay
+   Violation between Text "P4" (143.593mm,36.881mm)  Top Overlay and 
+                     Arc (144.622mm,38.354mm)  Top Overlay
+   Violation between Text "P5" (143.593mm,44.501mm)  Top Overlay and 
+                     Arc (144.622mm,45.974mm)  Top Overlay
+   Violation between Text "P6" (143.593mm,52.121mm)  Top Overlay and 
+                     Arc (144.622mm,53.594mm)  Top Overlay
+   Violation between Text "P7" (143.593mm,59.741mm)  Top Overlay and 
+                     Arc (144.622mm,61.214mm)  Top Overlay
+   Violation between Text "P8" (143.593mm,67.361mm)  Top Overlay and 
+                     Arc (144.622mm,68.834mm)  Top Overlay
+   Violation between Text "P9" (143.593mm,74.981mm)  Top Overlay and 
+                     Arc (144.622mm,76.454mm)  Top Overlay
+   Violation between Text "P10" (143.593mm,82.601mm)  Top Overlay and 
+                     Arc (144.622mm,84.074mm)  Top Overlay
+   Violation between Text "R46_OutputPort1" (125.679mm,34.265mm)  Top Overlay and 
+                     Arc (132.206mm,34.995mm)  Top Overlay
+   Violation between Text "Q2_OutputPort1" (131.572mm,34.341mm)  Top Overlay and 
+                     Arc (132.206mm,34.995mm)  Top Overlay
+   Violation between Text "R46_OutputPort2" (125.679mm,39.98mm)  Top Overlay and 
+                     Arc (132.206mm,40.71mm)  Top Overlay
+   Violation between Text "Q2_OutputPort2" (131.572mm,40.056mm)  Top Overlay and 
+                     Arc (132.206mm,40.71mm)  Top Overlay
+   Violation between Text "R46_OutputPort3" (125.679mm,45.695mm)  Top Overlay and 
+                     Arc (132.206mm,46.425mm)  Top Overlay
+   Violation between Text "Q2_OutputPort3" (131.572mm,45.771mm)  Top Overlay and 
+                     Arc (132.206mm,46.425mm)  Top Overlay
+   Violation between Text "R46_OutputPort4" (125.679mm,51.41mm)  Top Overlay and 
+                     Arc (132.206mm,52.14mm)  Top Overlay
+   Violation between Text "Q2_OutputPort4" (131.572mm,51.486mm)  Top Overlay and 
+                     Arc (132.206mm,52.14mm)  Top Overlay
+   Violation between Text "R46_OutputPort5" (125.679mm,57.125mm)  Top Overlay and 
+                     Arc (132.206mm,57.855mm)  Top Overlay
+   Violation between Text "Q2_OutputPort5" (131.572mm,57.201mm)  Top Overlay and 
+                     Arc (132.206mm,57.855mm)  Top Overlay
+   Violation between Text "R46_OutputPort6" (125.679mm,62.84mm)  Top Overlay and 
+                     Arc (132.206mm,63.57mm)  Top Overlay
+   Violation between Text "Q2_OutputPort6" (131.572mm,62.916mm)  Top Overlay and 
+                     Arc (132.206mm,63.57mm)  Top Overlay
+   Violation between Text "R46_OutputPort7" (125.679mm,68.555mm)  Top Overlay and 
+                     Arc (132.206mm,69.285mm)  Top Overlay
+   Violation between Text "Q2_OutputPort7" (131.572mm,68.631mm)  Top Overlay and 
+                     Arc (132.206mm,69.285mm)  Top Overlay
+   Violation between Text "U4_OutputPort8" (115.214mm,74.854mm)  Top Overlay and 
+                     Arc (119.761mm,74.285mm)  Top Overlay
+   Violation between Text "R45_OutputPort8" (109.169mm,74.27mm)  Top Overlay and 
+                     Arc (119.761mm,74.285mm)  Top Overlay
+   Violation between Text "U4_OutputPort8" (115.214mm,74.854mm)  Top Overlay and 
+                     Arc (121.411mm,75.285mm)  Top Overlay
+   Violation between Text "U11_InputPort1" (115.214mm,80.391mm)  Top Overlay and 
+                     Arc (119.761mm,80mm)  Top Overlay
+   Violation between Text "U11_InputPort1" (115.214mm,80.391mm)  Top Overlay and 
+                     Arc (123.571mm,79.98mm)  Top Overlay
+   Violation between Text "U11_InputPort1" (115.214mm,80.391mm)  Top Overlay and 
+                     Arc (121.411mm,81mm)  Top Overlay
+   Violation between Text "U11_InputPort2" (115.214mm,86.106mm)  Top Overlay and 
+                     Arc (119.761mm,85.715mm)  Top Overlay
+   Violation between Text "U11_InputPort2" (115.214mm,86.106mm)  Top Overlay and 
+                     Arc (123.571mm,85.695mm)  Top Overlay
+   Violation between Text "U11_InputPort2" (115.214mm,86.106mm)  Top Overlay and 
+                     Arc (121.411mm,86.715mm)  Top Overlay
+   Violation between Text "U11_InputPort3" (115.214mm,91.821mm)  Top Overlay and 
+                     Arc (119.761mm,91.43mm)  Top Overlay
+   Violation between Text "U11_InputPort3" (115.214mm,91.821mm)  Top Overlay and 
+                     Arc (123.571mm,91.41mm)  Top Overlay
+   Violation between Text "U11_InputPort3" (115.214mm,91.821mm)  Top Overlay and 
+                     Arc (121.411mm,92.43mm)  Top Overlay
+   Violation between Text "U11_InputPort4" (115.214mm,97.536mm)  Top Overlay and 
+                     Arc (119.761mm,97.145mm)  Top Overlay
+   Violation between Text "U11_InputPort4" (115.214mm,97.536mm)  Top Overlay and 
+                     Arc (123.571mm,97.125mm)  Top Overlay
+   Violation between Text "U11_InputPort4" (115.214mm,97.536mm)  Top Overlay and 
+                     Arc (121.411mm,98.145mm)  Top Overlay
+   Violation between Text "U11_InputPort5" (115.214mm,103.251mm)  Top Overlay and 
+                     Arc (119.761mm,102.86mm)  Top Overlay
+   Violation between Text "U11_InputPort5" (115.214mm,103.251mm)  Top Overlay and 
+                     Arc (123.571mm,102.84mm)  Top Overlay
+   Violation between Text "U11_InputPort5" (115.214mm,103.251mm)  Top Overlay and 
+                     Arc (121.411mm,103.86mm)  Top Overlay
+   Violation between Text "U11_InputPort6" (115.214mm,108.966mm)  Top Overlay and 
+                     Arc (119.761mm,108.575mm)  Top Overlay
+   Violation between Text "U11_InputPort6" (115.214mm,108.966mm)  Top Overlay and 
+                     Arc (123.571mm,108.555mm)  Top Overlay
+   Violation between Text "U11_InputPort6" (115.214mm,108.966mm)  Top Overlay and 
+                     Arc (121.411mm,109.575mm)  Top Overlay
+   Violation between Text "U11_InputPort7" (115.214mm,114.681mm)  Top Overlay and 
+                     Arc (119.761mm,114.29mm)  Top Overlay
+   Violation between Text "U11_InputPort7" (115.214mm,114.681mm)  Top Overlay and 
+                     Arc (123.571mm,114.27mm)  Top Overlay
+   Violation between Text "U11_InputPort7" (115.214mm,114.681mm)  Top Overlay and 
+                     Arc (121.411mm,115.29mm)  Top Overlay
+   Violation between Text "C46" (48.133mm,122.784mm)  Top Overlay and 
+                     Track (50.535mm,122.889mm)(50.535mm,132.889mm)  Top Overlay
+   Violation between Text "C46" (48.133mm,122.784mm)  Top Overlay and 
+                     Track (50.535mm,122.889mm)(52.335mm,122.889mm)  Top Overlay
+   Violation between Text "U8_RS485_UART2" (137.16mm,137.414mm)  Top Overlay and 
+                     Track (143.42mm,132.398mm)(143.42mm,139.382mm)  Top Overlay
+   Violation between Text "U8_RS485_UART1" (137.16mm,124.968mm)  Top Overlay and 
+                     Track (143.42mm,124.778mm)(150.42mm,124.778mm)  Top Overlay
+   Violation between Text "U8_RS485_UART1" (137.16mm,124.968mm)  Top Overlay and 
+                     Track (143.42mm,124.778mm)(143.42mm,131.762mm)  Top Overlay
+   Violation between Text "R50_RS485_UART1" (126.492mm,123.317mm)  Top Overlay and 
+                     Track (131.485mm,124.349mm)(136.485mm,124.349mm)  Top Overlay
+   Violation between Text "R50_RS485_UART1" (126.492mm,123.317mm)  Top Overlay and 
+                     Track (131.485mm,124.349mm)(131.485mm,126.349mm)  Top Overlay
+   Violation between Text "R50_RS485_UART1" (126.492mm,123.317mm)  Top Overlay and 
+                     Track (136.485mm,124.349mm)(136.485mm,126.349mm)  Top Overlay
+   Violation between Text "U11_InputPort8" (115.214mm,120.396mm)  Top Overlay and 
+                     Track (117.111mm,120.005mm)(117.111mm,125.105mm)  Top Overlay
+   Violation between Text "R51_RS485_UART1" (108.585mm,124.968mm)  Top Overlay and 
+                     Track (117.111mm,120.005mm)(117.111mm,125.105mm)  Top Overlay
+   Violation between Text "U11_InputPort8" (115.214mm,120.396mm)  Top Overlay and 
+                     Track (122.411mm,120.005mm)(122.411mm,125.105mm)  Top Overlay
+   Violation between Text "R51_RS485_UART1" (108.585mm,124.968mm)  Top Overlay and 
+                     Track (117.111mm,125.105mm)(119.126mm,125.105mm)  Top Overlay
+   Violation between Text "U11_InputPort8" (115.214mm,120.396mm)  Top Overlay and 
+                     Track (117.111mm,120.005mm)(122.411mm,120.005mm)  Top Overlay
+   Violation between Text "R51_RS485_UART1" (108.585mm,124.968mm)  Top Overlay and 
+                     Track (119.126mm,126.111mm)(119.126mm,130.429mm)  Top Overlay
+   Violation between Text "R49_RS485_UART1" (108.585mm,128.143mm)  Top Overlay and 
+                     Track (119.126mm,126.111mm)(119.126mm,130.429mm)  Top Overlay
+   Violation between Text "R51_RS485_UART1" (108.585mm,124.968mm)  Top Overlay and 
+                     Track (119.126mm,126.111mm)(120.269mm,126.111mm)  Top Overlay
+   Violation between Text "R49_RS485_UART1" (108.585mm,128.143mm)  Top Overlay and 
+                     Track (120.269mm,126.111mm)(120.269mm,130.429mm)  Top Overlay
+   Violation between Text "U7_RS485_UART1" (118.745mm,131.064mm)  Top Overlay and 
+                     Track (126.265mm,130.8mm)(126.465mm,130.8mm)  Top Overlay
+   Violation between Text "R50_RS485_UART2" (126.492mm,135.763mm)  Top Overlay and 
+                     Track (131.485mm,136.795mm)(136.485mm,136.795mm)  Top Overlay
+   Violation between Text "R50_RS485_UART2" (126.492mm,135.763mm)  Top Overlay and 
+                     Track (131.485mm,136.795mm)(131.485mm,138.795mm)  Top Overlay
+   Violation between Text "R50_RS485_UART2" (126.492mm,135.763mm)  Top Overlay and 
+                     Track (136.485mm,136.795mm)(136.485mm,138.795mm)  Top Overlay
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Track (117.111mm,132.451mm)(117.111mm,137.551mm)  Top Overlay
+   Violation between Text "R48_RS485_UART1" (108.585mm,131.318mm)  Top Overlay and 
+                     Track (117.111mm,132.451mm)(117.111mm,137.551mm)  Top Overlay
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Track (117.111mm,137.551mm)(119.126mm,137.551mm)  Top Overlay
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Track (120.396mm,137.551mm)(122.411mm,137.551mm)  Top Overlay
+   Violation between Text "R48_RS485_UART1" (108.585mm,131.318mm)  Top Overlay and 
+                     Track (117.111mm,132.451mm)(122.411mm,132.451mm)  Top Overlay
+   Violation between Text "U7_RS485_UART2" (118.745mm,143.51mm)  Top Overlay and 
+                     Track (126.265mm,143.246mm)(126.465mm,143.246mm)  Top Overlay
+   Violation between Text "R49_RS485_UART2" (108.585mm,140.589mm)  Top Overlay and 
+                     Track (119.126mm,138.557mm)(119.126mm,142.875mm)  Top Overlay
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Track (119.126mm,138.557mm)(119.126mm,142.875mm)  Top Overlay
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Track (119.126mm,138.557mm)(120.269mm,138.557mm)  Top Overlay
+   Violation between Text "R49_RS485_UART2" (108.585mm,140.589mm)  Top Overlay and 
+                     Track (120.269mm,138.557mm)(120.269mm,142.875mm)  Top Overlay
+   Violation between Text "R51_RS485_UART2" (108.585mm,137.414mm)  Top Overlay and 
+                     Track (120.269mm,138.557mm)(120.269mm,142.875mm)  Top Overlay
+   Violation between Text "2" (88.9mm,129.413mm)  Top Overlay and 
+                     Track (87.63mm,127.635mm)(87.63mm,132.715mm)  Top Overlay
+   Violation between Text "1" (88.392mm,131.953mm)  Top Overlay and 
+                     Track (87.63mm,127.635mm)(87.63mm,132.715mm)  Top Overlay
+   Violation between Text "4" (82.296mm,129.413mm)  Top Overlay and 
+                     Track (82.55mm,127.635mm)(82.55mm,132.715mm)  Top Overlay
+   Violation between Text "3" (82.296mm,131.953mm)  Top Overlay and 
+                     Track (82.55mm,127.635mm)(82.55mm,132.715mm)  Top Overlay
+   Violation between Text "C38" (143.408mm,117.221mm)  Top Overlay and 
+                     Track (145.315mm,117.485mm)(145.515mm,117.485mm)  Top Overlay
+   Violation between Text "C39" (134.518mm,117.221mm)  Top Overlay and 
+                     Track (136.425mm,117.485mm)(136.625mm,117.485mm)  Top Overlay
+   Violation between Text "R55_InputPort8" (125.679mm,117.45mm)  Top Overlay and 
+                     Track (136.425mm,117.485mm)(136.625mm,117.485mm)  Top Overlay
+   Violation between Text "P4" (143.593mm,36.881mm)  Top Overlay and 
+                     Track (143.579mm,36.767mm)(150.579mm,36.767mm)  Top Overlay
+   Violation between Text "P4" (143.593mm,36.881mm)  Top Overlay and 
+                     Track (143.579mm,36.767mm)(143.579mm,43.752mm)  Top Overlay
+   Violation between Text "P5" (143.593mm,44.501mm)  Top Overlay and 
+                     Track (143.579mm,44.386mm)(150.579mm,44.386mm)  Top Overlay
+   Violation between Text "P5" (143.593mm,44.501mm)  Top Overlay and 
+                     Track (143.579mm,44.386mm)(143.579mm,51.371mm)  Top Overlay
+   Violation between Text "P6" (143.593mm,52.121mm)  Top Overlay and 
+                     Track (143.579mm,52.007mm)(150.579mm,52.007mm)  Top Overlay
+   Violation between Text "P6" (143.593mm,52.121mm)  Top Overlay and 
+                     Track (143.579mm,52.007mm)(143.579mm,58.992mm)  Top Overlay
+   Violation between Text "P7" (143.593mm,59.741mm)  Top Overlay and 
+                     Track (143.579mm,59.627mm)(150.579mm,59.627mm)  Top Overlay
+   Violation between Text "P7" (143.593mm,59.741mm)  Top Overlay and 
+                     Track (143.579mm,59.627mm)(143.579mm,66.612mm)  Top Overlay
+   Violation between Text "P8" (143.593mm,67.361mm)  Top Overlay and 
+                     Track (143.579mm,67.246mm)(150.579mm,67.246mm)  Top Overlay
+   Violation between Text "P8" (143.593mm,67.361mm)  Top Overlay and 
+                     Track (143.579mm,67.246mm)(143.579mm,74.231mm)  Top Overlay
+   Violation between Text "P9" (143.593mm,74.981mm)  Top Overlay and 
+                     Track (143.579mm,74.867mm)(150.579mm,74.867mm)  Top Overlay
+   Violation between Text "P9" (143.593mm,74.981mm)  Top Overlay and 
+                     Track (143.579mm,74.867mm)(143.579mm,81.852mm)  Top Overlay
+   Violation between Text "P10" (143.593mm,82.601mm)  Top Overlay and 
+                     Track (143.579mm,82.487mm)(150.579mm,82.487mm)  Top Overlay
+   Violation between Text "P10" (143.593mm,82.601mm)  Top Overlay and 
+                     Track (143.579mm,82.487mm)(143.579mm,89.472mm)  Top Overlay
+   Violation between Text "R47_OutputPort1" (125.679mm,31.725mm)  Top Overlay and 
+                     Track (131.556mm,32.83mm)(142.256mm,32.83mm)  Top Overlay
+   Violation between Text "R47_OutputPort1" (125.679mm,31.725mm)  Top Overlay and 
+                     Track (131.556mm,28.63mm)(131.556mm,33.33mm)  Top Overlay
+   Violation between Text "R47_OutputPort2" (125.679mm,37.44mm)  Top Overlay and 
+                     Track (131.556mm,38.545mm)(142.256mm,38.545mm)  Top Overlay
+   Violation between Text "R46_OutputPort1" (125.679mm,34.265mm)  Top Overlay and 
+                     Track (131.556mm,34.345mm)(142.256mm,34.345mm)  Top Overlay
+   Violation between Text "Q2_OutputPort1" (131.572mm,34.341mm)  Top Overlay and 
+                     Track (131.556mm,34.345mm)(142.256mm,34.345mm)  Top Overlay
+   Violation between Text "R47_OutputPort2" (125.679mm,37.44mm)  Top Overlay and 
+                     Track (131.556mm,34.345mm)(131.556mm,39.045mm)  Top Overlay
+   Violation between Text "R46_OutputPort1" (125.679mm,34.265mm)  Top Overlay and 
+                     Track (131.556mm,34.345mm)(131.556mm,39.045mm)  Top Overlay
+   Violation between Text "Q2_OutputPort1" (131.572mm,34.341mm)  Top Overlay and 
+                     Track (131.556mm,34.345mm)(131.556mm,39.045mm)  Top Overlay
+   Violation between Text "Q2_OutputPort1" (131.572mm,34.341mm)  Top Overlay and 
+                     Track (142.256mm,34.345mm)(142.256mm,39.045mm)  Top Overlay
+   Violation between Text "R47_OutputPort3" (125.679mm,43.155mm)  Top Overlay and 
+                     Track (131.556mm,44.26mm)(142.256mm,44.26mm)  Top Overlay
+   Violation between Text "R46_OutputPort2" (125.679mm,39.98mm)  Top Overlay and 
+                     Track (131.556mm,40.06mm)(142.256mm,40.06mm)  Top Overlay
+   Violation between Text "Q2_OutputPort2" (131.572mm,40.056mm)  Top Overlay and 
+                     Track (131.556mm,40.06mm)(142.256mm,40.06mm)  Top Overlay
+   Violation between Text "R47_OutputPort3" (125.679mm,43.155mm)  Top Overlay and 
+                     Track (131.556mm,40.06mm)(131.556mm,44.76mm)  Top Overlay
+   Violation between Text "R46_OutputPort2" (125.679mm,39.98mm)  Top Overlay and 
+                     Track (131.556mm,40.06mm)(131.556mm,44.76mm)  Top Overlay
+   Violation between Text "Q2_OutputPort2" (131.572mm,40.056mm)  Top Overlay and 
+                     Track (131.556mm,40.06mm)(131.556mm,44.76mm)  Top Overlay
+   Violation between Text "Q2_OutputPort2" (131.572mm,40.056mm)  Top Overlay and 
+                     Track (142.256mm,40.06mm)(142.256mm,44.76mm)  Top Overlay
+   Violation between Text "R47_OutputPort4" (125.679mm,48.87mm)  Top Overlay and 
+                     Track (131.556mm,49.975mm)(142.256mm,49.975mm)  Top Overlay
+   Violation between Text "R46_OutputPort3" (125.679mm,45.695mm)  Top Overlay and 
+                     Track (131.556mm,45.775mm)(142.256mm,45.775mm)  Top Overlay
+   Violation between Text "Q2_OutputPort3" (131.572mm,45.771mm)  Top Overlay and 
+                     Track (131.556mm,45.775mm)(142.256mm,45.775mm)  Top Overlay
+   Violation between Text "R46_OutputPort3" (125.679mm,45.695mm)  Top Overlay and 
+                     Track (131.556mm,45.775mm)(131.556mm,50.475mm)  Top Overlay
+   Violation between Text "Q2_OutputPort3" (131.572mm,45.771mm)  Top Overlay and 
+                     Track (131.556mm,45.775mm)(131.556mm,50.475mm)  Top Overlay
+   Violation between Text "R47_OutputPort4" (125.679mm,48.87mm)  Top Overlay and 
+                     Track (131.556mm,45.775mm)(131.556mm,50.475mm)  Top Overlay
+   Violation between Text "Q2_OutputPort3" (131.572mm,45.771mm)  Top Overlay and 
+                     Track (142.256mm,45.775mm)(142.256mm,50.475mm)  Top Overlay
+   Violation between Text "R47_OutputPort5" (125.679mm,54.585mm)  Top Overlay and 
+                     Track (131.556mm,55.69mm)(142.256mm,55.69mm)  Top Overlay
+   Violation between Text "R46_OutputPort4" (125.679mm,51.41mm)  Top Overlay and 
+                     Track (131.556mm,51.49mm)(142.256mm,51.49mm)  Top Overlay
+   Violation between Text "Q2_OutputPort4" (131.572mm,51.486mm)  Top Overlay and 
+                     Track (131.556mm,51.49mm)(142.256mm,51.49mm)  Top Overlay
+   Violation between Text "R46_OutputPort4" (125.679mm,51.41mm)  Top Overlay and 
+                     Track (131.556mm,51.49mm)(131.556mm,56.19mm)  Top Overlay
+   Violation between Text "Q2_OutputPort4" (131.572mm,51.486mm)  Top Overlay and 
+                     Track (131.556mm,51.49mm)(131.556mm,56.19mm)  Top Overlay
+   Violation between Text "R47_OutputPort5" (125.679mm,54.585mm)  Top Overlay and 
+                     Track (131.556mm,51.49mm)(131.556mm,56.19mm)  Top Overlay
+   Violation between Text "Q2_OutputPort4" (131.572mm,51.486mm)  Top Overlay and 
+                     Track (142.256mm,51.49mm)(142.256mm,56.19mm)  Top Overlay
+   Violation between Text "R47_OutputPort6" (125.679mm,60.3mm)  Top Overlay and 
+                     Track (131.556mm,61.405mm)(142.256mm,61.405mm)  Top Overlay
+   Violation between Text "R46_OutputPort5" (125.679mm,57.125mm)  Top Overlay and 
+                     Track (131.556mm,57.205mm)(142.256mm,57.205mm)  Top Overlay
+   Violation between Text "Q2_OutputPort5" (131.572mm,57.201mm)  Top Overlay and 
+                     Track (131.556mm,57.205mm)(142.256mm,57.205mm)  Top Overlay
+   Violation between Text "R47_OutputPort6" (125.679mm,60.3mm)  Top Overlay and 
+                     Track (131.556mm,57.205mm)(131.556mm,61.905mm)  Top Overlay
+   Violation between Text "R46_OutputPort5" (125.679mm,57.125mm)  Top Overlay and 
+                     Track (131.556mm,57.205mm)(131.556mm,61.905mm)  Top Overlay
+   Violation between Text "Q2_OutputPort5" (131.572mm,57.201mm)  Top Overlay and 
+                     Track (131.556mm,57.205mm)(131.556mm,61.905mm)  Top Overlay
+   Violation between Text "Q2_OutputPort5" (131.572mm,57.201mm)  Top Overlay and 
+                     Track (142.256mm,57.205mm)(142.256mm,61.905mm)  Top Overlay
+   Violation between Text "R47_OutputPort7" (125.679mm,66.015mm)  Top Overlay and 
+                     Track (131.556mm,67.12mm)(142.256mm,67.12mm)  Top Overlay
+   Violation between Text "R46_OutputPort6" (125.679mm,62.84mm)  Top Overlay and 
+                     Track (131.556mm,62.92mm)(142.256mm,62.92mm)  Top Overlay
+   Violation between Text "Q2_OutputPort6" (131.572mm,62.916mm)  Top Overlay and 
+                     Track (131.556mm,62.92mm)(142.256mm,62.92mm)  Top Overlay
+   Violation between Text "R47_OutputPort7" (125.679mm,66.015mm)  Top Overlay and 
+                     Track (131.556mm,62.92mm)(131.556mm,67.62mm)  Top Overlay
+   Violation between Text "R46_OutputPort6" (125.679mm,62.84mm)  Top Overlay and 
+                     Track (131.556mm,62.92mm)(131.556mm,67.62mm)  Top Overlay
+   Violation between Text "Q2_OutputPort6" (131.572mm,62.916mm)  Top Overlay and 
+                     Track (131.556mm,62.92mm)(131.556mm,67.62mm)  Top Overlay
+   Violation between Text "Q2_OutputPort6" (131.572mm,62.916mm)  Top Overlay and 
+                     Track (142.256mm,62.92mm)(142.256mm,67.62mm)  Top Overlay
+   Violation between Text "R47_OutputPort8" (125.679mm,71.73mm)  Top Overlay and 
+                     Track (131.556mm,72.835mm)(142.256mm,72.835mm)  Top Overlay
+   Violation between Text "R46_OutputPort7" (125.679mm,68.555mm)  Top Overlay and 
+                     Track (131.556mm,68.635mm)(142.256mm,68.635mm)  Top Overlay
+   Violation between Text "Q2_OutputPort7" (131.572mm,68.631mm)  Top Overlay and 
+                     Track (131.556mm,68.635mm)(142.256mm,68.635mm)  Top Overlay
+   Violation between Text "R47_OutputPort8" (125.679mm,71.73mm)  Top Overlay and 
+                     Track (131.556mm,68.635mm)(131.556mm,73.335mm)  Top Overlay
+   Violation between Text "R46_OutputPort7" (125.679mm,68.555mm)  Top Overlay and 
+                     Track (131.556mm,68.635mm)(131.556mm,73.335mm)  Top Overlay
+   Violation between Text "Q2_OutputPort7" (131.572mm,68.631mm)  Top Overlay and 
+                     Track (131.556mm,68.635mm)(131.556mm,73.335mm)  Top Overlay
+   Violation between Text "Q2_OutputPort7" (131.572mm,68.631mm)  Top Overlay and 
+                     Track (142.256mm,68.635mm)(142.256mm,73.335mm)  Top Overlay
+   Violation between Text "R47_OutputPort1" (125.679mm,31.725mm)  Top Overlay and 
+                     Track (127.716mm,31.81mm)(128.316mm,31.81mm)  Top Overlay
+   Violation between Text "R47_OutputPort2" (125.679mm,37.44mm)  Top Overlay and 
+                     Track (127.716mm,37.525mm)(128.316mm,37.525mm)  Top Overlay
+   Violation between Text "R47_OutputPort3" (125.679mm,43.155mm)  Top Overlay and 
+                     Track (127.716mm,43.24mm)(128.316mm,43.24mm)  Top Overlay
+   Violation between Text "R47_OutputPort4" (125.679mm,48.87mm)  Top Overlay and 
+                     Track (127.716mm,48.955mm)(128.316mm,48.955mm)  Top Overlay
+   Violation between Text "R47_OutputPort5" (125.679mm,54.585mm)  Top Overlay and 
+                     Track (127.716mm,54.67mm)(128.316mm,54.67mm)  Top Overlay
+   Violation between Text "R47_OutputPort6" (125.679mm,60.3mm)  Top Overlay and 
+                     Track (127.716mm,60.385mm)(128.316mm,60.385mm)  Top Overlay
+   Violation between Text "R47_OutputPort7" (125.679mm,66.015mm)  Top Overlay and 
+                     Track (127.716mm,66.1mm)(128.316mm,66.1mm)  Top Overlay
+   Violation between Text "R47_OutputPort8" (125.679mm,71.73mm)  Top Overlay and 
+                     Track (127.716mm,71.815mm)(128.316mm,71.815mm)  Top Overlay
+   Violation between Text "R46_OutputPort1" (125.679mm,34.265mm)  Top Overlay and 
+                     Track (127.716mm,34.985mm)(128.316mm,34.985mm)  Top Overlay
+   Violation between Text "R46_OutputPort2" (125.679mm,39.98mm)  Top Overlay and 
+                     Track (127.716mm,40.7mm)(128.316mm,40.7mm)  Top Overlay
+   Violation between Text "R46_OutputPort3" (125.679mm,45.695mm)  Top Overlay and 
+                     Track (127.716mm,46.415mm)(128.316mm,46.415mm)  Top Overlay
+   Violation between Text "R46_OutputPort4" (125.679mm,51.41mm)  Top Overlay and 
+                     Track (127.716mm,52.13mm)(128.316mm,52.13mm)  Top Overlay
+   Violation between Text "R46_OutputPort5" (125.679mm,57.125mm)  Top Overlay and 
+                     Track (127.716mm,57.845mm)(128.316mm,57.845mm)  Top Overlay
+   Violation between Text "R46_OutputPort6" (125.679mm,62.84mm)  Top Overlay and 
+                     Track (127.716mm,63.56mm)(128.316mm,63.56mm)  Top Overlay
+   Violation between Text "R46_OutputPort7" (125.679mm,68.555mm)  Top Overlay and 
+                     Track (127.716mm,69.275mm)(128.316mm,69.275mm)  Top Overlay
+   Violation between Text "R45_OutputPort8" (109.169mm,74.27mm)  Top Overlay and 
+                     Track (111.206mm,74.99mm)(111.806mm,74.99mm)  Top Overlay
+   Violation between Text "R46_OutputPort8" (125.679mm,74.27mm)  Top Overlay and 
+                     Track (127.716mm,74.99mm)(128.316mm,74.99mm)  Top Overlay
+   Violation between Text "U4_OutputPort1" (115.214mm,34.849mm)  Top Overlay and 
+                     Track (117.111mm,34.28mm)(117.111mm,39.38mm)  Top Overlay
+   Violation between Text "R45_OutputPort1" (109.169mm,34.265mm)  Top Overlay and 
+                     Track (117.111mm,34.28mm)(117.111mm,39.38mm)  Top Overlay
+   Violation between Text "U4_OutputPort1" (115.214mm,34.849mm)  Top Overlay and 
+                     Track (122.411mm,34.28mm)(122.411mm,39.38mm)  Top Overlay
+   Violation between Text "U4_OutputPort1" (115.214mm,34.849mm)  Top Overlay and 
+                     Track (117.111mm,34.28mm)(122.411mm,34.28mm)  Top Overlay
+   Violation between Text "R45_OutputPort1" (109.169mm,34.265mm)  Top Overlay and 
+                     Track (117.111mm,34.28mm)(122.411mm,34.28mm)  Top Overlay
+   Violation between Text "U4_OutputPort2" (115.214mm,40.564mm)  Top Overlay and 
+                     Track (117.111mm,39.995mm)(117.111mm,45.095mm)  Top Overlay
+   Violation between Text "R45_OutputPort2" (109.169mm,39.98mm)  Top Overlay and 
+                     Track (117.111mm,39.995mm)(117.111mm,45.095mm)  Top Overlay
+   Violation between Text "U4_OutputPort2" (115.214mm,40.564mm)  Top Overlay and 
+                     Track (122.411mm,39.995mm)(122.411mm,45.095mm)  Top Overlay
+   Violation between Text "U4_OutputPort2" (115.214mm,40.564mm)  Top Overlay and 
+                     Track (117.111mm,39.995mm)(122.411mm,39.995mm)  Top Overlay
+   Violation between Text "R45_OutputPort2" (109.169mm,39.98mm)  Top Overlay and 
+                     Track (117.111mm,39.995mm)(122.411mm,39.995mm)  Top Overlay
+   Violation between Text "R45_OutputPort3" (109.169mm,45.695mm)  Top Overlay and 
+                     Track (117.111mm,45.71mm)(117.111mm,50.81mm)  Top Overlay
+   Violation between Text "U4_OutputPort3" (115.214mm,46.279mm)  Top Overlay and 
+                     Track (117.111mm,45.71mm)(117.111mm,50.81mm)  Top Overlay
+   Violation between Text "U4_OutputPort3" (115.214mm,46.279mm)  Top Overlay and 
+                     Track (122.411mm,45.71mm)(122.411mm,50.81mm)  Top Overlay
+   Violation between Text "R45_OutputPort3" (109.169mm,45.695mm)  Top Overlay and 
+                     Track (117.111mm,45.71mm)(122.411mm,45.71mm)  Top Overlay
+   Violation between Text "U4_OutputPort3" (115.214mm,46.279mm)  Top Overlay and 
+                     Track (117.111mm,45.71mm)(122.411mm,45.71mm)  Top Overlay
+   Violation between Text "R45_OutputPort4" (109.169mm,51.41mm)  Top Overlay and 
+                     Track (117.111mm,51.425mm)(117.111mm,56.525mm)  Top Overlay
+   Violation between Text "U4_OutputPort4" (115.214mm,51.994mm)  Top Overlay and 
+                     Track (117.111mm,51.425mm)(117.111mm,56.525mm)  Top Overlay
+   Violation between Text "U4_OutputPort4" (115.214mm,51.994mm)  Top Overlay and 
+                     Track (122.411mm,51.425mm)(122.411mm,56.525mm)  Top Overlay
+   Violation between Text "R45_OutputPort4" (109.169mm,51.41mm)  Top Overlay and 
+                     Track (117.111mm,51.425mm)(122.411mm,51.425mm)  Top Overlay
+   Violation between Text "U4_OutputPort4" (115.214mm,51.994mm)  Top Overlay and 
+                     Track (117.111mm,51.425mm)(122.411mm,51.425mm)  Top Overlay
+   Violation between Text "U4_OutputPort5" (115.214mm,57.709mm)  Top Overlay and 
+                     Track (117.111mm,57.14mm)(117.111mm,62.24mm)  Top Overlay
+   Violation between Text "R45_OutputPort5" (109.169mm,57.125mm)  Top Overlay and 
+                     Track (117.111mm,57.14mm)(117.111mm,62.24mm)  Top Overlay
+   Violation between Text "U4_OutputPort5" (115.214mm,57.709mm)  Top Overlay and 
+                     Track (122.411mm,57.14mm)(122.411mm,62.24mm)  Top Overlay
+   Violation between Text "U4_OutputPort5" (115.214mm,57.709mm)  Top Overlay and 
+                     Track (117.111mm,57.14mm)(122.411mm,57.14mm)  Top Overlay
+   Violation between Text "R45_OutputPort5" (109.169mm,57.125mm)  Top Overlay and 
+                     Track (117.111mm,57.14mm)(122.411mm,57.14mm)  Top Overlay
+   Violation between Text "U4_OutputPort6" (115.214mm,63.424mm)  Top Overlay and 
+                     Track (117.111mm,62.855mm)(117.111mm,67.955mm)  Top Overlay
+   Violation between Text "R45_OutputPort6" (109.169mm,62.84mm)  Top Overlay and 
+                     Track (117.111mm,62.855mm)(117.111mm,67.955mm)  Top Overlay
+   Violation between Text "U4_OutputPort6" (115.214mm,63.424mm)  Top Overlay and 
+                     Track (122.411mm,62.855mm)(122.411mm,67.955mm)  Top Overlay
+   Violation between Text "U4_OutputPort6" (115.214mm,63.424mm)  Top Overlay and 
+                     Track (117.111mm,62.855mm)(122.411mm,62.855mm)  Top Overlay
+   Violation between Text "R45_OutputPort6" (109.169mm,62.84mm)  Top Overlay and 
+                     Track (117.111mm,62.855mm)(122.411mm,62.855mm)  Top Overlay
+   Violation between Text "U4_OutputPort7" (115.214mm,69.139mm)  Top Overlay and 
+                     Track (117.111mm,68.57mm)(117.111mm,73.67mm)  Top Overlay
+   Violation between Text "R45_OutputPort7" (109.169mm,68.555mm)  Top Overlay and 
+                     Track (117.111mm,68.57mm)(117.111mm,73.67mm)  Top Overlay
+   Violation between Text "U4_OutputPort7" (115.214mm,69.139mm)  Top Overlay and 
+                     Track (122.411mm,68.57mm)(122.411mm,73.67mm)  Top Overlay
+   Violation between Text "U4_OutputPort7" (115.214mm,69.139mm)  Top Overlay and 
+                     Track (117.111mm,68.57mm)(122.411mm,68.57mm)  Top Overlay
+   Violation between Text "R45_OutputPort7" (109.169mm,68.555mm)  Top Overlay and 
+                     Track (117.111mm,68.57mm)(122.411mm,68.57mm)  Top Overlay
+   Violation between Text "C37" (134.518mm,94.361mm)  Top Overlay and 
+                     Track (132.969mm,94.488mm)(139.065mm,94.488mm)  Top Overlay
+   Violation between Text "R55_InputPort4" (125.679mm,94.59mm)  Top Overlay and 
+                     Track (132.969mm,94.488mm)(139.065mm,94.488mm)  Top Overlay
+   Violation between Text "R55_InputPort5" (125.679mm,100.305mm)  Top Overlay and 
+                     Track (132.969mm,94.488mm)(132.969mm,113.792mm)  Top Overlay
+   Violation between Text "R55_InputPort4" (125.679mm,94.59mm)  Top Overlay and 
+                     Track (132.969mm,94.488mm)(132.969mm,113.792mm)  Top Overlay
+   Violation between Text "R55_InputPort7" (125.679mm,111.735mm)  Top Overlay and 
+                     Track (132.969mm,94.488mm)(132.969mm,113.792mm)  Top Overlay
+   Violation between Text "R55_InputPort6" (125.679mm,106.02mm)  Top Overlay and 
+                     Track (132.969mm,94.488mm)(132.969mm,113.792mm)  Top Overlay
+   Violation between Text "C40" (148.336mm,103.099mm)  Top Overlay and 
+                     Track (147.955mm,94.488mm)(147.955mm,113.792mm)  Top Overlay
+   Violation between Text "C41" (143.408mm,94.361mm)  Top Overlay and 
+                     Track (141.859mm,94.488mm)(147.955mm,94.488mm)  Top Overlay
+   Violation between Text "C36" (139.573mm,103.099mm)  Top Overlay and 
+                     Track (141.859mm,94.488mm)(141.859mm,113.792mm)  Top Overlay
+   Violation between Text "U4_OutputPort8" (115.214mm,74.854mm)  Top Overlay and 
+                     Track (122.411mm,74.285mm)(122.411mm,79.385mm)  Top Overlay
+   Violation between Text "U4_OutputPort8" (115.214mm,74.854mm)  Top Overlay and 
+                     Track (117.111mm,74.285mm)(117.111mm,79.385mm)  Top Overlay
+   Violation between Text "R54_InputPort1" (109.169mm,77.445mm)  Top Overlay and 
+                     Track (117.111mm,74.285mm)(117.111mm,79.385mm)  Top Overlay
+   Violation between Text "R45_OutputPort8" (109.169mm,74.27mm)  Top Overlay and 
+                     Track (117.111mm,74.285mm)(117.111mm,79.385mm)  Top Overlay
+   Violation between Text "R45_OutputPort8" (109.169mm,74.27mm)  Top Overlay and 
+                     Track (120.396mm,74.285mm)(122.411mm,74.285mm)  Top Overlay
+   Violation between Text "R45_OutputPort8" (109.169mm,74.27mm)  Top Overlay and 
+                     Track (117.111mm,74.285mm)(119.126mm,74.285mm)  Top Overlay
+   Violation between Text "U11_InputPort1" (115.214mm,80.391mm)  Top Overlay and 
+                     Track (122.411mm,80mm)(122.411mm,85.1mm)  Top Overlay
+   Violation between Text "U11_InputPort1" (115.214mm,80.391mm)  Top Overlay and 
+                     Track (117.111mm,80mm)(117.111mm,85.1mm)  Top Overlay
+   Violation between Text "R54_InputPort2" (109.169mm,83.16mm)  Top Overlay and 
+                     Track (117.111mm,80mm)(117.111mm,85.1mm)  Top Overlay
+   Violation between Text "U11_InputPort1" (115.214mm,80.391mm)  Top Overlay and 
+                     Track (120.396mm,80mm)(122.411mm,80mm)  Top Overlay
+   Violation between Text "U11_InputPort1" (115.214mm,80.391mm)  Top Overlay and 
+                     Track (117.111mm,80mm)(119.126mm,80mm)  Top Overlay
+   Violation between Text "U11_InputPort2" (115.214mm,86.106mm)  Top Overlay and 
+                     Track (122.411mm,85.715mm)(122.411mm,90.815mm)  Top Overlay
+   Violation between Text "U11_InputPort2" (115.214mm,86.106mm)  Top Overlay and 
+                     Track (117.111mm,85.715mm)(117.111mm,90.815mm)  Top Overlay
+   Violation between Text "R54_InputPort3" (109.169mm,88.875mm)  Top Overlay and 
+                     Track (117.111mm,85.715mm)(117.111mm,90.815mm)  Top Overlay
+   Violation between Text "U11_InputPort2" (115.214mm,86.106mm)  Top Overlay and 
+                     Track (120.396mm,85.715mm)(122.411mm,85.715mm)  Top Overlay
+   Violation between Text "U11_InputPort2" (115.214mm,86.106mm)  Top Overlay and 
+                     Track (117.111mm,85.715mm)(119.126mm,85.715mm)  Top Overlay
+   Violation between Text "U11_InputPort3" (115.214mm,91.821mm)  Top Overlay and 
+                     Track (122.411mm,91.43mm)(122.411mm,96.53mm)  Top Overlay
+   Violation between Text "U11_InputPort3" (115.214mm,91.821mm)  Top Overlay and 
+                     Track (117.111mm,91.43mm)(117.111mm,96.53mm)  Top Overlay
+   Violation between Text "R54_InputPort4" (109.169mm,94.59mm)  Top Overlay and 
+                     Track (117.111mm,91.43mm)(117.111mm,96.53mm)  Top Overlay
+   Violation between Text "U11_InputPort3" (115.214mm,91.821mm)  Top Overlay and 
+                     Track (120.396mm,91.43mm)(122.411mm,91.43mm)  Top Overlay
+   Violation between Text "U11_InputPort3" (115.214mm,91.821mm)  Top Overlay and 
+                     Track (117.111mm,91.43mm)(119.126mm,91.43mm)  Top Overlay
+   Violation between Text "U11_InputPort4" (115.214mm,97.536mm)  Top Overlay and 
+                     Track (122.411mm,97.145mm)(122.411mm,102.245mm)  Top Overlay
+   Violation between Text "R54_InputPort5" (109.169mm,100.305mm)  Top Overlay and 
+                     Track (117.111mm,97.145mm)(117.111mm,102.245mm)  Top Overlay
+   Violation between Text "U11_InputPort4" (115.214mm,97.536mm)  Top Overlay and 
+                     Track (117.111mm,97.145mm)(117.111mm,102.245mm)  Top Overlay
+   Violation between Text "U11_InputPort4" (115.214mm,97.536mm)  Top Overlay and 
+                     Track (120.396mm,97.145mm)(122.411mm,97.145mm)  Top Overlay
+   Violation between Text "U11_InputPort4" (115.214mm,97.536mm)  Top Overlay and 
+                     Track (117.111mm,97.145mm)(119.126mm,97.145mm)  Top Overlay
+   Violation between Text "U11_InputPort5" (115.214mm,103.251mm)  Top Overlay and 
+                     Track (122.411mm,102.86mm)(122.411mm,107.96mm)  Top Overlay
+   Violation between Text "U11_InputPort5" (115.214mm,103.251mm)  Top Overlay and 
+                     Track (117.111mm,102.86mm)(117.111mm,107.96mm)  Top Overlay
+   Violation between Text "R54_InputPort6" (109.169mm,106.02mm)  Top Overlay and 
+                     Track (117.111mm,102.86mm)(117.111mm,107.96mm)  Top Overlay
+   Violation between Text "U11_InputPort5" (115.214mm,103.251mm)  Top Overlay and 
+                     Track (120.396mm,102.86mm)(122.411mm,102.86mm)  Top Overlay
+   Violation between Text "U11_InputPort5" (115.214mm,103.251mm)  Top Overlay and 
+                     Track (117.111mm,102.86mm)(119.126mm,102.86mm)  Top Overlay
+   Violation between Text "U11_InputPort6" (115.214mm,108.966mm)  Top Overlay and 
+                     Track (122.411mm,108.575mm)(122.411mm,113.675mm)  Top Overlay
+   Violation between Text "U11_InputPort6" (115.214mm,108.966mm)  Top Overlay and 
+                     Track (117.111mm,108.575mm)(117.111mm,113.675mm)  Top Overlay
+   Violation between Text "R54_InputPort7" (109.169mm,111.735mm)  Top Overlay and 
+                     Track (117.111mm,108.575mm)(117.111mm,113.675mm)  Top Overlay
+   Violation between Text "U11_InputPort6" (115.214mm,108.966mm)  Top Overlay and 
+                     Track (120.396mm,108.575mm)(122.411mm,108.575mm)  Top Overlay
+   Violation between Text "U11_InputPort6" (115.214mm,108.966mm)  Top Overlay and 
+                     Track (117.111mm,108.575mm)(119.126mm,108.575mm)  Top Overlay
+   Violation between Text "U11_InputPort7" (115.214mm,114.681mm)  Top Overlay and 
+                     Track (122.411mm,114.29mm)(122.411mm,119.39mm)  Top Overlay
+   Violation between Text "U11_InputPort7" (115.214mm,114.681mm)  Top Overlay and 
+                     Track (117.111mm,114.29mm)(117.111mm,119.39mm)  Top Overlay
+   Violation between Text "R54_InputPort8" (109.169mm,117.45mm)  Top Overlay and 
+                     Track (117.111mm,114.29mm)(117.111mm,119.39mm)  Top Overlay
+   Violation between Text "U11_InputPort7" (115.214mm,114.681mm)  Top Overlay and 
+                     Track (120.396mm,114.29mm)(122.411mm,114.29mm)  Top Overlay
+   Violation between Text "U11_InputPort7" (115.214mm,114.681mm)  Top Overlay and 
+                     Track (117.111mm,114.29mm)(119.126mm,114.29mm)  Top Overlay
+   Violation between Text "P2" (28.505mm,64.999mm)  Top Overlay and 
+                     Track (28.977mm,66.033mm)(30.877mm,66.033mm)  Top Overlay
+   Violation between Text "P2" (28.505mm,64.999mm)  Top Overlay and 
+                     Track (28.977mm,66.033mm)(28.977mm,68.333mm)  Top Overlay
+   Violation between Text "R13" (29.521mm,49.733mm)  Top Overlay and 
+                     Track (28.977mm,49.523mm)(30.877mm,49.523mm)  Top Overlay
+   Violation between Text "10" (65.532mm,35.179mm)  Top Overlay and 
+                     Track (65.278mm,31.877mm)(65.278mm,36.957mm)  Top Overlay
+   Violation between Text "9" (65.532mm,32.639mm)  Top Overlay and 
+                     Track (65.278mm,31.877mm)(65.278mm,36.957mm)  Top Overlay
+   Violation between Text "R16" (40.062mm,47.193mm)  Top Overlay and 
+                     Track (42.118mm,47.939mm)(42.718mm,47.939mm)  Top Overlay
+   Violation between Text "R19" (40.316mm,61.671mm)  Top Overlay and 
+                     Track (42.372mm,62.678mm)(42.972mm,62.678mm)  Top Overlay
+   Violation between Text "R19" (40.316mm,61.671mm)  Top Overlay and 
+                     Track (42.372mm,61.528mm)(42.972mm,61.528mm)  Top Overlay
+   Violation between Text "R20" (40.316mm,59.639mm)  Top Overlay and 
+                     Track (42.372mm,60.646mm)(42.972mm,60.646mm)  Top Overlay
+   Violation between Text "R20" (40.316mm,59.639mm)  Top Overlay and 
+                     Track (42.372mm,59.496mm)(42.972mm,59.496mm)  Top Overlay
+   Violation between Text "R21" (40.316mm,57.607mm)  Top Overlay and 
+                     Track (42.372mm,58.614mm)(42.972mm,58.614mm)  Top Overlay
+   Violation between Text "R21" (40.316mm,57.607mm)  Top Overlay and 
+                     Track (42.372mm,57.464mm)(42.972mm,57.464mm)  Top Overlay
+   Violation between Text "R39" (46.662mm,84.551mm)  Top Overlay and 
+                     Track (44.45mm,85.4mm)(50.231mm,85.4mm)  Top Overlay
+Rule Violations :276
+
+Processing Rule : Silk primitive without silk layer
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Arc (162.347mm,109.317mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Arc (163.822mm,111.617mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Arc (23.524mm,112.279mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Arc (23.524mm,135.879mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (161.059mm,55.309mm)(172.459mm,55.309mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (161.059mm,50.609mm)(161.059mm,55.309mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (161.059mm,50.609mm)(172.459mm,50.609mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (172.459mm,50.609mm)(172.459mm,55.309mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (161.435mm,92.356mm)(161.435mm,92.556mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (162.685mm,92.356mm)(162.685mm,92.556mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (169.047mm,100.738mm)(169.047mm,100.938mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (170.297mm,100.738mm)(170.297mm,100.938mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (161.435mm,104.04mm)(161.435mm,104.24mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (162.685mm,104.04mm)(162.685mm,104.24mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (163.84mm,81.053mm)(163.84mm,81.253mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (165.09mm,81.053mm)(165.09mm,81.253mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (169.555mm,88.673mm)(169.555mm,88.873mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (170.805mm,88.673mm)(170.805mm,88.873mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (171.333mm,65.559mm)(171.333mm,65.759mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (172.583mm,65.559mm)(172.583mm,65.759mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (161.435mm,70.385mm)(161.435mm,70.585mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (162.685mm,70.385mm)(162.685mm,70.585mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (164.983mm,61.495mm)(164.983mm,61.695mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (166.233mm,61.495mm)(166.233mm,61.695mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (174.635mm,47.398mm)(174.635mm,47.598mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (175.885mm,47.398mm)(175.885mm,47.598mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (169.942mm,76.579mm)(171.942mm,76.579mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (169.942mm,73.789mm)(171.942mm,73.789mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (162.822mm,110.617mm)(175.522mm,110.617mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (162.822mm,123.317mm)(175.522mm,123.317mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (162.822mm,110.617mm)(162.822mm,123.317mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (175.522mm,110.617mm)(175.522mm,123.317mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (23.529mm,136.579mm)(28.129mm,136.579mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (23.529mm,111.579mm)(28.129mm,111.579mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (22.829mm,112.279mm)(22.829mm,135.879mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "X2" (161.214mm,56.159mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "ChipCap" (181.775mm,77.703mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "C47" (161.29mm,95.352mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "ChipCap" (195.229mm,80.243mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "C48" (168.902mm,103.734mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "ChipCap" (193.459mm,77.703mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "C49" (161.29mm,107.036mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "ChipCap" (172.877mm,77.703mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "C50" (163.695mm,84.049mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "ChipCap" (184.434mm,79.481mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "C51" (169.41mm,91.669mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "ChipCap" (163.86mm,78.719mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "C52" (171.188mm,68.555mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "ChipCap" (159.804mm,77.703mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Text "C53" (161.29mm,73.381mm)  Top Overlay
+Rule Violations :50
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Track (79.502mm,107.16mm)(80.391mm,107.16mm)  Top Layer
+   Violation between Net Antennae: Track (63.999mm,98.425mm)(73.152mm,98.425mm)  Top Layer
+   Violation between Net Antennae: Track (64.262mm,97.79mm)(73.152mm,97.79mm)  Top Layer
+   Violation between Net Antennae: Track (57.109mm,99.822mm)(73.152mm,99.822mm)  Top Layer
+   Violation between Net Antennae: Track (57.109mm,100.457mm)(73.152mm,100.457mm)  Top Layer
+   Violation between Net Antennae: Track (108.585mm,111.125mm)(112.395mm,111.125mm)  Top Layer
+   Violation between Net Antennae: Track (108.585mm,105.41mm)(112.395mm,105.41mm)  Top Layer
+   Violation between Net Antennae: Track (108.585mm,99.695mm)(112.395mm,99.695mm)  Top Layer
+   Violation between Net Antennae: Track (108.585mm,93.98mm)(112.395mm,93.98mm)  Top Layer
+   Violation between Net Antennae: Track (108.585mm,88.265mm)(112.395mm,88.265mm)  Top Layer
+   Violation between Net Antennae: Track (108.585mm,82.55mm)(112.395mm,82.55mm)  Top Layer
+   Violation between Net Antennae: Track (108.585mm,76.835mm)(112.395mm,76.835mm)  Top Layer
+   Violation between Net Antennae: Track (108.585mm,116.84mm)(112.395mm,116.84mm)  Top Layer
+Rule Violations :13
+
+Processing Rule : Room MCU (Bounding Region = (47.625mm, 27.94mm, 92.075mm, 77.47mm) (InComponentClass('MCU'))
+Rule Violations :0
+
+Processing Rule : Room USB OTG (Bounding Region = (27.94mm, 27.94mm, 47.625mm, 77.47mm) (InComponentClass('USB OTG'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.128mm) (Max=1.016mm) (Preferred=0.508mm) (InNetClass('PowerNet'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.128mm) (Max=1.016mm) (Preferred=0.508mm) (InNetClass('AnalogPowerNet'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+   Violation between Width Constraint: Track (68.862mm,63.373mm)(69.691mm,63.373mm)  Bottom Layer
+   Violation between Width Constraint: Track (69.691mm,63.373mm)(69.691mm,65.532mm)  Bottom Layer
+   Violation between Width Constraint: Track (67.691mm,62.202mm)(68.862mm,63.373mm)  Bottom Layer
+   Violation between Width Constraint: Track (54.864mm,53.594mm)(55.753mm,54.483mm)  Bottom Layer
+   Violation between Width Constraint: Track (53.753mm,53.594mm)(54.864mm,53.594mm)  Bottom Layer
+Rule Violations :5
+
+Processing Rule : Room EthernetPHY (Bounding Region = (27.94mm, 77.47mm, 92.075mm, 114.935mm) (InComponentClass('EthernetPHY'))
+Rule Violations :0
+
+Processing Rule : Room InputPort1 (Bounding Region = (108.331mm, 73.66mm, 131.191mm, 79.756mm) (InComponentClass('InputPort1'))
+Rule Violations :0
+
+Processing Rule : Room InputPort2 (Bounding Region = (108.331mm, 79.375mm, 131.191mm, 85.471mm) (InComponentClass('InputPort2'))
+Rule Violations :0
+
+Processing Rule : Room InputPort3 (Bounding Region = (108.331mm, 85.09mm, 131.191mm, 91.186mm) (InComponentClass('InputPort3'))
+Rule Violations :0
+
+Processing Rule : Room InputPort4 (Bounding Region = (108.331mm, 90.805mm, 131.191mm, 96.901mm) (InComponentClass('InputPort4'))
+Rule Violations :0
+
+Processing Rule : Room InputPort5 (Bounding Region = (108.331mm, 96.52mm, 131.191mm, 102.616mm) (InComponentClass('InputPort5'))
+Rule Violations :0
+
+Processing Rule : Room InputPort6 (Bounding Region = (108.331mm, 102.235mm, 131.191mm, 108.331mm) (InComponentClass('InputPort6'))
+Rule Violations :0
+
+Processing Rule : Room InputPort7 (Bounding Region = (108.331mm, 107.95mm, 131.191mm, 114.046mm) (InComponentClass('InputPort7'))
+Rule Violations :0
+
+Processing Rule : Room InputPort8 (Bounding Region = (108.331mm, 113.665mm, 131.191mm, 119.761mm) (InComponentClass('InputPort8'))
+Rule Violations :0
+
+Processing Rule : Room LscanDriver (Bounding Region = (21.971mm, 98.933mm, 73.787mm, 145.923mm) (InComponentClass('LscanDriver'))
+Rule Violations :0
+
+Processing Rule : Room OutputPort1 (Bounding Region = (108.331mm, 27.94mm, 142.875mm, 34.036mm) (InComponentClass('OutputPort1'))
+Rule Violations :0
+
+Processing Rule : Room OutputPort2 (Bounding Region = (108.331mm, 33.655mm, 142.875mm, 39.751mm) (InComponentClass('OutputPort2'))
+Rule Violations :0
+
+Processing Rule : Room OutputPort3 (Bounding Region = (108.331mm, 39.37mm, 142.875mm, 45.466mm) (InComponentClass('OutputPort3'))
+Rule Violations :0
+
+Processing Rule : Room OutputPort4 (Bounding Region = (108.331mm, 45.085mm, 142.875mm, 51.181mm) (InComponentClass('OutputPort4'))
+Rule Violations :0
+
+Processing Rule : Room OutputPort5 (Bounding Region = (108.331mm, 50.8mm, 142.875mm, 56.896mm) (InComponentClass('OutputPort5'))
+Rule Violations :0
+
+Processing Rule : Room OutputPort6 (Bounding Region = (108.331mm, 56.515mm, 142.875mm, 62.611mm) (InComponentClass('OutputPort6'))
+Rule Violations :0
+
+Processing Rule : Room OutputPort7 (Bounding Region = (108.331mm, 62.23mm, 142.875mm, 68.326mm) (InComponentClass('OutputPort7'))
+Rule Violations :0
+
+Processing Rule : Room OutputPort8 (Bounding Region = (108.331mm, 67.945mm, 142.875mm, 74.041mm) (InComponentClass('OutputPort8'))
+Rule Violations :0
+
+Processing Rule : Room RS485_UART1 (Bounding Region = (108.331mm, 119.761mm, 151.13mm, 132.207mm) (InComponentClass('RS485_UART1'))
+Rule Violations :0
+
+Processing Rule : Room RS485_UART2 (Bounding Region = (108.331mm, 132.207mm, 151.13mm, 144.653mm) (InComponentClass('RS485_UART2'))
+Rule Violations :0
+
+
+Violations Detected : 500
+Time Elapsed        : 00:00:03

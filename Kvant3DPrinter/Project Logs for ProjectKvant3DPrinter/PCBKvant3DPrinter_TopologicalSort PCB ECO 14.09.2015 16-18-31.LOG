@@ -1,0 +1,122 @@
+Added Component: Designator=C56_StepDirDriver1(CAP0805)
+Added Component: Designator=C56_StepDirDriver2(CAP0805)
+Added Component: Designator=C56_StepDirDriver3(CAP0805)
+Added Component: Designator=C57(CAP0805)
+Added Component: Designator=P13_StepDirDriver1(DG340-3.81-02P-00A(H))
+Added Component: Designator=P13_StepDirDriver2(DG340-3.81-02P-00A(H))
+Added Component: Designator=P13_StepDirDriver3(DG340-3.81-02P-00A(H))
+Added Component: Designator=P14(DG340-3.81-02P-00A(H))
+Added Component: Designator=R52_StepDirDriver1(RES0805)
+Added Component: Designator=R52_StepDirDriver2(RES0805)
+Added Component: Designator=R52_StepDirDriver3(RES0805)
+Added Component: Designator=R53_StepDirDriver1(RES0805)
+Added Component: Designator=R53_StepDirDriver2(RES0805)
+Added Component: Designator=R53_StepDirDriver3(RES0805)
+Added Component: Designator=R62(RES0805)
+Added Component: Designator=R63(RES0805)
+Added Component: Designator=U15_StepDirDriver1(SOIC8)
+Added Component: Designator=U15_StepDirDriver2(SOIC8)
+Added Component: Designator=U15_StepDirDriver3(SOIC8)
+Added Component: Designator=U16(DIP-4)
+Added Pin To Net: NetName=AVCC5V Pin=C56_StepDirDriver1-1
+Added Pin To Net: NetName=AGND Pin=C56_StepDirDriver1-2
+Added Pin To Net: NetName=AVCC5V Pin=C56_StepDirDriver2-1
+Added Pin To Net: NetName=AGND Pin=C56_StepDirDriver2-2
+Added Pin To Net: NetName=AVCC5V Pin=C56_StepDirDriver3-1
+Added Pin To Net: NetName=AGND Pin=C56_StepDirDriver3-2
+Added Pin To Net: NetName=AGND Pin=C57-2
+Added Pin To Net: NetName=AGND Pin=P14-2
+Added Pin To Net: NetName=AVCC5V Pin=R62-2
+Added Pin To Net: NetName=GND Pin=U15_StepDirDriver1-2
+Added Pin To Net: NetName=GND Pin=U15_StepDirDriver1-3
+Added Pin To Net: NetName=AGND Pin=U15_StepDirDriver1-5
+Added Pin To Net: NetName=AVCC5V Pin=U15_StepDirDriver1-8
+Added Pin To Net: NetName=GND Pin=U15_StepDirDriver2-2
+Added Pin To Net: NetName=GND Pin=U15_StepDirDriver2-3
+Added Pin To Net: NetName=AGND Pin=U15_StepDirDriver2-5
+Added Pin To Net: NetName=AVCC5V Pin=U15_StepDirDriver2-8
+Added Pin To Net: NetName=GND Pin=U15_StepDirDriver3-2
+Added Pin To Net: NetName=GND Pin=U15_StepDirDriver3-3
+Added Pin To Net: NetName=AGND Pin=U15_StepDirDriver3-5
+Added Pin To Net: NetName=AVCC5V Pin=U15_StepDirDriver3-8
+Added Pin To Net: NetName=GND Pin=U16-2
+Added Pin To Net: NetName=AGND Pin=U16-3
+Added Pin To Net: NetName=DIR1 Pin=R53_StepDirDriver1-1
+Added Pin To Net: NetName=DIR1 Pin=U1-81
+Added Net: Name=DIR1
+Added Pin To Net: NetName=DIR2 Pin=R53_StepDirDriver2-1
+Added Pin To Net: NetName=DIR2 Pin=U1-82
+Added Net: Name=DIR2
+Added Pin To Net: NetName=DIR3 Pin=R53_StepDirDriver3-1
+Added Pin To Net: NetName=DIR3 Pin=U1-83
+Added Net: Name=DIR3
+Added Pin To Net: NetName=MOTOR_STP1 Pin=R52_StepDirDriver1-1
+Added Pin To Net: NetName=MOTOR_STP1 Pin=U1-23
+Added Net: Name=MOTOR_STP1
+Added Pin To Net: NetName=MOTOR_STP2 Pin=R52_StepDirDriver2-1
+Added Pin To Net: NetName=MOTOR_STP2 Pin=U1-31
+Added Net: Name=MOTOR_STP2
+Added Pin To Net: NetName=MOTOR_STP3 Pin=R52_StepDirDriver3-1
+Added Pin To Net: NetName=MOTOR_STP3 Pin=U1-92
+Added Net: Name=MOTOR_STP3
+Added Pin To Net: NetName=MOTORS_EN Pin=R63-1
+Added Pin To Net: NetName=MOTORS_EN Pin=U1-60
+Added Net: Name=MOTORS_EN
+Added Pin To Net: NetName=NetC57_1 Pin=C57-1
+Added Pin To Net: NetName=NetC57_1 Pin=P14-1
+Added Pin To Net: NetName=NetC57_1 Pin=R62-1
+Added Pin To Net: NetName=NetC57_1 Pin=U16-4
+Added Net: Name=NetC57_1
+Added Pin To Net: NetName=NetP13_StepDirDriver1_1 Pin=P13_StepDirDriver1-1
+Added Pin To Net: NetName=NetP13_StepDirDriver1_1 Pin=U15_StepDirDriver1-7
+Added Net: Name=NetP13_StepDirDriver1_1
+Added Pin To Net: NetName=NetP13_StepDirDriver1_2 Pin=P13_StepDirDriver1-2
+Added Pin To Net: NetName=NetP13_StepDirDriver1_2 Pin=U15_StepDirDriver1-6
+Added Net: Name=NetP13_StepDirDriver1_2
+Added Pin To Net: NetName=NetP13_StepDirDriver2_1 Pin=P13_StepDirDriver2-1
+Added Pin To Net: NetName=NetP13_StepDirDriver2_1 Pin=U15_StepDirDriver2-7
+Added Net: Name=NetP13_StepDirDriver2_1
+Added Pin To Net: NetName=NetP13_StepDirDriver2_2 Pin=P13_StepDirDriver2-2
+Added Pin To Net: NetName=NetP13_StepDirDriver2_2 Pin=U15_StepDirDriver2-6
+Added Net: Name=NetP13_StepDirDriver2_2
+Added Pin To Net: NetName=NetP13_StepDirDriver3_1 Pin=P13_StepDirDriver3-1
+Added Pin To Net: NetName=NetP13_StepDirDriver3_1 Pin=U15_StepDirDriver3-7
+Added Net: Name=NetP13_StepDirDriver3_1
+Added Pin To Net: NetName=NetP13_StepDirDriver3_2 Pin=P13_StepDirDriver3-2
+Added Pin To Net: NetName=NetP13_StepDirDriver3_2 Pin=U15_StepDirDriver3-6
+Added Net: Name=NetP13_StepDirDriver3_2
+Added Pin To Net: NetName=NetR52_StepDirDriver1_2 Pin=R52_StepDirDriver1-2
+Added Pin To Net: NetName=NetR52_StepDirDriver1_2 Pin=U15_StepDirDriver1-1
+Added Net: Name=NetR52_StepDirDriver1_2
+Added Pin To Net: NetName=NetR52_StepDirDriver2_2 Pin=R52_StepDirDriver2-2
+Added Pin To Net: NetName=NetR52_StepDirDriver2_2 Pin=U15_StepDirDriver2-1
+Added Net: Name=NetR52_StepDirDriver2_2
+Added Pin To Net: NetName=NetR52_StepDirDriver3_2 Pin=R52_StepDirDriver3-2
+Added Pin To Net: NetName=NetR52_StepDirDriver3_2 Pin=U15_StepDirDriver3-1
+Added Net: Name=NetR52_StepDirDriver3_2
+Added Pin To Net: NetName=NetR53_StepDirDriver1_2 Pin=R53_StepDirDriver1-2
+Added Pin To Net: NetName=NetR53_StepDirDriver1_2 Pin=U15_StepDirDriver1-4
+Added Net: Name=NetR53_StepDirDriver1_2
+Added Pin To Net: NetName=NetR53_StepDirDriver2_2 Pin=R53_StepDirDriver2-2
+Added Pin To Net: NetName=NetR53_StepDirDriver2_2 Pin=U15_StepDirDriver2-4
+Added Net: Name=NetR53_StepDirDriver2_2
+Added Pin To Net: NetName=NetR53_StepDirDriver3_2 Pin=R53_StepDirDriver3-2
+Added Pin To Net: NetName=NetR53_StepDirDriver3_2 Pin=U15_StepDirDriver3-4
+Added Net: Name=NetR53_StepDirDriver3_2
+Added Pin To Net: NetName=NetR63_2 Pin=R63-2
+Added Pin To Net: NetName=NetR63_2 Pin=U16-1
+Added Net: Name=NetR63_2
+Added Class: Name=StepDirDriver1
+Added Class: Name=StepDirDriver2
+Added Class: Name=StepDirDriver3
+Added Class: Name=DIR[1..3]
+Added Class: Name=MOTOR_STP[1..3]
+Added Class: Name=StepDirDriver
+Added Member To Class: ClassName=Kvant3DPrinter Member=Component C57 ChipCap
+Added Member To Class: ClassName=Kvant3DPrinter Member=Component P14 DG340-3.81
+Added Member To Class: ClassName=Kvant3DPrinter Member=Component R62 ChipRes
+Added Member To Class: ClassName=Kvant3DPrinter Member=Component R63 ChipRes
+Added Member To Class: ClassName=Kvant3DPrinter Member=Component U16 Optoisolator1
+Added Room: Name=StepDirDriver1
+Added Room: Name=StepDirDriver2
+Added Room: Name=StepDirDriver3

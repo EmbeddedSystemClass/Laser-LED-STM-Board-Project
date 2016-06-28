@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=NetCN1_1 New Net Name=ETH_TD_P
+Change Net Name : Old Net Name=NetCN1_2 New Net Name=ETH_TD_N
+Change Net Name : Old Net Name=NetCN1_3 New Net Name=ETH_RD_P
+Change Net Name : Old Net Name=NetCN1_6 New Net Name=ETH_RD_N
+Added Differential Pair: Name=ETH_RD
+Added Differential Pair: Name=ETH_TD
