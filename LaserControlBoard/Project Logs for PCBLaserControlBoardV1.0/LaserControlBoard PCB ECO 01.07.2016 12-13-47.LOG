@@ -1,0 +1,10 @@
+Added Component: Designator=U8(SO-8_L)
+Added Pin To Net: NetName=NetU7_7 Pin=U8-1
+Added Pin To Net: NetName=NetR50_1 Pin=U8-2
+Added Pin To Net: NetName=NetR50_1 Pin=U8-3
+Added Pin To Net: NetName=NetU7_6 Pin=U8-4
+Added Pin To Net: NetName=GND Pin=U8-5
+Added Pin To Net: NetName=NetP3_2 Pin=U8-6
+Added Pin To Net: NetName=NetP3_1 Pin=U8-7
+Added Pin To Net: NetName=AVCC5V Pin=U8-8
+Added Member To Class: ClassName=RS485_UART Member=Component U8 ADM1485
