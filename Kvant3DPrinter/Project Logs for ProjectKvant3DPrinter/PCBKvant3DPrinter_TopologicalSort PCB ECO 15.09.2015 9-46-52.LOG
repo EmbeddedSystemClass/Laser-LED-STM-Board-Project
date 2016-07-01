@@ -1,6 +1,0 @@
-Added Component: Designator=P12(HDR2X2)
-Added Pin To Net: NetName=SPI1_SCK Pin=P12-1
-Added Pin To Net: NetName=NetP12_2 Pin=P12-2
-Added Pin To Net: NetName=SPI2_SCK Pin=P12-3
-Added Pin To Net: NetName=NetP12_2 Pin=P12-4
-Added Member To Class: ClassName=Kvant3DPrinter Member=Component P12 Header 2X2
