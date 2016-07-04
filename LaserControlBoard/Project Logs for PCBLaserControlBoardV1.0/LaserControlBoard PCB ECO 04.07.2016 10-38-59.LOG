@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=IGND Pin=Foot switch-1
+Added Component: Designator=C42(CAP0805)
+Added Component: Designator=C43(CAP0805)
+Added Component: Designator=P3(DG340-3.81-02P-00A(H))
+Added Component: Designator=R48(RES0805)
+Added Component: Designator=R49(RES0805)
+Added Component: Designator=R50(RES0805)
+Added Component: Designator=R51(RES0805)
+Added Component: Designator=U7(SOIC8)
+Added Component: Designator=U8(SO-8_L)
+Added Component: Designator=U9(DIP-4)
+Added Pin To Net: NetName=GND Pin=C42-1
+Added Pin To Net: NetName=AVCC5V Pin=C42-2
+Added Pin To Net: NetName=AVCC5V Pin=C43-1
+Added Pin To Net: NetName=GND Pin=C43-2
+Added Pin To Net: NetName=I5V Pin=Foot switch-3
+Added Pin To Net: NetName=NetP3_1 Pin=P3-1
+Added Pin To Net: NetName=NetP3_2 Pin=P3-2
+Added Pin To Net: NetName=MCU_RX1 Pin=R48-1
+Added Pin To Net: NetName=NetR48_2 Pin=R48-2
+Added Pin To Net: NetName=MCU_TX1 Pin=R49-1
+Added Pin To Net: NetName=NetR49_2 Pin=R49-2
+Added Pin To Net: NetName=NetR50_1 Pin=R50-1
+Added Pin To Net: NetName=AVCC5V Pin=R50-2
+Added Pin To Net: NetName=MCU_RTS1 Pin=R51-1
+Added Pin To Net: NetName=NetR51_2 Pin=R51-2
+Added Pin To Net: NetName=NetR48_2 Pin=U7-1
+Added Pin To Net: NetName=GND Pin=U7-2
+Added Pin To Net: NetName=GND Pin=U7-3
+Added Pin To Net: NetName=NetR49_2 Pin=U7-4
+Added Pin To Net: NetName=GND Pin=U7-5
+Added Pin To Net: NetName=NetU7_6 Pin=U7-6
+Added Pin To Net: NetName=NetU7_7 Pin=U7-7
+Added Pin To Net: NetName=AVCC5V Pin=U7-8
+Added Pin To Net: NetName=NetU7_7 Pin=U8-1
+Added Pin To Net: NetName=NetR50_1 Pin=U8-2
+Added Pin To Net: NetName=NetR50_1 Pin=U8-3
+Added Pin To Net: NetName=NetU7_6 Pin=U8-4
+Added Pin To Net: NetName=GND Pin=U8-5
+Added Pin To Net: NetName=NetP3_2 Pin=U8-6
+Added Pin To Net: NetName=NetP3_1 Pin=U8-7
+Added Pin To Net: NetName=AVCC5V Pin=U8-8
+Added Pin To Net: NetName=NetR51_2 Pin=U9-1
+Added Pin To Net: NetName=GND Pin=U9-2
+Added Pin To Net: NetName=GND Pin=U9-3
+Added Pin To Net: NetName=NetR50_1 Pin=U9-4
+Added Pin To Net: NetName=NetFoot switch_1 Pin=Foot switch-1
+Added Pin To Net: NetName=NetFoot switch_1 Pin=R119-2
+Added Net: Name=NetFoot switch_1
+Added Member To Class: ClassName=RS485_UART Member=Component C42 ChipCap
+Added Member To Class: ClassName=RS485_UART Member=Component C43 ChipCap
+Added Member To Class: ClassName=RS485_UART Member=Component P3 DG340-3.81
+Added Member To Class: ClassName=RS485_UART Member=Component R48 ChipRes
+Added Member To Class: ClassName=RS485_UART Member=Component R49 ChipRes
+Added Member To Class: ClassName=RS485_UART Member=Component R50 ChipRes
+Added Member To Class: ClassName=RS485_UART Member=Component R51 ChipRes
+Added Member To Class: ClassName=RS485_UART Member=Component U7 HCPL0631
+Added Member To Class: ClassName=RS485_UART Member=Component U8 ADM1485
+Added Member To Class: ClassName=RS485_UART Member=Component U9 Optoisolator1
+Added Room: Name=RS485_UART
