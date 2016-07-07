@@ -1,0 +1,8 @@
+Added Component: Designator=R6(RES0805)
+Added Component: Designator=R7(RES0805)
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=GND Pin=R6-2
+Added Pin To Net: NetName=AVCC Pin=R7-1
+Added Pin To Net: NetName=NetC7_2 Pin=R7-2
+Added Member To Class: ClassName=MCU Member=Component R6 ChipRes
+Added Member To Class: ClassName=MCU Member=Component R7 ChipRes

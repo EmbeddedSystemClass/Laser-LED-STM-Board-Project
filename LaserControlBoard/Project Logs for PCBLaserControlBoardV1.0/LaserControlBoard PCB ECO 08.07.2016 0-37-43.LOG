@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=R6 NewDesignator=R129
+Change Net Name : Old Net Name=NetR6_2 New Net Name=NetR129_2
+Added Member To Class: ClassName=MCU Member=Component R129 ChipRes
