@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=DWIN_RX Pin=D16-1
-Removed Pin From Net: NetName=DWIN_TX Pin=D16-2
-Removed Pin From Net: NetName=DWIN_RX Pin=D17-1
-Removed Pin From Net: NetName=DWIN_TX Pin=D17-2
-Added Pin To Net: NetName=DWIN_TX Pin=D16-1
-Added Pin To Net: NetName=DWIN_RX Pin=D16-2
-Added Pin To Net: NetName=DWIN_TX Pin=D17-1
-Added Pin To Net: NetName=DWIN_RX Pin=D17-2
