@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=DWIN_RX Pin=D12-3
+Removed Pin From Net: NetName=DWIN_TX Pin=D13-3
+Removed Pin From Net: NetName=DWIN_RX Pin=D14-3
+Removed Pin From Net: NetName=DWIN_TX Pin=D15-3
+Removed Pin From Net: NetName=DWIN_RX Pin=D17-1
+Removed Pin From Net: NetName=DWIN_TX Pin=D17-2
+Added Pin To Net: NetName=DWIN_TX Pin=D12-3
+Added Pin To Net: NetName=DWIN_RX Pin=D13-3
+Added Pin To Net: NetName=DWIN_TX Pin=D14-3
+Added Pin To Net: NetName=DWIN_RX Pin=D15-3
+Added Pin To Net: NetName=DWIN_TX Pin=D17-1
+Added Pin To Net: NetName=DWIN_RX Pin=D17-2
+Added Member To Class: ClassName=MISC Member=Component P14 FPC_Socket
