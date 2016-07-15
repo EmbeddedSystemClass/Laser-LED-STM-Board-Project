@@ -1,0 +1,64 @@
+Removed Pin From Net: NetName=TIM3_CH3 Pin=R125-1
+Removed Pin From Net: NetName=TIM3_CH3 Pin=U25-4
+Added Component: Designator=P22(Header 3 latch)
+Added Component: Designator=P23(Header 3 latch)
+Added Component: Designator=R183(RES0805)
+Added Component: Designator=R184(RES0805)
+Added Component: Designator=R185(RES0805)
+Added Component: Designator=R186(RES0805)
+Added Component: Designator=R187(RES0805)
+Added Component: Designator=R188(RES0805)
+Added Component: Designator=U48(DIP-4)
+Added Component: Designator=U49(DIP-4)
+Added Component: Designator=U50(DIP-4)
+Added Pin To Net: NetName=12V Pin=P22-1
+Added Pin To Net: NetName=12V Pin=P23-1
+Added Pin To Net: NetName=IGND Pin=P23-3
+Added Pin To Net: NetName=VCC Pin=R183-2
+Added Pin To Net: NetName=VCC Pin=R184-2
+Added Pin To Net: NetName=VCC Pin=R187-2
+Added Pin To Net: NetName=GND Pin=U48-3
+Added Pin To Net: NetName=GND Pin=U49-3
+Added Pin To Net: NetName=IGND Pin=U50-2
+Added Pin To Net: NetName=GND Pin=U50-3
+Added Pin To Net: NetName=NetP22_2 Pin=P22-2
+Added Pin To Net: NetName=NetP22_2 Pin=R185-2
+Added Net: Name=NetP22_2
+Added Pin To Net: NetName=NetP22_3 Pin=P22-3
+Added Pin To Net: NetName=NetP22_3 Pin=R186-2
+Added Net: Name=NetP22_3
+Added Pin To Net: NetName=NetP23_2 Pin=P23-2
+Added Pin To Net: NetName=NetP23_2 Pin=R188-2
+Added Net: Name=NetP23_2
+Added Pin To Net: NetName=NetR125_1 Pin=R125-1
+Added Pin To Net: NetName=NetR125_1 Pin=U25-4
+Added Net: Name=NetR125_1
+Added Pin To Net: NetName=NetR183_1 Pin=R183-1
+Added Pin To Net: NetName=NetR183_1 Pin=U48-4
+Added Net: Name=NetR183_1
+Added Pin To Net: NetName=NetR184_1 Pin=R184-1
+Added Pin To Net: NetName=NetR184_1 Pin=U49-4
+Added Net: Name=NetR184_1
+Added Pin To Net: NetName=NetR185_1 Pin=R185-1
+Added Pin To Net: NetName=NetR185_1 Pin=U48-1
+Added Net: Name=NetR185_1
+Added Pin To Net: NetName=NetR186_1 Pin=R186-1
+Added Pin To Net: NetName=NetR186_1 Pin=U49-1
+Added Net: Name=NetR186_1
+Added Pin To Net: NetName=NetR187_1 Pin=R187-1
+Added Pin To Net: NetName=NetR187_1 Pin=U50-4
+Added Net: Name=NetR187_1
+Added Pin To Net: NetName=NetR188_1 Pin=R188-1
+Added Pin To Net: NetName=NetR188_1 Pin=U50-1
+Added Net: Name=NetR188_1
+Added Member To Class: ClassName=MISC Member=Component P22 Header 3 Latch
+Added Member To Class: ClassName=MISC Member=Component P23 Header 3 Latch
+Added Member To Class: ClassName=MISC Member=Component R183 ChipRes
+Added Member To Class: ClassName=MISC Member=Component R184 ChipRes
+Added Member To Class: ClassName=MISC Member=Component R185 ChipRes
+Added Member To Class: ClassName=MISC Member=Component R186 ChipRes
+Added Member To Class: ClassName=MISC Member=Component R187 ChipRes
+Added Member To Class: ClassName=MISC Member=Component R188 ChipRes
+Added Member To Class: ClassName=MISC Member=Component U48 Optoisolator1
+Added Member To Class: ClassName=MISC Member=Component U49 Optoisolator1
+Added Member To Class: ClassName=MISC Member=Component U50 Optoisolator1

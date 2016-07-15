@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=LASER_VMON Pin=P6-5
+Removed Pin From Net: NetName=LASER_IPROG Pin=P6-7
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Added Component: Designator=D25(SMB1)
+Added Component: Designator=K5(IM0XGR)
+Added Component: Designator=Q31(SOT23)
+Added Component: Designator=R182(RES0805)
+Added Pin To Net: NetName=12V Pin=D25-2
+Added Pin To Net: NetName=12V Pin=K5-1
+Added Pin To Net: NetName=LASER_IPROG Pin=K5-2
+Added Pin To Net: NetName=LASER_VMON Pin=K5-6
+Added Pin To Net: NetName=IGND Pin=Q31-2
+Added Pin To Net: NetName=LASER_RELAY Pin=R182-2
+Added Net: Name=LASER_RELAY
+Added Pin To Net: NetName=LDD_IPROG Pin=K5-3
+Added Pin To Net: NetName=LDD_IPROG Pin=P6-7
+Added Net: Name=LDD_IPROG
+Added Pin To Net: NetName=LDD_VMON Pin=K5-7
+Added Pin To Net: NetName=LDD_VMON Pin=P6-5
+Added Net: Name=LDD_VMON
+Added Pin To Net: NetName=NetD25_1 Pin=D25-1
+Added Pin To Net: NetName=NetD25_1 Pin=K5-8
+Added Pin To Net: NetName=NetD25_1 Pin=Q31-3
+Added Net: Name=NetD25_1
+Added Pin To Net: NetName=NetK5_4 Pin=K5-4
+Added Net: Name=NetK5_4
+Added Pin To Net: NetName=NetK5_5 Pin=K5-5
+Added Net: Name=NetK5_5
+Added Pin To Net: NetName=NetQ31_1 Pin=Q31-1
+Added Pin To Net: NetName=NetQ31_1 Pin=R182-1
+Added Net: Name=NetQ31_1
+Added Member To Class: ClassName=LaserInterface Member=Component D25 Diode chip
+Added Member To Class: ClassName=LaserInterface Member=Component K5 IM07GR
+Added Member To Class: ClassName=LaserInterface Member=Component Q31 BC847
+Added Member To Class: ClassName=LaserInterface Member=Component R182 ChipRes
