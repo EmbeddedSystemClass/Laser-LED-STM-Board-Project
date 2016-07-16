@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=LMP_HVON Pin=U1-87
+Removed Pin From Net: NetName=LMP_OV Pin=U1-88
+Removed Pin From Net: NetName=LMP_OV Pin=U1-89
+Removed Pin From Net: NetName=LMP_FAULT Pin=U1-90
+Removed Pin From Net: NetName=LMP_HV_INH Pin=U1-91
+Removed Pin From Net: NetName=LMP_RDY Pin=U1-92
+Removed Pin From Net: NetName=LMP_DISCH Pin=U1-93
+Added Pin To Net: NetName=LMP_HV_INH Pin=U1-7
+Added Pin To Net: NetName=LMP_RDY Pin=U1-8
+Added Pin To Net: NetName=LMP_DISCH Pin=U1-9
+Added Pin To Net: NetName=LMP_HVON Pin=U1-10
+Added Pin To Net: NetName=LMP_OV Pin=U1-11
+Added Pin To Net: NetName=LMP_OV Pin=U1-12
+Added Pin To Net: NetName=LMP_FAULT Pin=U1-13

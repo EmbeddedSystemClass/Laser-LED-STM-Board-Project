@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=RELAY4 Pin=U1-14
+Removed Pin From Net: NetName=RELAY3 Pin=U1-15
+Removed Pin From Net: NetName=RELAY2 Pin=U1-49
+Removed Pin From Net: NetName=RELAY1 Pin=U1-50
+Added Pin To Net: NetName=RELAY4 Pin=U1-87
+Added Pin To Net: NetName=RELAY3 Pin=U1-88
+Added Pin To Net: NetName=RELAY2 Pin=U1-89
+Added Pin To Net: NetName=RELAY1 Pin=U1-90
