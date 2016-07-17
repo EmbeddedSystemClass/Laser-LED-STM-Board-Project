@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=LEDR Pin=R153-2
+Added Component: Designator=P24(Header 3 latch)
+Added Component: Designator=R192(RES0805)
+Added Component: Designator=R193(RES0805)
+Added Component: Designator=U7(DIP-4)
+Added Pin To Net: NetName=IGND Pin=P24-1
+Added Pin To Net: NetName=12V Pin=R192-2
+Added Pin To Net: NetName=GND Pin=U7-2
+Added Pin To Net: NetName=NetP24_3 Pin=P24-3
+Added Pin To Net: NetName=NetP24_3 Pin=U7-3
+Added Net: Name=NetP24_3
+Added Pin To Net: NetName=NetR153_2 Pin=R153-2
+Added Net: Name=NetR153_2
+Added Pin To Net: NetName=NetR192_1 Pin=R192-1
+Added Pin To Net: NetName=NetR192_1 Pin=U7-4
+Added Net: Name=NetR192_1
+Added Pin To Net: NetName=NetR193_1 Pin=R193-1
+Added Pin To Net: NetName=NetR193_1 Pin=U7-1
+Added Net: Name=NetR193_1
+Added Pin To Net: NetName=NetR193_2 Pin=R193-2
+Added Net: Name=NetR193_2
+Added Member To Class: ClassName=MISC Member=Component P24 Header 3 Latch
+Added Member To Class: ClassName=MISC Member=Component R192 ChipRes
+Added Member To Class: ClassName=MISC Member=Component R193 ChipRes
+Added Member To Class: ClassName=MISC Member=Component U7 Optoisolator1

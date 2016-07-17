@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=SWDIO Pin=U1-105
+Added Pin To Net: NetName=SWCLK Pin=U1-109
+Added Pin To Net: NetName=MCU_TDI Pin=U1-110
+Added Pin To Net: NetName=SWO Pin=U1-133
