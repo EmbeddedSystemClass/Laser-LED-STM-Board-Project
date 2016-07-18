@@ -1,0 +1,10 @@
+Removed Member From Class: ClassName=LaserInterface Member=C59
+Removed Member From Class: ClassName=LaserInterface Member=D19
+Removed Member From Class: ClassName=LaserInterface Member=F2
+Removed Member From Class: ClassName=LaserInterface Member=P17
+Removed Member From Class: ClassName=LaserInterface Member=RU2
+Added Member To Class: ClassName=LAMP Member=Component C59 Cap Pol 25/100
+Added Member To Class: ClassName=LAMP Member=Component D19 TVS Diode
+Added Member To Class: ClassName=LAMP Member=Component F2 Fuse
+Added Member To Class: ClassName=LAMP Member=Component P17 Terminal Block 2x5.08mm
+Added Member To Class: ClassName=LAMP Member=Component RU2 Varistor S14F25
