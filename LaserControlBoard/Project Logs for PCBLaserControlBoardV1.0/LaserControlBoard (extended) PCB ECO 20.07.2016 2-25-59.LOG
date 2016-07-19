@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=LMP_OV Pin=R176-1
+Removed Pin From Net: NetName=LMP_OV Pin=U1-8
+Removed Pin From Net: NetName=LMP_OV Pin=U45-4
+Added Pin To Net: NetName=LMP_OVT Pin=R176-1
+Added Pin To Net: NetName=LMP_OVT Pin=U1-8
+Added Pin To Net: NetName=LMP_OVT Pin=U45-4
+Added Net: Name=LMP_OVT
