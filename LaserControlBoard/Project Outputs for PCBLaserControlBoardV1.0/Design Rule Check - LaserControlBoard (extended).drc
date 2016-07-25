@@ -1,0 +1,218 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\LaserControlBoard (extended).PcbDoc
+Date     : 7/25/2016
+Time     : 3:28:01 PM
+
+Processing Rule : Room MISC (Bounding Region = (38.735mm, 27.305mm, 170.815mm, 99.06mm) (InComponentClass('MISC'))
+Rule Violations :0
+
+Processing Rule : Room USB OTG (Bounding Region = (38.735mm, 120.65mm, 71.12mm, 144.145mm) (InComponentClass('USB OTG'))
+Rule Violations :0
+
+Processing Rule : Room Power (Bounding Region = (38.735mm, 55.88mm, 83.82mm, 135.89mm) (InComponentClass('Power'))
+Rule Violations :0
+
+Processing Rule : Room MCU (Bounding Region = (83.185mm, 99.06mm, 172.72mm, 182.245mm) (InComponentClass('MCU'))
+Rule Violations :0
+
+Processing Rule : Room LAMP (Bounding Region = (149.479mm, 20.828mm, 244.475mm, 123.825mm) (InComponentClass('LAMP'))
+Rule Violations :0
+
+Processing Rule : Room Peltier (Bounding Region = (172.72mm, 106.68mm, 244.475mm, 182.245mm) (InComponentClass('Peltier'))
+Rule Violations :0
+
+Processing Rule : Room LaserInterface (Bounding Region = (172.72mm, 45.085mm, 244.475mm, 166.37mm) (InComponentClass('LaserInterface'))
+Rule Violations :0
+
+Processing Rule : Room Ethernet (Bounding Region = (38.735mm, 135.89mm, 105.41mm, 182.245mm) (InComponentClass('Ethernet'))
+Rule Violations :0
+
+Processing Rule : Room WiFi (Bounding Region = (105.41mm, 146.05mm, 144.145mm, 182.245mm) (InComponentClass('WiFi'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=5mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.128mm) (Max=1.016mm) (Preferred=0.508mm) (InNetClass('AnalogPowerNet'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=1mm) (InNetClass('PowerNet'))
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Arc (196.48mm,22mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Arc (220.08mm,22mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (196.48mm,21.305mm)(220.08mm,21.305mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (220.78mm,22.005mm)(220.78mm,26.605mm)  Top Overlay
+   Violation between Silk To Board Region Clearance (Out of silkscreen region) : Track (195.78mm,22.005mm)(195.78mm,26.605mm)  Top Overlay
+Rule Violations :5
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Text "D19" (182.245mm,56.515mm)  Top Overlay and 
+                     Arc (179.705mm,59.69mm)  Top Overlay
+   Violation between Text "R49" (190.932mm,71.679mm)  Top Overlay and 
+                     Arc (191.135mm,72.39mm)  Top Overlay
+   Violation between Text "R129" (183.312mm,71.679mm)  Top Overlay and 
+                     Arc (186.055mm,72.39mm)  Top Overlay
+   Violation between Text "R51" (185.852mm,71.679mm)  Top Overlay and 
+                     Arc (186.055mm,72.39mm)  Top Overlay
+   Violation between Text "R189" (180.772mm,71.679mm)  Top Overlay and 
+                     Arc (180.975mm,72.39mm)  Top Overlay
+   Violation between Text "R191" (196.012mm,71.679mm)  Top Overlay and 
+                     Arc (196.215mm,72.39mm)  Top Overlay
+   Violation between Text "R177" (156.007mm,83.744mm)  Top Overlay and 
+                     Arc (155.545mm,84.455mm)  Top Overlay
+   Violation between Text "R169" (161.722mm,83.744mm)  Top Overlay and 
+                     Arc (161.26mm,84.455mm)  Top Overlay
+   Violation between Text "R175" (167.437mm,83.744mm)  Top Overlay and 
+                     Arc (166.975mm,84.455mm)  Top Overlay
+   Violation between Text "R195" (60.452mm,106.299mm)  Top Overlay and 
+                     Track (59.69mm,105.41mm)(59.69mm,116.84mm)  Top Overlay
+   Violation between Text "D8" (60.325mm,124.206mm)  Top Overlay and 
+                     Track (61.722mm,124.587mm)(62.484mm,124.587mm)  Top Overlay
+   Violation between Text "D8" (60.325mm,124.206mm)  Top Overlay and 
+                     Track (61.722mm,123.952mm)(61.722mm,124.587mm)  Top Overlay
+   Violation between Text "WIFI PWR 3V3" (136.525mm,176.276mm)  Top Overlay and 
+                     Track (146.685mm,174.625mm)(146.685mm,179.705mm)  Top Overlay
+   Violation between Text "9" (129.794mm,101.219mm)  Top Overlay and 
+                     Track (129.54mm,100.457mm)(129.54mm,105.537mm)  Top Overlay
+   Violation between Text "10" (129.794mm,103.759mm)  Top Overlay and 
+                     Track (129.54mm,100.457mm)(129.54mm,105.537mm)  Top Overlay
+   Violation between Text "C15" (132.969mm,117.856mm)  Bottom Overlay and 
+                     Track (133.36mm,118.01mm)(133.36mm,118.21mm)  Bottom Overlay
+   Violation between Text "R89" (83.566mm,44.704mm)  Top Overlay and 
+                     Text "R90" (82.55mm,44.704mm)  Top Overlay
+   Violation between Text "D3" (160.02mm,169.291mm)  Top Overlay and 
+                     Text "D7" (158.496mm,168.91mm)  Top Overlay
+   Violation between Text "R23" (92.329mm,173.99mm)  Top Overlay and 
+                     Text "U3" (92.227mm,172.898mm)  Top Overlay
+   Violation between Text "R36" (94.361mm,173.99mm)  Top Overlay and 
+                     Text "U3" (92.227mm,172.898mm)  Top Overlay
+   Violation between Text "R129" (183.312mm,71.679mm)  Top Overlay and 
+                     Text "R51" (185.852mm,71.679mm)  Top Overlay
+   Violation between Text "R129" (183.312mm,71.679mm)  Top Overlay and 
+                     Text "R189" (180.772mm,71.679mm)  Top Overlay
+   Violation between Text "R191" (196.012mm,71.679mm)  Top Overlay and 
+                     Text "R190" (198.552mm,71.679mm)  Top Overlay
+Rule Violations :23
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Pad C61-2(76.525mm,130.81mm)  Top Layer and 
+                     Arc (78.105mm,131.826mm)  Top Overlay
+   Violation between Pad R95-2(217.325mm,72.39mm)  Top Layer and 
+                     Arc (218.3mm,73.445mm)  Top Overlay
+   Violation between Pad R103-2(217.325mm,80.645mm)  Top Layer and 
+                     Arc (218.3mm,81.7mm)  Top Overlay
+   Violation between Track (82.365mm,122.555mm)(82.365mm,126.365mm)  Top Overlay and 
+                     Pad D26-1(81.115mm,124.46mm)  Top Layer
+   Violation between Track (75.115mm,122.555mm)(75.115mm,126.365mm)  Top Overlay and 
+                     Pad D26-2(76.365mm,124.46mm)  Top Layer
+   Violation between Track (220.795mm,62.23mm)(220.795mm,66.04mm)  Top Overlay and 
+                     Pad D25-1(219.545mm,64.135mm)  Top Layer
+   Violation between Track (213.545mm,62.23mm)(213.545mm,66.04mm)  Top Overlay and 
+                     Pad D25-2(214.795mm,64.135mm)  Top Layer
+   Violation between Text "C34" (194.564mm,172.212mm)  Top Overlay and 
+                     Pad C34-1(193.58mm,172.72mm)  Top Layer
+   Violation between Text "Q9" (221.615mm,121.285mm)  Top Overlay and 
+                     Pad Q12-2(218.44mm,127mm)  Top Layer
+   Violation between Text "Q15" (220.98mm,145.415mm)  Top Overlay and 
+                     Pad Q6-2(218.44mm,151.003mm)  Top Layer
+   Violation between Text "Q14" (220.98mm,169.545mm)  Top Overlay and 
+                     Pad Q3-2(218.44mm,175.26mm)  Top Layer
+   Violation between Text "D12" (54.864mm,87.884mm)  Top Overlay and 
+                     Pad D16-1(55.95mm,88.58mm)  Top Layer
+   Violation between Text "D13" (54.864mm,86.614mm)  Top Overlay and 
+                     Pad D16-2(55.95mm,86.68mm)  Top Layer
+   Violation between Text "Q12" (220.98mm,133.35mm)  Top Overlay and 
+                     Pad Q15-2(218.44mm,139.065mm)  Top Layer
+   Violation between Text "Q32" (191.008mm,76.251mm)  Top Overlay and 
+                     Pad LED13-2(193.04mm,77.875mm)  Top Layer
+   Violation between Text "Q33" (185.928mm,76.251mm)  Top Overlay and 
+                     Pad LED14-2(187.96mm,77.875mm)  Top Layer
+   Violation between Text "Q34" (180.848mm,76.251mm)  Top Overlay and 
+                     Pad LED15-2(182.88mm,77.875mm)  Top Layer
+   Violation between Text "Q35" (196.088mm,76.251mm)  Top Overlay and 
+                     Pad LED16-2(198.12mm,77.875mm)  Top Layer
+   Violation between Text "R49" (190.932mm,71.679mm)  Top Overlay and 
+                     Pad Q32-1(192.09mm,72.46mm)  Top Layer
+   Violation between Text "R48" (193.472mm,71.679mm)  Top Overlay and 
+                     Pad Q32-2(193.99mm,72.46mm)  Top Layer
+   Violation between Text "R51" (185.852mm,71.679mm)  Top Overlay and 
+                     Pad Q33-1(187.01mm,72.46mm)  Top Layer
+   Violation between Text "R50" (188.392mm,71.679mm)  Top Overlay and 
+                     Pad Q33-2(188.91mm,72.46mm)  Top Layer
+   Violation between Text "R189" (180.772mm,71.679mm)  Top Overlay and 
+                     Pad Q34-1(181.93mm,72.46mm)  Top Layer
+   Violation between Text "R129" (183.312mm,71.679mm)  Top Overlay and 
+                     Pad Q34-2(183.83mm,72.46mm)  Top Layer
+   Violation between Text "R189" (180.772mm,71.679mm)  Top Overlay and 
+                     Pad Q34-2(183.83mm,72.46mm)  Top Layer
+   Violation between Text "R191" (196.012mm,71.679mm)  Top Overlay and 
+                     Pad Q35-1(197.17mm,72.46mm)  Top Layer
+   Violation between Text "R190" (198.552mm,71.679mm)  Top Overlay and 
+                     Pad Q35-2(199.07mm,72.46mm)  Top Layer
+   Violation between Text "Q36" (56.21mm,113.716mm)  Top Overlay and 
+                     Pad Q36-1(57.785mm,113.665mm)  Multi-Layer
+   Violation between Track (129.995mm,44.32mm)(145.595mm,44.32mm)  Top Overlay and 
+                     Pad K3-1(137.795mm,45.72mm)  Multi-Layer
+   Violation between Track (109.04mm,44.32mm)(124.64mm,44.32mm)  Top Overlay and 
+                     Pad K2-1(116.84mm,45.72mm)  Multi-Layer
+   Violation between Track (88.72mm,44.32mm)(104.32mm,44.32mm)  Top Overlay and 
+                     Pad K1-1(96.52mm,45.72mm)  Multi-Layer
+   Violation between Track (150.315mm,44.32mm)(165.915mm,44.32mm)  Top Overlay and 
+                     Pad K4-1(158.115mm,45.72mm)  Multi-Layer
+   Violation between Text "R177" (156.007mm,83.744mm)  Top Overlay and 
+                     Pad U45-1(156.845mm,84.455mm)  Multi-Layer
+   Violation between Text "R177" (156.007mm,83.744mm)  Top Overlay and 
+                     Pad U45-2(159.385mm,84.455mm)  Multi-Layer
+   Violation between Text "R169" (161.722mm,83.744mm)  Top Overlay and 
+                     Pad U41-1(162.56mm,84.455mm)  Multi-Layer
+   Violation between Text "R169" (161.722mm,83.744mm)  Top Overlay and 
+                     Pad U41-2(165.1mm,84.455mm)  Multi-Layer
+   Violation between Text "R175" (167.437mm,83.744mm)  Top Overlay and 
+                     Pad U44-2(170.815mm,84.455mm)  Multi-Layer
+   Violation between Text "R175" (167.437mm,83.744mm)  Top Overlay and 
+                     Pad U44-1(168.275mm,84.455mm)  Multi-Layer
+   Violation between Text "R181" (173.152mm,83.744mm)  Top Overlay and 
+                     Pad U46-3(173.99mm,84.455mm)  Multi-Layer
+   Violation between Text "C2" (136.944mm,139.827mm)  Bottom Overlay and 
+                     Pad C2-2(136.398mm,138.843mm)  Bottom Layer
+   Violation between Text "C39" (133.096mm,134.239mm)  Bottom Overlay and 
+                     Pad C39-1(134.08mm,134.62mm)  Bottom Layer
+   Violation between Text "C17" (134.402mm,128.71mm)  Bottom Overlay and 
+                     Pad C1-1(133.985mm,128.365mm)  Bottom Layer
+Rule Violations :42
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.4mm) (Max=4mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (InNetClass('SignalNets'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 70
+Time Elapsed        : 00:00:02

@@ -1,4 +1,0 @@
-Added Component: Designator=R129(RES0805)
-Added Pin To Net: NetName=NetQ34_2 Pin=R129-1
-Added Pin To Net: NetName=I5V Pin=R129-2
-Added Member To Class: ClassName=LAMP Member=Component R129 ChipRes
