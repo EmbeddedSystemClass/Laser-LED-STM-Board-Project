@@ -692,22 +692,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document42]
-DocumentPath=..\..\..\..\Public\Documents\Altium\AD14\Library\Miscellaneous Devices.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document43]
 DocumentPath=Fairchild.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
