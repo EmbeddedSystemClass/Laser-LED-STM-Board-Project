@@ -1,4 +1,3 @@
-Record=TopLevelDocument|FileName=main.SchDoc
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=Ethernet|SchDesignator=Ethernet|FileName=EthernetRMIIPHY.SchDoc|SymbolType=Normal|RawFileName=EthernetRMIIPHY.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=LAMP|SchDesignator=LAMP|FileName=DischargeModule.SchDoc|SymbolType=Normal|RawFileName=DischargeModule.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=LaserInterface|SchDesignator=LaserInterface|FileName=LaserInterface.SchDoc|SymbolType=Normal|RawFileName=LaserInterface.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
@@ -8,3 +7,4 @@ Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=Peltier|SchDesignator=P
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=Power|SchDesignator=Power|FileName=MCUPower.SchDoc|SymbolType=Normal|RawFileName=MCUPower.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=USB OTG|SchDesignator=USB OTG|FileName=USBOTGModule.SchDoc|SymbolType=Normal|RawFileName=USBOTGModule.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=WiFi|SchDesignator=WiFi|FileName=WiFiKernel.SchDoc|SymbolType=Normal|RawFileName=WiFiKernel.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=main.SchDoc
