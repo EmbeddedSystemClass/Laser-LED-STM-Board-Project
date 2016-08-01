@@ -1,0 +1,19 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [PCBLaserControlBoardV1.0.PrjPcb]
+   Generated File[LaserControlBoard (extended).GTL]
+   Generated File[LaserControlBoard (extended).GBL]
+   Generated File[LaserControlBoard (extended).GTO]
+   Generated File[LaserControlBoard (extended).GTS]
+   Generated File[LaserControlBoard (extended).GBS]
+   Generated File[LaserControlBoard (extended).GBO]
+   Generated File[LaserControlBoard (extended).GKO]
+   Generated File[LaserControlBoard (extended).RUL]
+   Generated File[LaserControlBoard (extended).EXTREP]
+   Generated File[LaserControlBoard (extended).REP]
+
+
+Files Generated   : 10
+Documents Printed : 0
+
+Finished Output Generation At 2:38:36 PM On 8/1/2016
