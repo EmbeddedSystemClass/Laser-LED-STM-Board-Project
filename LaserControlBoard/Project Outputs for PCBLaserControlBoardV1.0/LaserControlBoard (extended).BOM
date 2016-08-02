@@ -1,0 +1,120 @@
+Bill of Material for 
+On 8/2/2016 at 10:30:05 AM
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ BC847               SOT23           20    Q2, Q4, Q7, Q9, Q14, Q18, Q24 NPN transistor       
+                                           Q25, Q26, Q27, Q28, Q29, Q30
+                                           Q31, Q32, Q33, Q34, Q35, Q36
+                                           Q37
+ BC847B              SOT23            1    Q11                          SOT23 NPN Silicon Planar General Purpose Transistor 
+ BC857               SOT23            9    Q3, Q8, Q12, Q15, Q19, Q20   PNP Transistor       
+                                           Q21, Q22, Q23
+ Cap Pol 25/100      CAPPR2.5-6.3x11.5_1    2    C44, C45                     Polarized Capacitor (Radial) 
+ Cap Pol SMD         CAPC7343         5    C21, C27, C31, C35, C46      Polarized Capacitor (Radial) 
+ CEP-2242            Buzzer           1    SP1                          Buzzer               
+ ChipCap             CAP0805         56    C1, C3, C4, C6, C7, C8, C9   Capacitor            
+                                           C10, C11, C12, C13, C14, C15
+                                           C16, C17, C18, C19, C20, C22
+                                           C23, C24, C25, C29, C30, C32
+                                           C33, C34, C36, C37, C38, C39
+                                           C40, C41, C42, C43, C47, C48
+                                           C49, C50, C51, C52, C53, C54
+                                           C55, C56, C57, C58, C59, C60
+                                           C61, C62, C63, C64, C65, C66
+                                           C67
+ ChipCap             CAP1210          4    C2, C5, C26, C28             Capacitor            
+ ChipRes             RES0805        202    BOOT1, ETH1, R1, R2, R3, R4  Chip resistor        
+                                           R5, R6, R7, R8, R9, R10, R11
+                                           R12, R13, R14, R15, R16, R17
+                                           R18, R19, R20, R21, R22, R23
+                                           R24, R25, R26, R27, R28, R29
+                                           R30, R31, R32, R33, R34, R35
+                                           R36, R37, R38, R39, R40, R41
+                                           R42, R43, R44, R45, R46, R47
+                                           R48, R49, R50, R51, R52, R53
+                                           R54, R55, R56, R57, R58, R59
+                                           R60, R61, R62, R63, R64, R65
+                                           R66, R67, R68, R69, R70, R71
+                                           R72, R73, R74, R75, R76, R77
+                                           R78, R79, R80, R81, R82, R83
+                                           R84, R85, R86, R87, R88, R89
+                                           R90, R91, R92, R93, R94, R95
+                                           R96, R97, R98, R99, R100
+                                           R101, R102, R103, R104, R105
+                                           R106, R107, R108, R109, R110
+                                           R111, R112, R113, R114, R115
+                                           R116, R117, R118, R119, R120
+                                           R121, R122, R123, R124, R125
+                                           R126, R127, R128, R129, R130
+                                           R131, R132, R133, R134, R135
+                                           R136, R137, R138, R139, R140
+                                           R141, R142, R143, R144, R145
+                                           R146, R147, R148, R149, R150
+                                           R151, R152, R153, R154, R155
+                                           R156, R157, R158, R159, R160
+                                           R161, R162, R163, R164, R165
+                                           R166, R167, R168, R169, R170
+                                           R171, R172, R173, R174, R175
+                                           R176, R177, R178, R179, R180
+                                           R181, R182, R183, R184, R185
+                                           R186, R187, R188, R189, R190
+                                           R191, R192, R193, R194, R195
+                                           R196, R197, R198, R199, WIFI1
+ D Connector 15      DSUB1.385-2H15    1    J1                           Receptacle Assembly, 15 Position, Right Angle 
+ Diode 1N4007        DO-41            4    D17, D18, D19, D20           1 Amp General Purpose Rectifier 
+ Diode chip          SMB1             2    D11, D21                     Diode chip           
+ Diode Schottky      SOT23           10    D1, D2, D8, D9, D10, D12, D13 2-Diode Schottky     
+                                           D15, D23, D25
+ FPC_Socket          Molex FPC/FFC 10pin    1    P24                                               
+ FPC_Socket          MOLEX Header 8 2mm Pitch    1    P9                                                
+ Fuse                PTC1812          2    F1, F2                       Fuse PTC 1812 Thermoresistor 
+ HCPL0631            SOIC8            6    U2, U4, U6, U7, U8, U9       2-channel opto-coupler 
+ Header 3 Latch      Header 3 latch    8    Foot1, P1, P2, P11, P12, P13 Header 3 with latch  
+                                           P14, P15
+ Header 5X2          HDR2X5           1    P8                           Header, 5-Pin, Dual row 
+ Header 6            HDR1X6           1    P17                          Header, 6-Pin        
+ Header 8            HDR1X8           1    P5                           Header, 8-Pin        
+ Header 8x2          Header 8x2 HL    1    P10                          Header 16pins (8x2) Hold Latch 
+ HY911105A           HR911105A        1    CN1                          HY911105A            
+ IM07GR              IM0XGR           1    K5                           Signal relay         
+ Inductance          CDRH2D14         2    L1, L3                       Inductance           
+ Inductance          CM45             3    L2, L4, L5                   Inductance           
+ IRFZ44              TO-263AB         6    Q1, Q5, Q6, Q10, Q13, Q16    HEXFET N-Channel Power MOSFET 
+ LAN8720             QFN50P375X375X85_HS-25N    1    U3                           Small Footprint RMII 10/100 Ethernet  Transceiver 
+ LED 0603            LED 0603        14    LED1, LED2, LED3, LED8, LED9                      
+                                           LED10, LED11, LED12, LED13
+                                           LED14, LED15, LINK1, PWR1
+                                           RUN1
+ LED 0603            PLCC-2           4    LED4, LED5, LED6, LED7                            
+ LED                 PLCC-2           3    ETH PWR 1, STM PWR 1                              
+                                           WIFI PWR 1
+ LM358AD             D008_L           1    U22                          Dual Operational Amplifier 
+ LM3671              SOT23-5          2    U1, U10                      600-mA Step-Down DC-DC Converter 
+ LM7805              TO-220           1    U48                          Linear voltage regulator 1A 
+ MC34063             SOP8             1    U17                          DC/DC converter control circuit 
+ MCP3201-CI/MS       MSOP8            2    U44, U46                     SAR 12-bit Analog-to-Digital  (A/D) 
+ MCP601              SOIC8            2    U45, U47                     Operational Amplifier 
+ Micro SD Card Connector WR-CRD SD Micro    1    P7                           Micro SD Card Connector 
+ mini-USB            USB/SM0.8-6H5    1    P4                           mini-USB             
+ Optoisolator1       DIP-4           27    U11, U14, U15, U16, U18, U19 4-Pin Phototransistor Optocoupler 
+                                           U20, U23, U25, U26, U27, U28
+                                           U29, U30, U31, U32, U33, U34
+                                           U35, U36, U37, U38, U39, U40
+                                           U41, U42, U43
+ Relay 1 pole        G5LA             4    K1, K2, K3, K4               Relay G5LE 10A Single Pole 
+ SPWF01SA            SPWF01SA         1    U5                           Serial-to-Wi-Fi b/g/n intelligent module 
+ STM32F407           LQFP144          1    U13                          ST Microcontroller ARM 32-bit Cortex M4 
+ Terminal Block 2x5.08mm Socket 2x5.08    2    P16, P23                     Terminal Block Socket Right Angle 2x5.08mm 2 Wall 
+ Terminal Block 3x5.08mm Socket 3x5.08    4    P19, P20, P21, P22           Terminal Block Socket Right Angle 3x5.08mm 2-Wall 
+ Terminal Block 4x5.08mm Socket 4x5.08    1    P6                           Terminal Block Socket Right Angle 4x5.08mm 2-Wall 
+ Terminal Block 6x5.08mm Socket 6x5.08    1    P18                          Terminal Block Socket Right Angle 6x5.08mm 2-Wall 
+ Terminal Block 8x5.08mm SOCKET 8x5.08    1    P3                           Terminal Block Socket Right Angle 8x5.08mm 2-Wall 
+ TIP41               TO-220           1    Q17                          NPN Epitaxial silicon transistor 
+ TL431ACD            D008_N           1    U21                          Adjustable Precision Shunt Regulator 
+ TLC6515CD           SOIC8            1    U24                          10-bit analog to digiyal converter 
+ TVS Diode           DO-214AS         7    D3, D4, D5, D6, D7, D16, D22 TVS Diode            
+ TVS                 SOT23            2    D14, D24                     Dual bidirectional voltage supresor 
+ ULN2003AD           D016_N           1    U12                          Darlington Transistor Array 
+ Varistor S14F25     S14K25           2    RU1, RU2                     varistor             
+ XTAL                BCY-W2/E4.7      2    X1, X2                       Quartz crystall oscillator 
