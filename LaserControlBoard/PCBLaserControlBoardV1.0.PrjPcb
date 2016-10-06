@@ -468,22 +468,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document28]
-DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\Connectors.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document29]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\Cypress Memory Static RAM.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -499,7 +483,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document30]
+[Document29]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\IndustrialConnectors.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -515,7 +499,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document31]
+[Document30]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\LEDs.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -531,7 +515,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document32]
+[Document31]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\OMRON Relay.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,7 +531,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document33]
+[Document32]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\Protection.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -563,7 +547,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document34]
+[Document33]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\Realtek ETH PHY.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -579,7 +563,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document35]
+[Document34]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\RibbonConnectors.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -595,7 +579,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document36]
+[Document35]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\SMSC Microchip Ethernet Driver.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -611,7 +595,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document37]
+[Document36]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\ST ARM32.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -627,7 +611,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document38]
+[Document37]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\TI Step Motor Driver.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -643,8 +627,24 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document39]
+[Document38]
 DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\TI_DigitalToAnalogConverters.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document39]
+DocumentPath=..\..\..\..\..\Local Git Repositories\AltiumLibraries\My library\Connectors.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
