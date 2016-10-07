@@ -1,16 +1,26 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\LaserControlBoard (extended).PcbDoc
-Date     : 8/1/2016
-Time     : 9:22:16 AM
+Date     : 10/7/2016
+Time     : 3:32:32 PM
 
-Processing Rule : Room MISC (Bounding Region = (38.735mm, 27.305mm, 170.815mm, 99.06mm) (InComponentClass('MISC'))
+Processing Rule : Room Power (Bounding Region = (52.705mm, 28.575mm, 93.98mm, 135.89mm) (InComponentClass('Power'))
+Rule Violations :0
+
+Processing Rule : Room MISC (Bounding Region = (91.44mm, 0mm, 181.864mm, 99.06mm) (InComponentClass('MISC'))
+Rule Violations :0
+
+Processing Rule : Room LaserInterface (Bounding Region = (172.72mm, 66.675mm, 244.475mm, 166.37mm) (InComponentClass('LaserInterface'))
+Rule Violations :0
+
+Processing Rule : Room MCU (Bounding Region = (83.185mm, 99.06mm, 172.72mm, 182.245mm) (InComponentClass('MCU'))
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net IGND Between Pad C64-2 (201.835,172.72mm) And Pad Q3-3 (203.765,172.72mm)
+Rule Violations :1
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
 Rule Violations :0
@@ -25,7 +35,9 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=0.4mm) (Max=4mm) (All)
-Rule Violations :0
+   Violation between Hole Size Constraint (4.29mm > 4mm) : Pad P4-NC(174.368mm,39.257mm)  Multi-Layer
+   Violation between Hole Size Constraint (4.29mm > 4mm) : Pad P4-NC(99.468mm,39.257mm)  Multi-Layer
+Rule Violations :2
 
 Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -34,16 +46,61 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
-Rule Violations :0
+   Violation between Pad C40-1(222.79mm,80.645mm)  Top Layer and 
+                     Arc (222.11mm,81.7mm)  Top Overlay
+   Violation between Pad C42-1(222.79mm,72.39mm)  Top Layer and 
+                     Arc (222.11mm,73.445mm)  Top Overlay
+   Violation between Text "LED15" (159.639mm,58.801mm)  Top Overlay and 
+                     Pad Q37-3(159.95mm,58.42mm)  Top Layer
+   Violation between Text "LED14" (139.319mm,58.801mm)  Top Overlay and 
+                     Pad Q36-3(139.63mm,58.42mm)  Top Layer
+   Violation between Text "D7" (212.674mm,79.07mm)  Top Overlay and 
+                     Pad D8-2(213.995mm,80.45mm)  Top Layer
+   Violation between Track (161.11mm,51.94mm)(176.71mm,51.94mm)  Top Overlay and 
+                     Pad K4-1(168.91mm,53.34mm)  Multi-Layer
+   Violation between Track (140.79mm,51.94mm)(156.39mm,51.94mm)  Top Overlay and 
+                     Pad K3-1(148.59mm,53.34mm)  Multi-Layer
+Rule Violations :7
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
-Rule Violations :0
+   Violation between Text "C44" (59.69mm,66.04mm)  Top Overlay and 
+                     Arc (62.865mm,62.23mm)  Top Overlay
+   Violation between Text "C45" (77.597mm,58.42mm)  Top Overlay and 
+                     Arc (74.93mm,62.23mm)  Top Overlay
+   Violation between Text "LED15" (159.639mm,58.801mm)  Top Overlay and 
+                     Track (158.496mm,57.023mm)(159.258mm,57.023mm)  Top Overlay
+   Violation between Text "LED15" (159.639mm,58.801mm)  Top Overlay and 
+                     Track (159.258mm,57.023mm)(159.258mm,57.658mm)  Top Overlay
+   Violation between Text "LED14" (139.319mm,58.801mm)  Top Overlay and 
+                     Track (138.938mm,57.023mm)(138.938mm,57.658mm)  Top Overlay
+   Violation between Text "LED14" (139.319mm,58.801mm)  Top Overlay and 
+                     Track (138.176mm,57.023mm)(138.938mm,57.023mm)  Top Overlay
+   Violation between Text "P16" (83.185mm,42.545mm)  Top Overlay and 
+                     Track (80.01mm,43.053mm)(91.44mm,43.053mm)  Top Overlay
+   Violation between Text "D15" (65.278mm,86.741mm)  Top Overlay and 
+                     Track (66.167mm,86.487mm)(66.167mm,87.122mm)  Top Overlay
+   Violation between Text "D15" (65.278mm,86.741mm)  Top Overlay and 
+                     Track (66.167mm,87.122mm)(66.929mm,87.122mm)  Top Overlay
+   Violation between Text "Q37" (158.877mm,60.579mm)  Top Overlay and 
+                     Track (161.11mm,51.94mm)(161.11mm,70.739mm)  Top Overlay
+   Violation between Text "R195" (190.754mm,72.644mm)  Bottom Overlay and 
+                     Text "R196" (193.929mm,72.644mm)  Bottom Overlay
+Rule Violations :11
 
 Processing Rule : Silk primitive without silk layer
 Rule Violations :0
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
-Rule Violations :0
+   Violation between Net Antennae: Track (117.475mm,135.89mm)(119.098mm,135.89mm)  Top Layer
+   Violation between Net Antennae: Track (117.475mm,135.339mm)(119.189mm,135.339mm)  Top Layer
+   Violation between Net Antennae: Track (117.475mm,134.885mm)(119.377mm,134.885mm)  Top Layer
+   Violation between Net Antennae: Track (117.475mm,134.431mm)(119.565mm,134.431mm)  Top Layer
+   Violation between Net Antennae: Track (93.345mm,119.38mm)(118.35mm,119.38mm)  Top Layer
+   Violation between Net Antennae: Track (93.345mm,120.015mm)(118.237mm,120.015mm)  Top Layer
+   Violation between Net Antennae: Track (93.345mm,120.65mm)(118.215mm,120.65mm)  Top Layer
+   Violation between Net Antennae: Track (93.345mm,121.139mm)(118.062mm,121.139mm)  Top Layer
+   Violation between Net Antennae: Track (56.388mm,74.295mm)(56.388mm,91.313mm)  Bottom Layer
+Rule Violations :9
 
 Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=1mm) (InNetClass('PowerNet'))
 Rule Violations :0
@@ -57,27 +114,12 @@ Rule Violations :0
 Processing Rule : Room WiFi (Bounding Region = (105.41mm, 146.05mm, 144.145mm, 182.245mm) (InComponentClass('WiFi'))
 Rule Violations :0
 
-Processing Rule : Room Ethernet (Bounding Region = (38.735mm, 135.89mm, 105.41mm, 182.245mm) (InComponentClass('Ethernet'))
-Rule Violations :0
-
-Processing Rule : Room LaserInterface (Bounding Region = (172.72mm, 45.085mm, 244.475mm, 166.37mm) (InComponentClass('LaserInterface'))
-Rule Violations :0
-
 Processing Rule : Room Peltier (Bounding Region = (172.72mm, 106.68mm, 244.475mm, 182.245mm) (InComponentClass('Peltier'))
 Rule Violations :0
 
-Processing Rule : Room LAMP (Bounding Region = (149.479mm, 20.828mm, 244.475mm, 123.825mm) (InComponentClass('LAMP'))
-Rule Violations :0
-
-Processing Rule : Room MCU (Bounding Region = (83.185mm, 99.06mm, 172.72mm, 182.245mm) (InComponentClass('MCU'))
-Rule Violations :0
-
-Processing Rule : Room Power (Bounding Region = (38.735mm, 55.88mm, 83.82mm, 135.89mm) (InComponentClass('Power'))
-Rule Violations :0
-
-Processing Rule : Room USB OTG (Bounding Region = (38.735mm, 120.65mm, 71.12mm, 144.145mm) (InComponentClass('USB OTG'))
+Processing Rule : Room LAMP (Bounding Region = (149.479mm, 66.675mm, 201.93mm, 123.825mm) (InComponentClass('LAMP'))
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 30
 Time Elapsed        : 00:00:02
