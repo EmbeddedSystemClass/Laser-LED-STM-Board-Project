@@ -1,3 +1,5 @@
+Record=TopLevelDocument|FileName=main.SchDoc
+Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=Audio|SchDesignator=Audio|FileName=AudioAmplD.SchDoc|SymbolType=Normal|RawFileName=AudioAmplD.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=LAMP|SchDesignator=LAMP|FileName=DischargeModule.SchDoc|SymbolType=Normal|RawFileName=DischargeModule.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=LaserInterface|SchDesignator=LaserInterface|FileName=LaserInterface.SchDoc|SymbolType=Normal|RawFileName=LaserInterface.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=STMKernel144.SchDoc|SymbolType=Normal|RawFileName=STMKernel144.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
@@ -5,4 +7,3 @@ Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=MISC|SchDesignator=MISC
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=Peltier|SchDesignator=Peltier|FileName=IsolatedPeltierDriver.SchDoc|SymbolType=Normal|RawFileName=IsolatedPeltierDriver.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=Power|SchDesignator=Power|FileName=MCUPower.SchDoc|SymbolType=Normal|RawFileName=MCUPower.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=WiFi|SchDesignator=WiFi|FileName=WiFiKernel.SchDoc|SymbolType=Normal|RawFileName=WiFiKernel.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=TopLevelDocument|FileName=main.SchDoc
