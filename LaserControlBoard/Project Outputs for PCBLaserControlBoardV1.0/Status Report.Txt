@@ -1,11 +1,9 @@
-Output: Simple BOM
-Type  : SimpleBOM
+Output: Bill of Materials
+Type  : BOM
 From  : Variant [[No Variations]] of Project [PCBLaserControlBoardV1.0.PrjPcb]
-   Generated File[LaserControlBoard (extended).BOM]
-   Generated File[LaserControlBoard (extended).CSV]
 
 
-Files Generated   : 2
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 1:15:13 PM On 10/14/2016
+Finished Output Generation At 9:38:12 AM On 11/3/2016
