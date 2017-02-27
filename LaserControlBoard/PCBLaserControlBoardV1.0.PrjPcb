@@ -155,7 +155,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=BMDVENNK
 
 [Document8]
 DocumentPath=BJT.PcbLib
