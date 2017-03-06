@@ -803,40 +803,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ADKPAGPY
 
-[Document46]
-DocumentPath=LaserControlBoard (bottom).PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EHYICVEF
-
-[Document47]
-DocumentPath=LaserControlBoard (top).PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FUGNBVQH
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Design Rule Check - LaserControlBoard (extended).html
 DItemRevisionGUID=
