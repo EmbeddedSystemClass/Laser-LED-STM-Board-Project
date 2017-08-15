@@ -1,0 +1,464 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD16\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">8/15/2017</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:36:09 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:07</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc" class="file"><acronym title="C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc">C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">16</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">8</td></tr>
+</table>
+</td>
+</table><a name="IDLU3RCV5DF2X4K5LA4HBN2IEH2NSJTGPM1O4II3MQUELOTMNQCMOK"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5VAZT2FYFPDYHSSK021DEM30DJOLY4Z0WKQYO2G2UBTYM2KCGEZG">16 Net Ties failed verification</a></td>
+<td class="column2">16</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">16</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWFHPAZNGR34BKH43ZCAY4VPFLMS5T1ZD0IVA3SMORK2UAEMXNRTB">Room MCU (Bounding Region = (84.455mm, 93.345mm, 177.8mm, 182.245mm) (InComponentClass('MCU'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXE5DS3MN5USYLXZF2PHDABKDBL5ZU1EBXYUJDSF4GUPO4K3DVYTI">Room LAMP (Bounding Region = (149.479mm, 66.675mm, 201.93mm, 123.825mm) (InComponentClass('LAMP'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJY5IJJTOV4NPK1GMDUBY4WYU2EVHTMY4PENW4GEX1JAP1GW40GKG">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('All Pads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIDEIXQ5WPWO022S0HKZAJY5JNYOJ0PUZ4TPICJM4VXK41H5GSGG">Room Audio (Bounding Region = (52.578mm, 135.89mm, 108.585mm, 182.245mm) (InComponentClass('Audio'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSKUK5PHLO1GWEFNAZSYGIQ2MDJEW3MKDU2OFQVBGK2NZVF3XRSQG">Room WiFi (Bounding Region = (108.585mm, 146.05mm, 142.24mm, 182.245mm) (InComponentClass('WiFi'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWJXNV3FVRL0GBKZ1FRCEPRSQWC4ARAZPGD4L0NI3BKS2RUMW53SP">Width Constraint (Min=0.254mm) (Max=5mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRSPISXJJHWDCPZFHUR1H2HD40F2T422X4YGQVUDYC1RXIML2QO">Width Constraint (Min=0.128mm) (Max=1.016mm) (Preferred=0.508mm) (InNetClass('AnalogPowerNet'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKWXTT2232TI4J1CJD1JMVEWB4ESWL2VF4GTT40FMJCWU04LZHGUD">Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=1mm) (InNetClass('PowerNet'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID34QPBKNIXQWYGHNQ1ARZVU1UKKB2BA0ID0LDEFKWYZYICZRK4I0K">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUPXYNH1PI5DUH3EIPG4ISIV2NEYL4ENG0EN5FCJD4QVE5YU3TLLL">Silk primitive without silk layer</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDN2XVLMZVA0B4DFE3XHRH3F5TQP1HII0RFVMDMUI5YHUYGVKWNXSD">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3PIKXJOIVKUIH01KREPIWRE3DK3S2G5KM2WAYAGDMTYOKU1ZZ0LP">Silk To Solder Mask (Clearance=0.2mm) (IsPad),(All)</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFFAO2Y22JPA2RQHMAJIFP33EUXBZMYYI2J0BHYLKWF4UHSFLEN">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0AKBMNBEKNIBBALFSYU0J0MJAJ30NSKE5QL5WUDDW3XULC2OMBHI">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDDK3NXXY0IPZFEVFG3KNNZ3KUXYUZIN30QRMZIOV0352VKBKE0WF">Hole Size Constraint (Min=0.4mm) (Max=8mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRAJHIVBEOZOEBCGLPDP2X5RSWBB14UKNA1ECURLP4HPDFHL2UEYD">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBEAVX5I02HAJG0VER40IFUNGDDU1HGRNVNWE2BPR5CER2JLV3R3E">Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (InNetClass('SignalNets'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSQIF1NAUQIJJP42BFSHDZLIPMB3TGZXMKUYFA4KRTMZA4NRQ2SVJ">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InNet('GND'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDS1R1V02LPH3COAOLYMTR1ZIWFVYXARDU4PY1QBZD50KVO01EIHL">Clearance Constraint (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVOXJEG2WV2CMHPJ5A5C2UD4HLEZ0XZH3YXISEVBK00WZGDJB20VK">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIOGYDKFZOIWEFM0KEWVISAAOKER4003D5MJUMILIYKLYYAZ0VHOF">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDEVFKJ21PJZCNOK15M1RTG5PIWHAXLQXVHQ0Y5GVM4C50J2BG2IM">Room MISC (Bounding Region = (91.44mm, 0mm, 181.864mm, 99.06mm) (InComponentClass('MISC'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDW1TQUFJHKWKHD4X3J5MAN5PYRPQEGAFTUV1UEHFHX02N0NV1BQM">Room Power (Bounding Region = (52.705mm, 28.575mm, 93.98mm, 135.89mm) (InComponentClass('Power'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2FPZDYDHOP2PKFACPJ5UA0XFCEGWZXJ5545L4NDBBLFLGVQM3PBO">Room LaserInterface (Bounding Region = (169.545mm, 66.675mm, 244.475mm, 166.37mm) (InComponentClass('LaserInterface'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSJE3YWPNMFXZLMCICLFTNLUI2QPYCAXZRX544EUMSIJCHOBLEID">Room Peltier (Bounding Region = (169.545mm, 101.727mm, 244.475mm, 182.245mm) (InComponentClass('Peltier'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID52XWHCIUXNULDCMJJLZRYXOYLNOBQNEY1PQ1PFJLMFGYPOULISXH">Room GPSModule (Bounding Region = (142.24mm, 147.955mm, 169.545mm, 182.245mm) (InComponentClass('GPSModule'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">8</td>
+</tr>
+</table><br><a name="IDFS1NHI2SXVRVFL5PU4ROP0SRMBZSK03AEB11CUI3QZEOV2O4Y4LB"><h2>Warnings</h2></a><a name="ID5VAZT2FYFPDYHSSK021DEM30DJOLY4Z0WKQYO2G2UBTYM2KCGEZG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning">16 Net Ties failed verification</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.26mil|Location2.X=8667.74mil|Location1.Y=3448.583mil|Location2.Y=3562.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.26mil|Location2.X=8667.74mil|Location1.Y=3448.583mil|Location2.Y=3562.55mil|Absolute=True">SMT Small Component J7-Jumper (143.129mm,49.149mm) on Top Layer</acronym></a>, SMT Small Component J7-Jumper (143.129mm,49.149mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.26mil|Location2.X=8667.74mil|Location1.Y=3113.583mil|Location2.Y=3222.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.26mil|Location2.X=8667.74mil|Location1.Y=3113.583mil|Location2.Y=3222.55mil|Absolute=True">SMT Small Component J6-Jumper (143.129mm,40.64mm) on Top Layer</acronym></a>, SMT Small Component J6-Jumper (143.129mm,40.64mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2847.45mil|Location2.X=2961.417mil|Location1.Y=4192.26mil|Location2.Y=4357.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2847.45mil|Location2.X=2961.417mil|Location1.Y=4192.26mil|Location2.Y=4357.74mil|Absolute=True">SMT Small Component J5-Jumper (-0.635mm,69.215mm) on Top Layer</acronym></a>, SMT Small Component J5-Jumper (-0.635mm,69.215mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3188.583mil|Location2.X=3305mil|Location1.Y=4192.26mil|Location2.Y=4357.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3188.583mil|Location2.X=3305mil|Location1.Y=4192.26mil|Location2.Y=4357.74mil|Absolute=True">SMT Small Component J4-Jumper (6.985mm,69.215mm) on Top Layer</acronym></a>, SMT Small Component J4-Jumper (6.985mm,69.215mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2663.519mil|Location2.X=2836.417mil|Location1.Y=6452.26mil|Location2.Y=6617.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2663.519mil|Location2.X=2836.417mil|Location1.Y=6452.26mil|Location2.Y=6617.74mil|Absolute=True">SMT Small Component J3 (-3.81mm,126.619mm) on Bottom Layer</acronym></a>, SMT Small Component J3 (-3.81mm,126.619mm) on Bottom Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2188.519mil|Location2.X=2361.417mil|Location1.Y=6457.26mil|Location2.Y=6622.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2188.519mil|Location2.X=2361.417mil|Location1.Y=6457.26mil|Location2.Y=6622.74mil|Absolute=True">SMT Small Component J2 (-15.875mm,126.746mm) on Bottom Layer</acronym></a>, SMT Small Component J2 (-15.875mm,126.746mm) on Bottom Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4163.583mil|Location2.X=4290mil|Location1.Y=5692.26mil|Location2.Y=5949.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4163.583mil|Location2.X=4290mil|Location1.Y=5692.26mil|Location2.Y=5949.981mil|Absolute=True">SMT Small Component J1-12V Jumper (31.75mm,107.315mm) on Bottom Layer</acronym></a>, SMT Small Component J1-12V Jumper (31.75mm,107.315mm) on Bottom Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4185mil|Location2.X=4263.876mil|Location1.Y=1767.26mil|Location2.Y=1982.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4185mil|Location2.X=4263.876mil|Location1.Y=1767.26mil|Location2.Y=1982.55mil|Absolute=True">SMT Small Component J10-Jumper (32.385mm,7.62mm) on Top Layer</acronym></a>, SMT Small Component J10-Jumper (32.385mm,7.62mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4288.583mil|Location2.X=4361.417mil|Location1.Y=1767.26mil|Location2.Y=1982.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4288.583mil|Location2.X=4361.417mil|Location1.Y=1767.26mil|Location2.Y=1982.55mil|Absolute=True">SMT Small Component J11-Jumper (34.925mm,7.62mm) on Top Layer</acronym></a>, SMT Small Component J11-Jumper (34.925mm,7.62mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4380mil|Location2.X=4461.417mil|Location1.Y=1767.26mil|Location2.Y=1982.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4380mil|Location2.X=4461.417mil|Location1.Y=1767.26mil|Location2.Y=1982.55mil|Absolute=True">SMT Small Component J12-Jumper (37.465mm,7.62mm) on Top Layer</acronym></a>, SMT Small Component J12-Jumper (37.465mm,7.62mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4485mil|Location2.X=4563.876mil|Location1.Y=1767.26mil|Location2.Y=1982.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4485mil|Location2.X=4563.876mil|Location1.Y=1767.26mil|Location2.Y=1982.55mil|Absolute=True">SMT Small Component J13-Jumper (40.005mm,7.62mm) on Top Layer</acronym></a>, SMT Small Component J13-Jumper (40.005mm,7.62mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5592.26mil|Location2.X=5843.876mil|Location1.Y=1938.583mil|Location2.Y=2011.417mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5592.26mil|Location2.X=5843.876mil|Location1.Y=1938.583mil|Location2.Y=2011.417mil|Absolute=True">SMT Small Component J14-Jumper (69.215mm,10.795mm) on Top Layer</acronym></a>, SMT Small Component J14-Jumper (69.215mm,10.795mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5592.26mil|Location2.X=5843.876mil|Location1.Y=1868.583mil|Location2.Y=1941.417mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5592.26mil|Location2.X=5843.876mil|Location1.Y=1868.583mil|Location2.Y=1941.417mil|Absolute=True">SMT Small Component J15-Jumper (69.215mm,9.017mm) on Top Layer</acronym></a>, SMT Small Component J15-Jumper (69.215mm,9.017mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6397.26mil|Location2.X=6648.876mil|Location1.Y=1938.583mil|Location2.Y=2011.417mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6397.26mil|Location2.X=6648.876mil|Location1.Y=1938.583mil|Location2.Y=2011.417mil|Absolute=True">SMT Small Component J16-Jumper (89.662mm,10.795mm) on Top Layer</acronym></a>, SMT Small Component J16-Jumper (89.662mm,10.795mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6392.26mil|Location2.X=6643.876mil|Location1.Y=1813.583mil|Location2.Y=1886.417mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6392.26mil|Location2.X=6643.876mil|Location1.Y=1813.583mil|Location2.Y=1886.417mil|Absolute=True">SMT Small Component J17-Jumper (89.535mm,7.62mm) on Top Layer</acronym></a>, SMT Small Component J17-Jumper (89.535mm,7.62mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6288.583mil|Location2.X=6361.417mil|Location1.Y=6351.124mil|Location2.Y=6607.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6288.583mil|Location2.X=6361.417mil|Location1.Y=6351.124mil|Location2.Y=6607.74mil|Absolute=True">SMT Small Component J18-Jumper (85.725mm,126.365mm) on Top Layer</acronym></a>, SMT Small Component J18-Jumper (85.725mm,126.365mm) on Top Layer, has isolated copper</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID3PIKXJOIVKUIH01KREPIWRE3DK3S2G5KM2WAYAGDMTYOKU1ZZ0LP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.2mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6662.22mil|Location2.X=6671.344mil|Location1.Y=6078.572mil|Location2.Y=6087.696mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6662.22mil|Location2.X=6671.344mil|Location1.Y=6078.572mil|Location2.Y=6087.696mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.143mm &lt; 0.2mm) Between Text "U9" (94.615mm,114.935mm) on Top Overlay And Pad C67-2(93.035mm,114.3mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.143mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3057.249mil|Location2.X=3066.373mil|Location1.Y=4890.162mil|Location2.Y=4899.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3057.249mil|Location2.X=3066.373mil|Location1.Y=4890.162mil|Location2.Y=4899.286mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (2.99mm,84.201mm)(2.99mm,88.011mm) on Top Overlay And Pad D9-1(1.74mm,86.106mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2783.627mil|Location2.X=2792.751mil|Location1.Y=4890.162mil|Location2.Y=4899.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2783.627mil|Location2.X=2792.751mil|Location1.Y=4890.162mil|Location2.Y=4899.286mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (-4.26mm,84.201mm)(-4.26mm,88.011mm) on Top Overlay And Pad D9-2(-3.01mm,86.106mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.627mil|Location2.X=3867.751mil|Location1.Y=6675.162mil|Location2.Y=6684.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.627mil|Location2.X=3867.751mil|Location1.Y=6675.162mil|Location2.Y=6684.286mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (23.045mm,129.54mm)(23.045mm,133.35mm) on Top Overlay And Pad D3-2(24.295mm,131.445mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4132.249mil|Location2.X=4141.373mil|Location1.Y=6675.162mil|Location2.Y=6684.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4132.249mil|Location2.X=4141.373mil|Location1.Y=6675.162mil|Location2.Y=6684.286mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (30.295mm,129.54mm)(30.295mm,133.35mm) on Top Overlay And Pad D3-1(29.045mm,131.445mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4132.249mil|Location2.X=4141.373mil|Location1.Y=6150.162mil|Location2.Y=6159.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4132.249mil|Location2.X=4141.373mil|Location1.Y=6150.162mil|Location2.Y=6159.286mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (30.295mm,116.205mm)(30.295mm,120.015mm) on Top Overlay And Pad D8-1(29.045mm,118.11mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.627mil|Location2.X=3867.751mil|Location1.Y=6150.162mil|Location2.Y=6159.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3858.627mil|Location2.X=3867.751mil|Location1.Y=6150.162mil|Location2.Y=6159.286mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (23.045mm,116.205mm)(23.045mm,120.015mm) on Top Overlay And Pad D8-2(24.295mm,118.11mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDVOXJEG2WV2CMHPJ5A5C2UD4HLEZ0XZH3YXISEVBK00WZGDJB20VK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3387.795mil|Location2.X=3630mil|Location1.Y=6025mil|Location2.Y=6305mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3387.795mil|Location2.X=3630mil|Location1.Y=6025mil|Location2.Y=6305mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad C64-2(13.66mm,116.205mm) on Top Layer And Track (14.732mm,118.237mm)(18.161mm,114.808mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

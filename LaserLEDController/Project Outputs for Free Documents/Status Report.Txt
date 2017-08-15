@@ -1,0 +1,10 @@
+Output: AutoCAD dwg/dxf File PCB
+Type  : AutoCAD PCB
+From  : PCB Document [EmitterControllerV1R1.PcbDoc]
+   Generated File[EmitterControllerV1R1.DWG]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:36:55 PM On 7/24/2017

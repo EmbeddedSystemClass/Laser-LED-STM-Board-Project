@@ -1,13 +1,9 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : Project [PCBLaserControlBoardV1.0.PrjPcb]
-   Generated File[Calipso V2.0 REV2.0-Plated.TXT]
-   Generated File[Calipso V2.0 REV2.0-NonPlated.TXT]
-   Generated File[Calipso V2.0 REV2.0.LDP]
-   Generated File[Calipso V2.0 REV2.0.DRR]
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [PCBLaserControlBoardV1.0.PrjPcb]
 
 
-Files Generated   : 4
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 12:38:55 PM On 4/3/2017
+Finished Output Generation At 4:46:48 PM On 4/21/2017

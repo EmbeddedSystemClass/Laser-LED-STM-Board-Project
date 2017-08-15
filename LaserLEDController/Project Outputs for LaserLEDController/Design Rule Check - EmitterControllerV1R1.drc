@@ -1,0 +1,57 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserLEDController\EmitterControllerV1R1.PcbDoc
+Date     : 7/24/2017
+Time     : 12:02:06 PM
+
+Processing Rule : Room LaserLEDController (Bounding Region = (23.75mm, 23.75mm, 46.875mm, 45mm) (InComponentClass('LaserLEDController'))
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.251mm < 0.254mm) Between Text "C7" (25.25mm,31mm) on Top Overlay And Arc (26.429mm,30.695mm) on Top Overlay Silk Text to Silk Clearance [0.251mm]
+   Violation between Silk To Silk Clearance Constraint: (0.167mm < 0.254mm) Between Text "C9" (28.194mm,40.894mm) on Top Overlay And Arc (28.68mm,41.218mm) on Top Overlay Silk Text to Silk Clearance [0.167mm]
+   Violation between Silk To Silk Clearance Constraint: (0.212mm < 0.254mm) Between Text "P1" (43.434mm,43.561mm) on Top Overlay And Track (43.434mm,43.18mm)(45.974mm,43.18mm) on Top Overlay Silk Text to Silk Clearance [0.212mm]
+   Violation between Silk To Silk Clearance Constraint: (0.212mm < 0.254mm) Between Text "P1" (43.434mm,43.561mm) on Top Overlay And Track (43.434mm,25.4mm)(43.434mm,43.18mm) on Top Overlay Silk Text to Silk Clearance [0.212mm]
+   Violation between Silk To Silk Clearance Constraint: (0.189mm < 0.254mm) Between Text "C8" (41.91mm,41.402mm) on Top Overlay And Track (43.434mm,25.4mm)(43.434mm,43.18mm) on Top Overlay Silk Text to Silk Clearance [0.189mm]
+   Violation between Silk To Silk Clearance Constraint: (0.132mm < 0.254mm) Between Text "REV 2.0" (39mm,25.625mm) on Bottom Overlay And Text "Emitter Controller V1.0" (43.75mm,24.565mm) on Bottom Overlay Silk Text to Silk Clearance [0.132mm]
+   Violation between Silk To Silk Clearance Constraint: (0.224mm < 0.254mm) Between Text "R1" (28.321mm,39.497mm) on Top Overlay And Text "C6" (26.797mm,38.862mm) on Top Overlay Silk Text to Silk Clearance [0.224mm]
+Rule Violations :7
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 7
+Time Elapsed        : 00:00:01
