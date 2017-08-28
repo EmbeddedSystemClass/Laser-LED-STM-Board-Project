@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV2.0 (new origin).PcbDoc
-Date     : 8/15/2017
-Time     : 4:53:23 PM
+Date     : 8/25/2017
+Time     : 11:09:58 AM
 
 WARNING: 16 Net Ties failed verification
    SMT Small Component J18-Jumper (85.725mm,126.365mm) on Top Layer, SMT Small Component J18-Jumper (85.725mm,126.365mm) on Top Layer, has isolated copper
@@ -22,15 +22,13 @@ WARNING: 16 Net Ties failed verification
    SMT Small Component J7-Jumper (143.129mm,49.149mm) on Top Layer, SMT Small Component J7-Jumper (143.129mm,49.149mm) on Top Layer, has isolated copper
 
 Processing Rule : Room GPSModule (Bounding Region = (142.24mm, 147.32mm, 169.545mm, 182.245mm) (InComponentClass('GPSModule'))
-Rule Violations :0
+   Violation between Room Definition: Between SMT SIP Component TP18-Test Point 5x2 (76.2mm,130.81mm) on Bottom Layer And Room GPSModule (Bounding Region = (142.24mm, 147.32mm, 169.545mm, 182.245mm) (InComponentClass('GPSModule')) 
+Rule Violations :1
 
 Processing Rule : Room Peltier (Bounding Region = (169.545mm, 101.727mm, 244.475mm, 182.245mm) (InComponentClass('Peltier'))
 Rule Violations :0
 
 Processing Rule : Room LaserInterface (Bounding Region = (169.545mm, 66.675mm, 244.475mm, 166.37mm) (InComponentClass('LaserInterface'))
-Rule Violations :0
-
-Processing Rule : Room Power (Bounding Region = (52.705mm, 28.575mm, 93.98mm, 135.89mm) (InComponentClass('Power'))
 Rule Violations :0
 
 Processing Rule : Room MISC (Bounding Region = (91.44mm, 0mm, 181.864mm, 99.06mm) (InComponentClass('MISC'))
@@ -94,12 +92,17 @@ Rule Violations :0
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('All Pads'))
 Rule Violations :0
 
-Processing Rule : Room LAMP (Bounding Region = (149.479mm, 66.675mm, 201.93mm, 123.825mm) (InComponentClass('LAMP'))
-Rule Violations :0
-
 Processing Rule : Room MCU (Bounding Region = (84.455mm, 93.345mm, 177.8mm, 182.245mm) (InComponentClass('MCU'))
 Rule Violations :0
 
+Processing Rule : Room LAMP (Bounding Region = (149.479mm, 66.675mm, 209.55mm, 123.825mm) (InComponentClass('LAMP'))
+   Violation between Room Definition: Between SMT SIP Component TP6-Test Point 5x2 (98.425mm,91.44mm) on Bottom Layer And Room LAMP (Bounding Region = (149.479mm, 66.675mm, 209.55mm, 123.825mm) (InComponentClass('LAMP')) 
+Rule Violations :1
 
-Violations Detected : 1
-Time Elapsed        : 00:00:03
+Processing Rule : Room Power (Bounding Region = (52.705mm, 28.575mm, 93.98mm, 135.89mm) (InComponentClass('Power'))
+   Violation between Room Definition: Between SMT SIP Component TP15-Test Point 5x2 (1.27mm,62.23mm) on Bottom Layer And Room Power (Bounding Region = (52.705mm, 28.575mm, 93.98mm, 135.89mm) (InComponentClass('Power')) 
+Rule Violations :1
+
+
+Violations Detected : 4
+Time Elapsed        : 00:00:04
