@@ -1,0 +1,6 @@
+Added Component: Designator=J8(DSUB1.385-2H9F)
+Added Component: Designator=J9(DSUB1.385-2H9F)
+Added Member To Class: ClassName=Audio Member=Component J1 12V Jumper
+Added Member To Class: ClassName=Audio Member=Component J2 
+Added Member To Class: ClassName=MISC Member=Component J8 D Connector 9
+Added Member To Class: ClassName=MISC Member=Component J9 D Connector 9
