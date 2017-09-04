@@ -1,0 +1,8 @@
+Added Component: Designator=R145(RES1206)
+Added Component: Designator=R146(RES0805)
+Added Pin To Net: NetName=PVCC Pin=R145-1
+Added Pin To Net: NetName=AVCC Pin=R145-2
+Added Pin To Net: NetName=AVCC Pin=R146-1
+Added Pin To Net: NetName=NetR146_2 Pin=R146-2
+Added Member To Class: ClassName=Audio Member=Component R145 RES1206 10R 1%
+Added Member To Class: ClassName=Audio Member=Component R146 RES0805 100K 1%

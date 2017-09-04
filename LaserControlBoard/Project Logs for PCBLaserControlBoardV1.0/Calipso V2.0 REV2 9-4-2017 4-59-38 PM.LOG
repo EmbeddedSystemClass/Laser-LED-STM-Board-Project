@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=AGND Pin=C10-1
+Added Pin To Net: NetName=DAC_OUT Pin=C4-1
+Added Pin To Net: NetName=DAC_OUT Pin=U13-40
+Added Net: Name=DAC_OUT

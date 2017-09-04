@@ -1,0 +1,156 @@
+Added Component: Designator=C3(CAPPR5-10x17_1)
+Added Component: Designator=C4(CAP0805)
+Added Component: Designator=C9(CAP0603)
+Added Component: Designator=C10(CAP0805)
+Added Component: Designator=C15(CAP0805)
+Added Component: Designator=C18(CAP0603)
+Added Component: Designator=C20(CAP0805)
+Added Component: Designator=C64(CAPC7343)
+Added Component: Designator=C65(CAPC7343)
+Added Component: Designator=C77(CAP0805)
+Added Component: Designator=C78(CAP0805)
+Added Component: Designator=C79(CAP0805)
+Added Component: Designator=C80(CAP0805)
+Added Component: Designator=C81(CAP0603)
+Added Component: Designator=C82(CAP0603)
+Added Component: Designator=C83(CAP0603)
+Added Component: Designator=C84(CAP0603)
+Added Component: Designator=D2(SMB1)
+Added Component: Designator=FB1(RES0805)
+Added Component: Designator=FB2(RES0805)
+Added Component: Designator=P2(Socket 4x5.08)
+Added Component: Designator=R143(RES0805)
+Added Component: Designator=R144(RES0805)
+Added Component: Designator=R147(RES0805)
+Added Component: Designator=U2(TSSOP-28)
+Added Component: Designator=U48(SOT223-4M)
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=GND Pin=C64-2
+Added Pin To Net: NetName=+5DV Pin=C65-1
+Added Pin To Net: NetName=GND Pin=C65-2
+Added Pin To Net: NetName=GND Pin=C77-1
+Added Pin To Net: NetName=GND Pin=C78-1
+Added Pin To Net: NetName=GND Pin=C79-1
+Added Pin To Net: NetName=GND Pin=C80-1
+Added Pin To Net: NetName=GND Pin=C81-1
+Added Pin To Net: NetName=GND Pin=C82-1
+Added Pin To Net: NetName=GND Pin=C83-1
+Added Pin To Net: NetName=GND Pin=C84-1
+Added Pin To Net: NetName=GND Pin=D2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U2-8
+Added Pin To Net: NetName=GND Pin=U2-13
+Added Pin To Net: NetName=GND Pin=U2-19
+Added Pin To Net: NetName=GND Pin=U2-24
+Added Pin To Net: NetName=GND Pin=U2-29
+Added Pin To Net: NetName=GND Pin=U48-1
+Added Pin To Net: NetName=+5DV Pin=U48-2
+Added Pin To Net: NetName=+5DV Pin=U48-4
+Change Net Name : Old Net Name=GND New Net Name=AGND
+Added Pin To Net: NetName=AVCC Pin=U2-7
+Added Net: Name=AVCC
+Added Pin To Net: NetName=DAC_N Pin=C10-2
+Added Pin To Net: NetName=DAC_N Pin=U2-11
+Added Net: Name=DAC_N
+Added Pin To Net: NetName=DAC_P Pin=C4-2
+Added Pin To Net: NetName=DAC_P Pin=U2-12
+Added Net: Name=DAC_P
+Added Pin To Net: NetName=NetC9_1 Pin=C9-1
+Added Pin To Net: NetName=NetC9_1 Pin=U2-17
+Added Pin To Net: NetName=NetC9_1 Pin=U2-21
+Added Net: Name=NetC9_1
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=NetC9_2 Pin=FB1-1
+Added Pin To Net: NetName=NetC9_2 Pin=U2-18
+Added Pin To Net: NetName=NetC9_2 Pin=U2-20
+Added Net: Name=NetC9_2
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_1 Pin=FB1-2
+Added Pin To Net: NetName=NetC15_1 Pin=P2-3
+Added Net: Name=NetC15_1
+Added Pin To Net: NetName=NetC18_1 Pin=C18-1
+Added Pin To Net: NetName=NetC18_1 Pin=U2-22
+Added Pin To Net: NetName=NetC18_1 Pin=U2-26
+Added Net: Name=NetC18_1
+Added Pin To Net: NetName=NetC18_2 Pin=C18-2
+Added Pin To Net: NetName=NetC18_2 Pin=FB2-1
+Added Pin To Net: NetName=NetC18_2 Pin=U2-23
+Added Pin To Net: NetName=NetC18_2 Pin=U2-25
+Added Net: Name=NetC18_2
+Added Pin To Net: NetName=NetC20_1 Pin=C20-1
+Added Pin To Net: NetName=NetC20_1 Pin=FB2-2
+Added Pin To Net: NetName=NetC20_1 Pin=P2-4
+Added Net: Name=NetC20_1
+Added Pin To Net: NetName=NetC76_1 Pin=U2-9
+Added Pin To Net: NetName=NetC76_1 Pin=U2-10
+Added Net: Name=NetC76_1
+Added Pin To Net: NetName=NetR143_1 Pin=R143-1
+Added Pin To Net: NetName=NetR143_1 Pin=R147-2
+Added Net: Name=NetR143_1
+Added Pin To Net: NetName=NetR143_2 Pin=R143-2
+Added Pin To Net: NetName=NetR143_2 Pin=U2-2
+Added Net: Name=NetR143_2
+Added Pin To Net: NetName=NetR144_1 Pin=R144-1
+Added Net: Name=NetR144_1
+Added Pin To Net: NetName=NetR144_2 Pin=R144-2
+Added Pin To Net: NetName=NetR144_2 Pin=U2-1
+Added Net: Name=NetR144_2
+Added Pin To Net: NetName=NetR146_2 Pin=U2-14
+Added Net: Name=NetR146_2
+Added Pin To Net: NetName=NetU2_5 Pin=U2-5
+Added Net: Name=NetU2_5
+Added Pin To Net: NetName=NetU2_6 Pin=U2-6
+Added Net: Name=NetU2_6
+Added Pin To Net: NetName=PVCC Pin=C3-1
+Added Pin To Net: NetName=PVCC Pin=C64-1
+Added Pin To Net: NetName=PVCC Pin=C77-2
+Added Pin To Net: NetName=PVCC Pin=C78-2
+Added Pin To Net: NetName=PVCC Pin=C79-2
+Added Pin To Net: NetName=PVCC Pin=C80-2
+Added Pin To Net: NetName=PVCC Pin=C81-2
+Added Pin To Net: NetName=PVCC Pin=C82-2
+Added Pin To Net: NetName=PVCC Pin=C83-2
+Added Pin To Net: NetName=PVCC Pin=C84-2
+Added Pin To Net: NetName=PVCC Pin=D2-2
+Added Pin To Net: NetName=PVCC Pin=P2-1
+Added Pin To Net: NetName=PVCC Pin=R147-1
+Added Pin To Net: NetName=PVCC Pin=U2-15
+Added Pin To Net: NetName=PVCC Pin=U2-16
+Added Pin To Net: NetName=PVCC Pin=U2-27
+Added Pin To Net: NetName=PVCC Pin=U2-28
+Added Pin To Net: NetName=PVCC Pin=U48-3
+Added Net: Name=PVCC
+Added Differential Pair: Name=DAC
+Added Member To Class: ClassName=Audio Member=Component C3 Cap Pol 100/47
+Added Member To Class: ClassName=Audio Member=Component C4 CAP0805 1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C9 ChipCap 0.47u X7R
+Added Member To Class: ClassName=Audio Member=Component C10 CAP0805 1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C15 CAP0805 1000pF NP0
+Added Member To Class: ClassName=Audio Member=Component C18 ChipCap 0.47u X7R
+Added Member To Class: ClassName=Audio Member=Component C20 CAP0805 1000pF NP0
+Added Member To Class: ClassName=Audio Member=Component C64 Cap Pol SMD
+Added Member To Class: ClassName=Audio Member=Component C65 Cap Pol SMD
+Added Member To Class: ClassName=Audio Member=Component C77 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C78 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C79 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C80 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C81 ChipCap 1000 NP0
+Added Member To Class: ClassName=Audio Member=Component C82 ChipCap 1000 NP0
+Added Member To Class: ClassName=Audio Member=Component C83 ChipCap 1000 NP0
+Added Member To Class: ClassName=Audio Member=Component C84 ChipCap 1000 NP0
+Added Member To Class: ClassName=Audio Member=Component D2 SMP100LC-35
+Added Member To Class: ClassName=Audio Member=Component FB1 Ferrite
+Added Member To Class: ClassName=Audio Member=Component FB2 Ferrite
+Added Member To Class: ClassName=Audio Member=Component P2 Terminal Block 4x5.08mm
+Added Member To Class: ClassName=Audio Member=Component R143 RES0805 1K 1%
+Added Member To Class: ClassName=Audio Member=Component R144 RES0805 1K 1%
+Added Member To Class: ClassName=Audio Member=Component R147 RES0805 100K 1%
+Added Member To Class: ClassName=Audio Member=Component U2 TPA3112D1
+Added Member To Class: ClassName=Audio Member=Component U48 LM1117
+Added Room: Name=Audio
