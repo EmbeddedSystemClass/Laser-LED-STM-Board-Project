@@ -1,0 +1,25 @@
+Added Component: Designator=C74(CAP0805)
+Added Component: Designator=R12(RES0805)
+Added Component: Designator=U51(SOIC8)
+Added Component: Designator=U52(SOIC8)
+Added Pin To Net: NetName=IGND Pin=C74-2
+Added Pin To Net: NetName=IGND Pin=R12-1
+Added Pin To Net: NetName=VCC Pin=U51-1
+Added Pin To Net: NetName=CAN1_TX Pin=U51-2
+Added Pin To Net: NetName=CAN1_RX Pin=U51-3
+Added Pin To Net: NetName=GND Pin=U51-4
+Added Pin To Net: NetName=IGND Pin=U51-5
+Added Pin To Net: NetName=I5V Pin=U51-8
+Added Pin To Net: NetName=IGND Pin=U52-2
+Added Pin To Net: NetName=I5V Pin=U52-3
+Added Pin To Net: NetName=CAN_N Pin=U52-6
+Added Pin To Net: NetName=CAN_P Pin=U52-7
+Change Net Name : Old Net Name=CAN_RX New Net Name=CAN1_RX
+Change Net Name : Old Net Name=CAN_TX New Net Name=CAN1_TX
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=U52-8
+Added Net: Name=NetR12_2
+Added Member To Class: ClassName=MISC Member=Component C74 ChipCap
+Added Member To Class: ClassName=MISC Member=Component R12 ChipRes
+Added Member To Class: ClassName=MISC Member=Component U51 HCPL-0931
+Added Member To Class: ClassName=MISC Member=Component U52 MCP2551

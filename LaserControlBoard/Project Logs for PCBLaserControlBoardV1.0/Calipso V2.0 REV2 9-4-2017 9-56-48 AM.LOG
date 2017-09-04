@@ -1,0 +1,12 @@
+Added Component: Designator=C72(CAP0805)
+Added Component: Designator=C73(CAP0805)
+Added Component: Designator=C75(CAP0805)
+Added Pin To Net: NetName=GND Pin=C72-1
+Added Pin To Net: NetName=VCC Pin=C72-2
+Added Pin To Net: NetName=IGND Pin=C73-1
+Added Pin To Net: NetName=I5V Pin=C73-2
+Added Pin To Net: NetName=IGND Pin=C75-1
+Added Pin To Net: NetName=I5V Pin=C75-2
+Added Member To Class: ClassName=MISC Member=Component C72 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MISC Member=Component C73 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MISC Member=Component C75 CAP0805 0.1uF X7R

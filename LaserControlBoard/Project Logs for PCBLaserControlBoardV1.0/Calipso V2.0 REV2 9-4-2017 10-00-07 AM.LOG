@@ -1,0 +1,10 @@
+Change Net Name : Old Net Name=CAN1_RX New Net Name=ICAN1_RX
+Change Net Name : Old Net Name=CAN1_TX New Net Name=ICAN1_TX
+Added Pin To Net: NetName=ICAN2_RX Pin=C74-1
+Added Pin To Net: NetName=ICAN2_RX Pin=U51-6
+Added Pin To Net: NetName=ICAN2_RX Pin=U52-4
+Added Net: Name=ICAN2_RX
+Added Pin To Net: NetName=ICAN2_TX Pin=U51-7
+Added Pin To Net: NetName=ICAN2_TX Pin=U52-1
+Added Net: Name=ICAN2_TX
+Added Member To Class: ClassName=MISC Member=Component U52 MCP2551

@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=CAN2_N Pin=J8-2
+Removed Pin From Net: NetName=CAN2_P Pin=J8-7
+Removed Pin From Net: NetName=CAN1_N Pin=J9-2
+Removed Pin From Net: NetName=CAN1_P Pin=J9-7
+Removed Pin From Net: NetName=CAN2_N Pin=R52-1
+Removed Pin From Net: NetName=CAN2_P Pin=R52-2
+Removed Member From Class: ClassName=MISC Member=R52
+Change Component Designator: OldDesignator=R52 NewDesignator=R142
+Added Pin To Net: NetName=CAN1_N Pin=J8-2
+Added Pin To Net: NetName=CAN1_P Pin=J8-7
+Added Pin To Net: NetName=CAN2_N Pin=J9-2
+Added Pin To Net: NetName=CAN2_P Pin=J9-7
+Added Pin To Net: NetName=CAN1_N Pin=R142-1
+Added Pin To Net: NetName=CAN1_P Pin=R142-2
+Added Member To Class: ClassName=MISC Member=Component R142 ChipRes

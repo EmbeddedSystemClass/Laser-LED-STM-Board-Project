@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=CAN_N Pin=U52-6
+Removed Pin From Net: NetName=CAN_P Pin=U52-7
+Added Component: Designator=R52(RES0805)
+Added Pin To Net: NetName=IGND Pin=J8-3
+Added Pin To Net: NetName=I5V Pin=J8-9
+Added Pin To Net: NetName=IGND Pin=J8-10
+Added Pin To Net: NetName=IGND Pin=J8-11
+Added Pin To Net: NetName=CAN_N Pin=J9-2
+Added Pin To Net: NetName=IGND Pin=J9-3
+Added Pin To Net: NetName=CAN_P Pin=J9-7
+Added Pin To Net: NetName=I5V Pin=J9-9
+Added Pin To Net: NetName=IGND Pin=J9-10
+Added Pin To Net: NetName=IGND Pin=J9-11
+Change Net Name : Old Net Name=CAN_N New Net Name=CAN1_N
+Change Net Name : Old Net Name=CAN_P New Net Name=CAN1_P
+Added Pin To Net: NetName=CAN2_N Pin=J8-2
+Added Pin To Net: NetName=CAN2_N Pin=R52-1
+Added Pin To Net: NetName=CAN2_N Pin=U52-6
+Added Net: Name=CAN2_N
+Added Pin To Net: NetName=CAN2_P Pin=J8-7
+Added Pin To Net: NetName=CAN2_P Pin=R52-2
+Added Pin To Net: NetName=CAN2_P Pin=U52-7
+Added Net: Name=CAN2_P
+Added Differential Pair: Name=CAN1
+Added Member To Class: ClassName=MISC Member=Component R52 ChipRes

@@ -1,0 +1,7 @@
+Added Component: Designator=U52(SOIC8)
+Added Pin To Net: NetName=IGND Pin=U52-2
+Added Pin To Net: NetName=I5V Pin=U52-3
+Added Pin To Net: NetName=CAN_N Pin=U52-6
+Added Pin To Net: NetName=CAN_P Pin=U52-7
+Added Pin To Net: NetName=NetR12_2 Pin=U52-8
+Added Member To Class: ClassName=MISC Member=Component U52 MCP2551
