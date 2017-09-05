@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=LED_RED Pin=U7-5
+Removed Pin From Net: NetName=LASER_PULSE Pin=U7-8
+Removed Pin From Net: NetName=LED_GREEN Pin=U54-1
+Removed Pin From Net: NetName=FLOW_SEN1 Pin=U54-2
+Removed Pin From Net: NetName=FLOW_SEN2 Pin=U54-3
+Added Pin To Net: NetName=LED_RED Pin=U54-1
+Added Pin To Net: NetName=LED_GREEN Pin=U54-2
+Added Pin To Net: NetName=FLOW_SEN1 Pin=U54-3
+Added Pin To Net: NetName=FLOW_SEN2 Pin=U54-4

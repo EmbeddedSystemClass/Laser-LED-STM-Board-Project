@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=AUDIO_GAIN0 Pin=U13-59
+Removed Pin From Net: NetName=AUDIO_NCS Pin=U13-60
+Removed Pin From Net: NetName=AUDIO_GAIN1 Pin=U13-67
+Added Pin To Net: NetName=AUDIO_NCS Pin=U13-59
+Added Pin To Net: NetName=AUDIO_GAIN1 Pin=U13-60
+Added Pin To Net: NetName=AUDIO_GAIN0 Pin=U13-67

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=LMP_OVERTEMPERATURE_SIG Pin=U54-4
+Removed Pin From Net: NetName=LMP_READY Pin=U54-5
+Removed Pin From Net: NetName=LMP_HV_INHIBIT Pin=U54-8

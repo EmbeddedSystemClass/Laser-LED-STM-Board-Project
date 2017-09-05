@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=FOOTSW Pin=J8-4
+Added Pin To Net: NetName=LED_GREEN Pin=J8-5
+Added Pin To Net: NetName=LED_RED Pin=J9-1
+Added Pin To Net: NetName=FOOTSW Pin=J9-4

@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=AUDIO_NFLT Pin=R143-1
+Added Pin To Net: NetName=AUDIO_NFLT Pin=R147-2
+Added Pin To Net: NetName=AUDIO_NFLT Pin=U13-66
+Added Net: Name=AUDIO_NFLT

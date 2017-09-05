@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LASER_VMON Pin=U10-4
+Removed Pin From Net: NetName=LASER_IMON Pin=U10-5
+Added Pin To Net: NetName=LASER_IMON Pin=U10-4
+Added Pin To Net: NetName=LASER_VMON Pin=U10-5

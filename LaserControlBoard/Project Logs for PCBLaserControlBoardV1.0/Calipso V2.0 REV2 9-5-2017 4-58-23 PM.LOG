@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=AGND Pin=U27-2
+Added Component: Designator=U7(SOP8)
+Added Component: Designator=U10(SOP8)
+Added Component: Designator=U53(SOP8)
+Added Component: Designator=U54(SOP8)
+Added Pin To Net: NetName=FOOTSW Pin=U7-1
+Added Pin To Net: NetName=LASER_PULSE Pin=U7-2
+Added Pin To Net: NetName=LASER_ENABLE Pin=U7-3
+Added Pin To Net: NetName=LASER_LOCK Pin=U7-4
+Added Pin To Net: NetName=CH_NERR Pin=U7-5
+Added Pin To Net: NetName=IGND Pin=U7-6
+Added Pin To Net: NetName=IGND Pin=U7-7
+Added Pin To Net: NetName=LED_RED Pin=U7-8
+Added Pin To Net: NetName=LASER_IMON Pin=U10-1
+Added Pin To Net: NetName=LASER_VMON Pin=U10-2
+Added Pin To Net: NetName=LDD_VMON Pin=U10-3
+Added Pin To Net: NetName=LASER_IPROG Pin=U10-4
+Added Pin To Net: NetName=LASER_IPROG Pin=U10-5
+Added Pin To Net: NetName=IGND Pin=U10-6
+Added Pin To Net: NetName=IGND Pin=U10-7
+Added Pin To Net: NetName=LMP_SIMMER_SENSOR Pin=U10-8
+Added Pin To Net: NetName=LMP_PULSE_OUT Pin=U53-1
+Added Pin To Net: NetName=LMP_FAULT_SIG Pin=U53-2
+Added Pin To Net: NetName=LMP_DISCHARGE Pin=U53-3
+Added Pin To Net: NetName=LMP_HVON_SIG Pin=U53-4
+Added Pin To Net: NetName=LMP_SIMMER_ENABLE Pin=U53-5
+Added Pin To Net: NetName=IGND Pin=U53-6
+Added Pin To Net: NetName=IGND Pin=U53-7
+Added Pin To Net: NetName=LMP_OVERVOLTAGE_SIG Pin=U53-8
+Added Pin To Net: NetName=LED_GREEN Pin=U54-1
+Added Pin To Net: NetName=FLOW_SEN1 Pin=U54-2
+Added Pin To Net: NetName=FLOW_SEN2 Pin=U54-3
+Added Pin To Net: NetName=LMP_OVERTEMPERATURE_SIG Pin=U54-4
+Added Pin To Net: NetName=LMP_READY Pin=U54-5
+Added Pin To Net: NetName=IGND Pin=U54-6
+Added Pin To Net: NetName=IGND Pin=U54-7
+Added Pin To Net: NetName=LMP_HV_INHIBIT Pin=U54-8
+Added Member To Class: ClassName=MISC Member=Component U7 ESDA6V1U1
+Added Member To Class: ClassName=MISC Member=Component U10 ESDA6V1U1
+Added Member To Class: ClassName=MISC Member=Component U53 ESDA6V1U1
+Added Member To Class: ClassName=MISC Member=Component U54 ESDA6V1U1

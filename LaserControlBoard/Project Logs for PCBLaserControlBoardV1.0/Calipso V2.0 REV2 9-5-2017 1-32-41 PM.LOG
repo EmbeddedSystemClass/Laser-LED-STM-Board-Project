@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=CH_NERR Pin=P4-60
+Removed Pin From Net: NetName=LASER_ENABLE Pin=P4-61
+Removed Pin From Net: NetName=LASER_LOCK Pin=P4-62
+Added Pin To Net: NetName=LASER_ENABLE Pin=P4-60
+Added Pin To Net: NetName=LASER_LOCK Pin=P4-61
+Added Pin To Net: NetName=CH_NERR Pin=P4-62

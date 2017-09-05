@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=AUDIO_GAIN0 Pin=U2-5
+Added Pin To Net: NetName=AUDIO_GAIN0 Pin=U13-59
+Added Net: Name=AUDIO_GAIN0
+Added Pin To Net: NetName=AUDIO_GAIN1 Pin=U2-6
+Added Pin To Net: NetName=AUDIO_GAIN1 Pin=U13-67
+Added Net: Name=AUDIO_GAIN1
+Added Pin To Net: NetName=AUDIO_NCS Pin=R144-1
+Added Pin To Net: NetName=AUDIO_NCS Pin=U13-60
+Added Net: Name=AUDIO_NCS

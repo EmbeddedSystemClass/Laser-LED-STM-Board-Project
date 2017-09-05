@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=LMP_PULSE_OUT Pin=U53-1
+Removed Pin From Net: NetName=LMP_HVON_SIG Pin=U53-4
+Removed Pin From Net: NetName=LMP_SIMMER_ENABLE Pin=U53-5
+Removed Pin From Net: NetName=LMP_OVERVOLTAGE_SIG Pin=U53-8
+Added Pin To Net: NetName=LMP_OVERVOLTAGE_SIG Pin=U53-1
+Added Pin To Net: NetName=LMP_SIMMER_ENABLE Pin=U53-4
+Added Pin To Net: NetName=LMP_HVON_SIG Pin=U53-5
+Added Pin To Net: NetName=LMP_PULSE_OUT Pin=U53-8

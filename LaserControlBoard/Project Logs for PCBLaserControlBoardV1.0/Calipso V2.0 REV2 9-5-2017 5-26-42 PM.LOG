@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=CH_NERR Pin=U7-1
+Removed Pin From Net: NetName=LASER_PULSE Pin=U7-3
+Removed Pin From Net: NetName=LED_RED Pin=U7-4
+Removed Pin From Net: NetName=FOOTSW Pin=U7-5
+Removed Pin From Net: NetName=LASER_LOCK Pin=U7-8
+Added Pin To Net: NetName=LASER_LOCK Pin=U7-1
+Added Pin To Net: NetName=CH_NERR Pin=U7-3
+Added Pin To Net: NetName=FOOTSW Pin=U7-4
+Added Pin To Net: NetName=LED_RED Pin=U7-5
+Added Pin To Net: NetName=LASER_PULSE Pin=U7-8
