@@ -1,0 +1,185 @@
+Removed Pin From Net: NetName=ICAN1_RX Pin=C30-1
+Removed Pin From Net: NetName=IGND Pin=C30-2
+Removed Pin From Net: NetName=ICAN2_RX Pin=C74-1
+Removed Pin From Net: NetName=IGND Pin=C74-2
+Removed Pin From Net: NetName=NetR3_1 Pin=R3-1
+Removed Pin From Net: NetName=12V Pin=R3-2
+Removed Pin From Net: NetName=WIFI3V3 Pin=R9-2
+Removed Pin From Net: NetName=IGND Pin=R12-1
+Removed Pin From Net: NetName=NetQ4_2 Pin=R15-1
+Removed Pin From Net: NetName=NetQ1_1 Pin=R15-2
+Removed Pin From Net: NetName=NetR17_1 Pin=R17-1
+Removed Pin From Net: NetName=12V Pin=R17-2
+Removed Pin From Net: NetName=NetR5_1 Pin=R27-1
+Removed Pin From Net: NetName=NetQ10_1 Pin=R27-2
+Removed Pin From Net: NetName=NetQ10_2 Pin=R34-1
+Removed Pin From Net: NetName=NetQ9_1 Pin=R34-2
+Removed Pin From Net: NetName=NetQ13_2 Pin=R46-1
+Removed Pin From Net: NetName=NetQ14_1 Pin=R46-2
+Removed Pin From Net: NetName=NetR14_1 Pin=R49-1
+Removed Pin From Net: NetName=NetQ13_1 Pin=R49-2
+Removed Pin From Net: NetName=IGND Pin=R50-1
+Removed Pin From Net: NetName=NetQ17_2 Pin=R62-1
+Removed Pin From Net: NetName=NetQ16_1 Pin=R62-2
+Change Component DesignItemId : Designator=C17 Old DesignItemId=ChipCap New DesignItemId=CAP0805 0.01uF X7R
+Change Component DesignItemId : Designator=C62 Old DesignItemId=ChipCap New DesignItemId=CAP0805 0.1uF X7R
+Change Component DesignItemId : Designator=C30 Old DesignItemId=ChipCap New DesignItemId=CAP0805 30pF X7R
+Change Component DesignItemId : Designator=C74 Old DesignItemId=ChipCap New DesignItemId=CAP0805 30pF X7R
+Change Component DesignItemId : Designator=C26 Old DesignItemId=ChipCap New DesignItemId=CAP0805 1000pF NP0
+Change Component DesignItemId : Designator=R3 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R4 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R5 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R9 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R12 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R14 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R15 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R17 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R27 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R34 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R41 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R46 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R49 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R50 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R62 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R69 Old DesignItemId=ChipRes New DesignItemId=RES0805 1K 1%
+Change Component DesignItemId : Designator=R18 Old DesignItemId=ChipRes New DesignItemId=RES0805 10K 1%
+Change Component DesignItemId : Designator=R36 Old DesignItemId=ChipRes New DesignItemId=RES0805 10K 1%
+Change Component DesignItemId : Designator=R42 Old DesignItemId=ChipRes New DesignItemId=RES0805 10K 1%
+Change Component DesignItemId : Designator=R53 Old DesignItemId=ChipRes New DesignItemId=RES0805 10K 1%
+Change Component DesignItemId : Designator=R51 Old DesignItemId=ChipRes New DesignItemId=RES0805 120R 1%
+Change Component DesignItemId : Designator=R142 Old DesignItemId=ChipRes New DesignItemId=RES0805 120R 1%
+Change Component DesignItemId : Designator=R2 Old DesignItemId=ChipRes New DesignItemId=RES0805 330R 1%
+Change Component DesignItemId : Designator=R10 Old DesignItemId=ChipRes New DesignItemId=RES0805 330R 1%
+Change Component DesignItemId : Designator=R13 Old DesignItemId=ChipRes New DesignItemId=RES0805 330R 1%
+Change Component DesignItemId : Designator=R16 Old DesignItemId=ChipRes New DesignItemId=RES0805 330R 1%
+Change Component DesignItemId : Designator=P4 Old DesignItemId=DHS-62M New DesignItemId=DHR-62M
+Change Component DesignItemId : Designator=D9 Old DesignItemId=Diode chip New DesignItemId=STPS2150A
+Change Component Comment : Designator=C17 Old Comment=ChipCap New Comment=CAP0805 0.01uF X7R
+Change Component Comment : Designator=C62 Old Comment=ChipCap New Comment=CAP0805 0.1uF X7R
+Change Component Comment : Designator=C30 Old Comment=ChipCap New Comment=CAP0805 30pF X7R
+Change Component Comment : Designator=C74 Old Comment=ChipCap New Comment=CAP0805 30pF X7R
+Change Component Comment : Designator=C26 Old Comment=ChipCap New Comment=CAP0805 1000pF NP0
+Change Component Comment : Designator=R3 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R4 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R5 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R9 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R12 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R14 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R15 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R17 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R27 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R34 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R41 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R46 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R49 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R50 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R62 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R69 Old Comment=ChipRes New Comment=RES0805 1K 1%
+Change Component Comment : Designator=R18 Old Comment=ChipRes New Comment=RES0805 10K 1%
+Change Component Comment : Designator=R36 Old Comment=ChipRes New Comment=RES0805 10K 1%
+Change Component Comment : Designator=R42 Old Comment=ChipRes New Comment=RES0805 10K 1%
+Change Component Comment : Designator=R53 Old Comment=ChipRes New Comment=RES0805 10K 1%
+Change Component Comment : Designator=R51 Old Comment=ChipRes New Comment=RES0805 120R 1%
+Change Component Comment : Designator=R142 Old Comment=ChipRes New Comment=RES0805 120R 1%
+Change Component Comment : Designator=R2 Old Comment=ChipRes New Comment=RES0805 330R 1%
+Change Component Comment : Designator=R10 Old Comment=ChipRes New Comment=RES0805 330R 1%
+Change Component Comment : Designator=R13 Old Comment=ChipRes New Comment=RES0805 330R 1%
+Change Component Comment : Designator=R16 Old Comment=ChipRes New Comment=RES0805 330R 1%
+Change Component Comment : Designator=D9 Old Comment=Diode chip New Comment=STPS2150A
+Change Component Description : Designator=C17 Old Description=Capacitor New Description=Surface-mount ceramic multilayer capacitor
+Change Component Description : Designator=C26 Old Description=Capacitor New Description=Surface-mount ceramic multilayer capacitor
+Change Component Description : Designator=C30 Old Description=Capacitor New Description=Surface-mount ceramic multilayer capacitor
+Change Component Description : Designator=C62 Old Description=Capacitor New Description=Surface-mount ceramic multilayer capacitor
+Change Component Description : Designator=C74 Old Description=Capacitor New Description=Surface-mount ceramic multilayer capacitor
+Change Component Description : Designator=R2 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R3 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R4 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R5 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R9 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R10 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R12 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R13 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R14 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R15 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R16 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R17 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R18 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R27 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R34 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R36 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R41 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R42 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R46 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R49 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R50 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R51 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R53 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R62 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R69 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=R142 Old Description=Chip resistor New Description=Think Film Chip resistor
+Change Component Description : Designator=D9 Old Description=Diode chip New Description=Schottky diode
+Change Component Library : Designator=C17 Old Library=Common Devices.IntLib New Library=Capacitors.IntLib
+Change Component Library : Designator=C26 Old Library=Common Devices.IntLib New Library=Capacitors.IntLib
+Change Component Library : Designator=C30 Old Library=Common Devices.IntLib New Library=Capacitors.IntLib
+Change Component Library : Designator=C62 Old Library=Common Devices.IntLib New Library=Capacitors.IntLib
+Change Component Library : Designator=C74 Old Library=Common Devices.IntLib New Library=Capacitors.IntLib
+Change Component Library : Designator=R2 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R3 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R4 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R5 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R9 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R10 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R12 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R13 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R14 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R15 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R16 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R17 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R18 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R27 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R34 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R36 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R41 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R42 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R46 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R49 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R50 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R51 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R53 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R62 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R69 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Change Component Library : Designator=R142 Old Library=Common Devices.IntLib New Library=Resistors.IntLib
+Added Pin To Net: NetName=IGND Pin=C30-1
+Added Pin To Net: NetName=ICAN1_RX Pin=C30-2
+Added Pin To Net: NetName=IGND Pin=C74-1
+Added Pin To Net: NetName=ICAN2_RX Pin=C74-2
+Added Pin To Net: NetName=12V Pin=R3-1
+Added Pin To Net: NetName=NetR3_1 Pin=R3-2
+Added Pin To Net: NetName=WIFI3V3 Pin=R9-1
+Added Pin To Net: NetName=IGND Pin=R12-2
+Added Pin To Net: NetName=NetQ1_1 Pin=R15-1
+Added Pin To Net: NetName=NetQ4_2 Pin=R15-2
+Added Pin To Net: NetName=12V Pin=R17-1
+Added Pin To Net: NetName=NetR17_1 Pin=R17-2
+Added Pin To Net: NetName=NetQ10_1 Pin=R27-1
+Added Pin To Net: NetName=NetR5_1 Pin=R27-2
+Added Pin To Net: NetName=NetQ9_1 Pin=R34-1
+Added Pin To Net: NetName=NetQ10_2 Pin=R34-2
+Added Pin To Net: NetName=NetQ14_1 Pin=R46-1
+Added Pin To Net: NetName=NetQ13_2 Pin=R46-2
+Added Pin To Net: NetName=NetQ13_1 Pin=R49-1
+Added Pin To Net: NetName=NetR14_1 Pin=R49-2
+Added Pin To Net: NetName=IGND Pin=R50-2
+Added Pin To Net: NetName=NetQ16_1 Pin=R62-1
+Added Pin To Net: NetName=NetQ17_2 Pin=R62-2
+Change Net Name : Old Net Name=NetR3_1 New Net Name=NetR3_2
+Change Net Name : Old Net Name=NetR17_1 New Net Name=NetR17_2
+Added Pin To Net: NetName=NetR9_2 Pin=R9-2
+Added Pin To Net: NetName=NetR9_2 Pin=WIFI PWR 1-2
+Added Net: Name=NetR9_2
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=U52-8
+Added Net: Name=NetR12_1
+Added Pin To Net: NetName=NetR50_1 Pin=R50-1
+Added Pin To Net: NetName=NetR50_1 Pin=U35-8
+Added Net: Name=NetR50_1
