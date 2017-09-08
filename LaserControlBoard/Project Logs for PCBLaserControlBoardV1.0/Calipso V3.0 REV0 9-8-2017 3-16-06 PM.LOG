@@ -1,0 +1,465 @@
+Removed Pin From Net: NetName=VCC Pin=C19-1
+Removed Pin From Net: NetName=AGND Pin=C19-2
+Removed Pin From Net: NetName=AGND Pin=C23-1
+Removed Pin From Net: NetName=AGND Pin=C24-1
+Removed Pin From Net: NetName=NetQ4_2 Pin=Q5-2
+Removed Pin From Net: NetName=IGND Pin=Q5-3
+Removed Pin From Net: NetName=NetQ10_2 Pin=Q11-2
+Removed Pin From Net: NetName=IGND Pin=Q11-3
+Removed Pin From Net: NetName=IGND Pin=Q13-3
+Removed Pin From Net: NetName=IGND Pin=Q17-3
+Removed Pin From Net: NetName=AGND Pin=Q32-2
+Removed Pin From Net: NetName=AGND Pin=Q33-2
+Removed Pin From Net: NetName=FLOW1 Pin=R79-1
+Removed Pin From Net: NetName=FLOW2 Pin=R80-1
+Removed Pin From Net: NetName=VCC Pin=R139-1
+Removed Pin From Net: NetName=I2C1_SCL Pin=R139-2
+Removed Pin From Net: NetName=VCC Pin=R140-1
+Removed Pin From Net: NetName=I2C1_SDA Pin=R140-2
+Removed Member From Class: ClassName=MCU Member=R79
+Change Component DesignItemId : Designator=Q1 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q6 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q9 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q12 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q14 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q16 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component Footprint: Designator=D9 Old Footprint=SMB1 New Footprint=DO-214AS
+Change Component Comment : Designator=Q1 Old Comment=IRFZ44 New Comment=IRL640SPBF
+Change Component Comment : Designator=Q6 Old Comment=IRFZ44 New Comment=IRL640SPBF
+Change Component Comment : Designator=Q9 Old Comment=IRFZ44 New Comment=IRL640SPBF
+Change Component Comment : Designator=Q12 Old Comment=IRFZ44 New Comment=IRL640SPBF
+Change Component Comment : Designator=Q14 Old Comment=IRFZ44 New Comment=IRL640SPBF
+Change Component Comment : Designator=Q16 Old Comment=IRFZ44 New Comment=IRL640SPBF
+Change Component Library : Designator=Q1 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q4 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q5 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q6 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q9 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q10 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q11 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q12 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q13 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q14 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q15 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q16 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q17 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q18 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q19 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q20 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q21 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q22 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q23 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q24 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q25 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q26 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q27 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q28 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q29 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q30 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q31 Old Library=BJT.SchLib New Library=BJT.IntLib
+Added Component: Designator=R63(RES0805)
+Added Component: Designator=R64(RES0805)
+Added Component: Designator=R65(RES0805)
+Added Component: Designator=R66(RES0805)
+Added Component: Designator=U55(TSOP-I 48)
+Added Component: Designator=U56(TSOP-II 54)
+Added Pin To Net: NetName=VCC Pin=P6-7
+Added Pin To Net: NetName=IGND Pin=Q5-2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q5-3
+Added Pin To Net: NetName=IGND Pin=Q11-2
+Added Pin To Net: NetName=NetQ10_2 Pin=Q11-3
+Added Pin To Net: NetName=IGND Pin=Q13-2
+Added Pin To Net: NetName=IGND Pin=Q17-2
+Added Pin To Net: NetName=VCC Pin=R63-1
+Added Pin To Net: NetName=SWDIO Pin=R63-2
+Added Pin To Net: NetName=AGND Pin=R64-1
+Added Pin To Net: NetName=SWCLK Pin=R64-2
+Added Pin To Net: NetName=VCC Pin=R65-1
+Added Pin To Net: NetName=SWO Pin=R65-2
+Added Pin To Net: NetName=VCC Pin=R66-1
+Added Pin To Net: NetName=MCU_TDI Pin=R66-2
+Change Net Name : Old Net Name=FLOW1 New Net Name=FLOW_SENS1
+Change Net Name : Old Net Name=FLOW2 New Net Name=FLOW_SENS2
+Change Net Name : Old Net Name=VCC New Net Name=SDIO_D3
+Added Pin To Net: NetName=NetQ13_3 Pin=Q13-3
+Added Pin To Net: NetName=NetQ13_3 Pin=Q15-2
+Added Pin To Net: NetName=NetQ13_3 Pin=R46-2
+Added Net: Name=NetQ13_3
+Added Pin To Net: NetName=NetQ17_3 Pin=Q17-3
+Added Pin To Net: NetName=NetQ17_3 Pin=Q18-2
+Added Pin To Net: NetName=NetQ17_3 Pin=R62-2
+Added Net: Name=NetQ17_3
+Added Member To Class: ClassName=WiFi Member=Component BOOT1 ChipRes
+Added Member To Class: ClassName=Peltier Member=Component C1 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=WiFi Member=Component C2 Cap Pol SMD
+Added Member To Class: ClassName=Audio Member=Component C3 Cap Pol 100/47
+Added Member To Class: ClassName=Audio Member=Component C4 CAP0805 1uF X7R
+Added Member To Class: ClassName=WiFi Member=Component C5 Cap Pol SMD
+Added Member To Class: ClassName=WiFi Member=Component C6 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Peltier Member=Component C7 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=LaserInterface Member=Component C8 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C9 ChipCap 0.47u X7R
+Added Member To Class: ClassName=Audio Member=Component C10 CAP0805 1uF X7R
+Added Member To Class: ClassName=LaserInterface Member=Component C11 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MCU Member=Component C12 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Power Member=Component C13 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=LaserInterface Member=Component C14 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C15 CAP0805 1000pF NP0
+Added Member To Class: ClassName=WiFi Member=Component C16 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MCU Member=Component C17 CAP0805 0.01uF X7R
+Added Member To Class: ClassName=Audio Member=Component C18 ChipCap 0.47u X7R
+Added Member To Class: ClassName=Audio Member=Component C20 CAP0805 1000pF NP0
+Added Member To Class: ClassName=LaserInterface Member=Component C21 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Power Member=Component C22 Cap Pol SMD
+Added Member To Class: ClassName=Power Member=Component C25 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MISC Member=Component C27 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MISC Member=Component C29 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MISC Member=Component C30 CAP0805 30pF X7R
+Added Member To Class: ClassName=MISC Member=Component C31 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=LaserInterface Member=Component C32 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=LaserInterface Member=Component C33 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Power Member=Component C34 Cap Pol 200/100
+Added Member To Class: ClassName=LaserInterface Member=Component C35 CAP0805 1uF X7R
+Added Member To Class: ClassName=LaserInterface Member=Component C36 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=LaserInterface Member=Component C37 CAP0805 1uF X7R
+Added Member To Class: ClassName=LaserInterface Member=Component C38 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Power Member=Component C39 Cap Pol 100/47
+Added Member To Class: ClassName=Power Member=Component C40 Cap Pol 100/47
+Added Member To Class: ClassName=Power Member=Component C41 Cap Pol SMD
+Added Member To Class: ClassName=Peltier Member=Component C42 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Peltier Member=Component C43 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Peltier Member=Component C53 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MCU Member=Component C60 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Peltier Member=Component C61 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Power Member=Component C62 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C63 CAP0805 1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C64 Cap Pol SMD
+Added Member To Class: ClassName=Audio Member=Component C65 Cap Pol SMD
+Added Member To Class: ClassName=GPSModule Member=Component C66 Cap Pol SMD
+Added Member To Class: ClassName=GPSModule Member=Component C67 Cap Pol SMD
+Added Member To Class: ClassName=GPSModule Member=Component C68 CAP0805 1uF X7R
+Added Member To Class: ClassName=GPSModule Member=Component C69 CAP0805 1uF X7R
+Added Member To Class: ClassName=MISC Member=Component C72 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MISC Member=Component C73 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=MISC Member=Component C74 CAP0805 30pF X7R
+Added Member To Class: ClassName=MISC Member=Component C75 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C76 CAP0805 1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C77 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C78 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C79 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C80 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=Audio Member=Component C81 ChipCap 1000 NP0
+Added Member To Class: ClassName=Audio Member=Component C82 ChipCap 1000 NP0
+Added Member To Class: ClassName=Audio Member=Component C83 ChipCap 1000 NP0
+Added Member To Class: ClassName=Audio Member=Component C84 ChipCap 1000 NP0
+Added Member To Class: ClassName=MCU Member=Component D1 BAT54S
+Added Member To Class: ClassName=Audio Member=Component D2 SMP100LC-35
+Added Member To Class: ClassName=MCU Member=Component D4 SMBJ5.0CA
+Added Member To Class: ClassName=MCU Member=Component D6 SS12
+Added Member To Class: ClassName=Power Member=Component D9 STPS2150A
+Added Member To Class: ClassName=Power Member=Component D10 BAT54S
+Added Member To Class: ClassName=Power Member=Component D11 PESD5V0
+Added Member To Class: ClassName=LaserInterface Member=Component D13 SMBJ5.0CA
+Added Member To Class: ClassName=LaserInterface Member=Component D14 SMBJ5.0CA
+Added Member To Class: ClassName=MISC Member=Component D15 Diode 1N4007
+Added Member To Class: ClassName=MISC Member=Component D16 Diode 1N4007
+Added Member To Class: ClassName=MISC Member=Component D17 Diode 1N4007
+Added Member To Class: ClassName=MISC Member=Component D18 Diode 1N4007
+Added Member To Class: ClassName=Power Member=Component D20 SMBJ5.0CA
+Added Member To Class: ClassName=Power Member=Component D22 PESD5V0
+Added Member To Class: ClassName=Power Member=Component D23 BAT54S
+Added Member To Class: ClassName=Power Member=Component F2 Fuse
+Added Member To Class: ClassName=Audio Member=Component FB1 Ferrite
+Added Member To Class: ClassName=Audio Member=Component FB2 Ferrite
+Added Member To Class: ClassName=GPSModule Member=Component GPS1 ChipRes
+Added Member To Class: ClassName=Power Member=Component J4 Jumper
+Added Member To Class: ClassName=Power Member=Component J5 Jumper
+Added Member To Class: ClassName=LaserInterface Member=Component J6 Jumper
+Added Member To Class: ClassName=LaserInterface Member=Component J7 Jumper
+Added Member To Class: ClassName=MISC Member=Component J8 D Connector 9
+Added Member To Class: ClassName=MISC Member=Component J9 D Connector 9
+Added Member To Class: ClassName=MISC Member=Component J10 Jumper
+Added Member To Class: ClassName=MISC Member=Component J11 Jumper
+Added Member To Class: ClassName=MISC Member=Component J12 Jumper
+Added Member To Class: ClassName=MISC Member=Component J13 Jumper
+Added Member To Class: ClassName=MISC Member=Component J14 Jumper
+Added Member To Class: ClassName=MISC Member=Component J15 Jumper
+Added Member To Class: ClassName=MISC Member=Component J16 Jumper
+Added Member To Class: ClassName=MISC Member=Component J17 Jumper
+Added Member To Class: ClassName=MCU Member=Component J18 Jumper
+Added Member To Class: ClassName=MISC Member=Component K1 Relay 1 pole
+Added Member To Class: ClassName=MISC Member=Component K2 Relay 1 pole
+Added Member To Class: ClassName=MISC Member=Component K3 Relay 1 pole
+Added Member To Class: ClassName=MISC Member=Component K4 Relay 1 pole
+Added Member To Class: ClassName=WiFi Member=Component L1 Inductance
+Added Member To Class: ClassName=Power Member=Component L5 Inductance
+Added Member To Class: ClassName=Peltier Member=Component L6 Inductance
+Added Member To Class: ClassName=Peltier Member=Component L7 Inductance
+Added Member To Class: ClassName=Peltier Member=Component L8 Inductance
+Added Member To Class: ClassName=Peltier Member=Component L9 Inductance
+Added Member To Class: ClassName=LAMP Member=Component LED3 LED 0603
+Added Member To Class: ClassName=LAMP Member=Component LED4 LED 0603
+Added Member To Class: ClassName=LAMP Member=Component LED5 LED 0603
+Added Member To Class: ClassName=LAMP Member=Component LED6 LED 0603
+Added Member To Class: ClassName=MISC Member=Component LED7 LED 0603
+Added Member To Class: ClassName=MISC Member=Component LED8 LED 0603
+Added Member To Class: ClassName=MISC Member=Component LED9 LED 0603
+Added Member To Class: ClassName=MISC Member=Component LED10 LED 0603
+Added Member To Class: ClassName=WiFi Member=Component LINK1 LED 0603
+Added Member To Class: ClassName=MCU Member=Component P1 Header 3 Latch
+Added Member To Class: ClassName=Audio Member=Component P2 Terminal Block 4x5.08mm
+Added Member To Class: ClassName=Peltier Member=Component P3 Terminal Block 8x5.08mm
+Added Member To Class: ClassName=MISC Member=Component P4 DHR-62M
+Added Member To Class: ClassName=Peltier Member=Component P5 Terminal Block 4x5.08mm
+Added Member To Class: ClassName=MCU Member=Component P6 Micro SD Card Connector
+Added Member To Class: ClassName=MCU Member=Component P7 IDC-10MS (JTAG connector)
+Added Member To Class: ClassName=Power Member=Component P8 FPC_Socket
+Added Member To Class: ClassName=Power Member=Component P10 Terminal Block 4x5.08mm
+Added Member To Class: ClassName=Power Member=Component P11 FPC_Socket
+Added Member To Class: ClassName=MCU Member=Component P12 BH810
+Added Member To Class: ClassName=GPSModule Member=Component P13 SMB
+Added Member To Class: ClassName=WiFi Member=Component PWR1 LED 0603
+Added Member To Class: ClassName=Peltier Member=Component Q1 IRL640SPBF
+Added Member To Class: ClassName=Peltier Member=Component Q4 BC847
+Added Member To Class: ClassName=Peltier Member=Component Q5 BC857
+Added Member To Class: ClassName=Peltier Member=Component Q6 IRL640SPBF
+Added Member To Class: ClassName=Peltier Member=Component Q9 IRL640SPBF
+Added Member To Class: ClassName=Peltier Member=Component Q10 BC847
+Added Member To Class: ClassName=Peltier Member=Component Q11 BC857
+Added Member To Class: ClassName=Peltier Member=Component Q12 IRL640SPBF
+Added Member To Class: ClassName=Peltier Member=Component Q13 BC857
+Added Member To Class: ClassName=Peltier Member=Component Q14 IRL640SPBF
+Added Member To Class: ClassName=Peltier Member=Component Q15 BC847
+Added Member To Class: ClassName=Peltier Member=Component Q16 IRL640SPBF
+Added Member To Class: ClassName=Peltier Member=Component Q17 BC857
+Added Member To Class: ClassName=Peltier Member=Component Q18 BC847
+Added Member To Class: ClassName=LAMP Member=Component Q19 BC857
+Added Member To Class: ClassName=LAMP Member=Component Q20 BC857
+Added Member To Class: ClassName=LAMP Member=Component Q21 BC857
+Added Member To Class: ClassName=LAMP Member=Component Q22 BC857
+Added Member To Class: ClassName=MISC Member=Component Q23 BC847
+Added Member To Class: ClassName=MISC Member=Component Q25 BC847
+Added Member To Class: ClassName=MISC Member=Component Q26 BC847
+Added Member To Class: ClassName=MISC Member=Component Q27 BC847
+Added Member To Class: ClassName=MISC Member=Component Q28 BC847
+Added Member To Class: ClassName=MISC Member=Component Q29 BC847
+Added Member To Class: ClassName=MISC Member=Component Q30 BC847
+Added Member To Class: ClassName=WiFi Member=Component R1 RES0805 10K 1%
+Added Member To Class: ClassName=Peltier Member=Component R2 RES0805 330R 1%
+Added Member To Class: ClassName=Peltier Member=Component R3 RES0805 1K 1%
+Added Member To Class: ClassName=Peltier Member=Component R4 RES0805 1K 1%
+Added Member To Class: ClassName=Peltier Member=Component R5 RES0805 1K 1%
+Added Member To Class: ClassName=WiFi Member=Component R6 RES0805 510R 1%
+Added Member To Class: ClassName=WiFi Member=Component R7 RES0805 510R 1%
+Added Member To Class: ClassName=WiFi Member=Component R8 RES0805 510R 1%
+Added Member To Class: ClassName=WiFi Member=Component R9 RES0805 1K 1%
+Added Member To Class: ClassName=Peltier Member=Component R10 RES0805 330R 1%
+Added Member To Class: ClassName=MCU Member=Component R11 RES0805 4K7 1%
+Added Member To Class: ClassName=MISC Member=Component R12 RES0805 1K 1%
+Added Member To Class: ClassName=Peltier Member=Component R13 RES0805 330R 1%
+Added Member To Class: ClassName=Peltier Member=Component R14 RES0805 1K 1%
+Added Member To Class: ClassName=Peltier Member=Component R15 RES0805 1K 1%
+Added Member To Class: ClassName=Peltier Member=Component R16 RES0805 330R 1%
+Added Member To Class: ClassName=Peltier Member=Component R17 RES0805 1K 1%
+Added Member To Class: ClassName=Peltier Member=Component R18 RES0805 10K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R19 RES0805 330R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R20 RES0805 510R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R21 RES0805 330R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R22 RES0805 510R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R23 RES0805 330R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R24 RES0805 510R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R25 RES0805 330R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R26 RES0805 330R 1%
+Added Member To Class: ClassName=Peltier Member=Component R27 RES0805 1K 1%
+Added Member To Class: ClassName=WiFi Member=Component R28 RES0805 4K7 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R29 RES0805 510R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R30 RES0805 330R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R31 RES0805 510R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R32 RES0805 510R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R33 RES0805 470R 1%
+Added Member To Class: ClassName=Peltier Member=Component R34 RES0805 1K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R35 RES0805 510R 1%
+Added Member To Class: ClassName=Peltier Member=Component R36 RES0805 10K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R37 RES0805 470R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R38 RES0805 100R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R39 RES0805 10K 1%
+Added Member To Class: ClassName=Power Member=Component R41 RES0805 1K 1%
+Added Member To Class: ClassName=Peltier Member=Component R42 RES0805 10K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R43 RES0805 1K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R44 RES0805 1K 1%
+Added Member To Class: ClassName=Peltier Member=Component R46 RES0805 1K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R47 RES0805 1K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R48 RES0805 510R 1%
+Added Member To Class: ClassName=Peltier Member=Component R49 RES0805 1K 1%
+Added Member To Class: ClassName=MISC Member=Component R50 RES0805 1K 1%
+Added Member To Class: ClassName=MISC Member=Component R51 RES0805 120R 1%
+Added Member To Class: ClassName=LAMP Member=Component R52 RES0805 220R 1%
+Added Member To Class: ClassName=Peltier Member=Component R53 RES0805 10K 1%
+Added Member To Class: ClassName=LAMP Member=Component R54 RES0805 1K 1%
+Added Member To Class: ClassName=Power Member=Component R55 RES0805 18K 1%
+Added Member To Class: ClassName=Power Member=Component R56 RES0805 11K 1%
+Added Member To Class: ClassName=MCU Member=Component R57 RES0805 10K 1%
+Added Member To Class: ClassName=LAMP Member=Component R59 RES0805 4K7 1%
+Added Member To Class: ClassName=MCU Member=Component R60 RES0805 10K 1%
+Added Member To Class: ClassName=LAMP Member=Component R61 RES0805 100R 1%
+Added Member To Class: ClassName=Peltier Member=Component R62 RES0805 1K 1%
+Added Member To Class: ClassName=MCU Member=Component R63 RES0805 10K 1%
+Added Member To Class: ClassName=MCU Member=Component R64 RES0805 10K 1%
+Added Member To Class: ClassName=MCU Member=Component R65 RES0805 10K 1%
+Added Member To Class: ClassName=MCU Member=Component R66 RES0805 10K 1%
+Added Member To Class: ClassName=MCU Member=Component R67 RES0805 10K 1%
+Added Member To Class: ClassName=MCU Member=Component R68 RES0805 10K 1%
+Added Member To Class: ClassName=Peltier Member=Component R69 RES0805 1K 1%
+Added Member To Class: ClassName=Power Member=Component R70 RES0805 1R2 1%
+Added Member To Class: ClassName=Power Member=Component R71 RES0805 1R2 1%
+Added Member To Class: ClassName=LAMP Member=Component R72 RES0805 1K 1%
+Added Member To Class: ClassName=LAMP Member=Component R73 RES0805 220R 1%
+Added Member To Class: ClassName=MCU Member=Component R74 RES0805 10K 1%
+Added Member To Class: ClassName=LAMP Member=Component R75 RES0805 100R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R76 RES0805 47K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R77 RES0805 1K 1%
+Added Member To Class: ClassName=MCU Member=Component R78 RES0805 10K 1%
+Added Member To Class: ClassName=LAMP Member=Component R81 RES0805 4K7 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R82 RES0805 5K1 1%
+Added Member To Class: ClassName=LAMP Member=Component R83 RES0805 1K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R84 RES0805 10K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R85 RES0805 5K1 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R86 RES0805 5K1 1%
+Added Member To Class: ClassName=MISC Member=Component R87 RES0805 330R 1%
+Added Member To Class: ClassName=MISC Member=Component R88 RES0805 330R 1%
+Added Member To Class: ClassName=MISC Member=Component R89 RES0805 510R 1%
+Added Member To Class: ClassName=MISC Member=Component R90 RES0805 510R 1%
+Added Member To Class: ClassName=MISC Member=Component R91 RES0805 100R 1%
+Added Member To Class: ClassName=MISC Member=Component R92 RES0805 100R 1%
+Added Member To Class: ClassName=MISC Member=Component R93 RES0805 100R 1%
+Added Member To Class: ClassName=MISC Member=Component R94 RES0805 100R 1%
+Added Member To Class: ClassName=LAMP Member=Component R97 RES0805 100R 1%
+Added Member To Class: ClassName=LAMP Member=Component R98 RES0805 1K 1%
+Added Member To Class: ClassName=LAMP Member=Component R99 RES0805 1K 1%
+Added Member To Class: ClassName=LAMP Member=Component R100 RES0805 1K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R101 RES0805 3K3 1%
+Added Member To Class: ClassName=LAMP Member=Component R102 RES0805 100R 1%
+Added Member To Class: ClassName=LAMP Member=Component R103 RES0805 220R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R104 RES0805 10K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R105 RES0805 10K 1%
+Added Member To Class: ClassName=MISC Member=Component R106 RES0805 1K 1%
+Added Member To Class: ClassName=MISC Member=Component R107 ChipRes
+Added Member To Class: ClassName=MISC Member=Component R108 RES0805 100R 1%
+Added Member To Class: ClassName=MISC Member=Component R109 RES0805 100R 1%
+Added Member To Class: ClassName=MISC Member=Component R110 RES0805 510R 1%
+Added Member To Class: ClassName=MISC Member=Component R111 RES0805 510R 1%
+Added Member To Class: ClassName=MISC Member=Component R112 RES0805 510R 1%
+Added Member To Class: ClassName=MISC Member=Component R113 RES0805 510R 1%
+Added Member To Class: ClassName=LAMP Member=Component R116 RES0805 1K 1%
+Added Member To Class: ClassName=LAMP Member=Component R117 RES0805 220R 1%
+Added Member To Class: ClassName=LAMP Member=Component R118 RES0805 1K 1%
+Added Member To Class: ClassName=LAMP Member=Component R119 RES0805 220R 1%
+Added Member To Class: ClassName=LAMP Member=Component R120 RES0805 4K7 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R121 RES0805 10K 1%
+Added Member To Class: ClassName=LAMP Member=Component R122 RES0805 1K 1%
+Added Member To Class: ClassName=LAMP Member=Component R123 RES0805 510R 1%
+Added Member To Class: ClassName=LAMP Member=Component R124 RES0805 1K 1%
+Added Member To Class: ClassName=LAMP Member=Component R125 RES0805 510R 1%
+Added Member To Class: ClassName=LAMP Member=Component R126 RES0805 1K 1%
+Added Member To Class: ClassName=LAMP Member=Component R127 RES0805 510R 1%
+Added Member To Class: ClassName=LAMP Member=Component R128 RES0805 1K 1%
+Added Member To Class: ClassName=LAMP Member=Component R129 RES0805 510R 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R130 RES0805 10K 1%
+Added Member To Class: ClassName=MISC Member=Component R131 RES0805 1K 1%
+Added Member To Class: ClassName=MISC Member=Component R132 RES0805 1K 1%
+Added Member To Class: ClassName=MISC Member=Component R133 RES0805 1K 1%
+Added Member To Class: ClassName=MISC Member=Component R134 RES0805 1K 1%
+Added Member To Class: ClassName=MISC Member=Component R135 RES0805 220R 1%
+Added Member To Class: ClassName=MISC Member=Component R136 RES0805 220R 1%
+Added Member To Class: ClassName=MISC Member=Component R137 RES0805 220R 1%
+Added Member To Class: ClassName=MISC Member=Component R138 RES0805 220R 1%
+Added Member To Class: ClassName=GPSModule Member=Component R141 RES0805 10K 1%
+Added Member To Class: ClassName=MISC Member=Component R142 RES0805 120R 1%
+Added Member To Class: ClassName=Audio Member=Component R143 RES0805 1K 1%
+Added Member To Class: ClassName=Audio Member=Component R144 RES0805 1K 1%
+Added Member To Class: ClassName=Audio Member=Component R145 RES1206 10R 1%
+Added Member To Class: ClassName=Audio Member=Component R146 RES0805 100K 1%
+Added Member To Class: ClassName=Audio Member=Component R147 RES0805 100K 1%
+Added Member To Class: ClassName=LAMP Member=Component R154 RES0805 100R 1%
+Added Member To Class: ClassName=LAMP Member=Component R155 RES0805 100R 1%
+Added Member To Class: ClassName=MISC Member=Component R156 RES0805 10K 1%
+Added Member To Class: ClassName=MISC Member=Component R157 RES0805 1K 1%
+Added Member To Class: ClassName=Power Member=Component RU1 Varistor S14F25
+Added Member To Class: ClassName=Power Member=Component RU2 Varistor S14F25
+Added Member To Class: ClassName=WiFi Member=Component RUN1 LED 0603
+Added Member To Class: ClassName=Power Member=Component STM PWR 1 LED
+Added Member To Class: ClassName=MISC Member=Component TP1 Test Point 5x2
+Added Member To Class: ClassName=MISC Member=Component TP2 Test Point 5x2
+Added Member To Class: ClassName=MISC Member=Component TP3 Test Point 5x2
+Added Member To Class: ClassName=MISC Member=Component TP4 Test Point 5x2
+Added Member To Class: ClassName=LAMP Member=Component TP5 Test Point 5x2
+Added Member To Class: ClassName=LAMP Member=Component TP6 Test Point 5x2
+Added Member To Class: ClassName=LaserInterface Member=Component TP7 Test Point 5x2
+Added Member To Class: ClassName=LAMP Member=Component TP8 Test Point 5x2
+Added Member To Class: ClassName=LAMP Member=Component TP9 Test Point 5x2
+Added Member To Class: ClassName=LaserInterface Member=Component TP10 Test Point 5x2
+Added Member To Class: ClassName=LaserInterface Member=Component TP11 Test Point 5x2
+Added Member To Class: ClassName=Peltier Member=Component TP12 Test Point 5x2
+Added Member To Class: ClassName=Peltier Member=Component TP13 Test Point 5x2
+Added Member To Class: ClassName=Power Member=Component TP14 Test Point 5x2
+Added Member To Class: ClassName=Power Member=Component TP15 Test Point 5x2
+Added Member To Class: ClassName=WiFi Member=Component TP16 Test Point 5x2
+Added Member To Class: ClassName=GPSModule Member=Component TP17 Test Point 5x2
+Added Member To Class: ClassName=GPSModule Member=Component TP18 Test Point 5x2
+Added Member To Class: ClassName=MCU Member=Component TP20 Test Point 5x2
+Added Member To Class: ClassName=LaserInterface Member=Component TP21 Test Point 5x2
+Added Member To Class: ClassName=WiFi Member=Component U1 LM3671
+Added Member To Class: ClassName=Audio Member=Component U2 TPA3112D1
+Added Member To Class: ClassName=Peltier Member=Component U3 HCPL0631
+Added Member To Class: ClassName=Peltier Member=Component U4 HCPL0631
+Added Member To Class: ClassName=WiFi Member=Component U5 SPWF01SA
+Added Member To Class: ClassName=LaserInterface Member=Component U6 HCPL0631
+Added Member To Class: ClassName=MISC Member=Component U7 ESDA6V1U1
+Added Member To Class: ClassName=LaserInterface Member=Component U8 HCPL0631
+Added Member To Class: ClassName=LaserInterface Member=Component U9 HCPL0631
+Added Member To Class: ClassName=MISC Member=Component U10 ESDA6V1U1
+Added Member To Class: ClassName=LaserInterface Member=Component U11 HCPL0631
+Added Member To Class: ClassName=LaserInterface Member=Component U12 Optoisolator1
+Added Member To Class: ClassName=LaserInterface Member=Component U14 Optoisolator1
+Added Member To Class: ClassName=LaserInterface Member=Component U15 Optoisolator1
+Added Member To Class: ClassName=LAMP Member=Component U16 Optoisolator1
+Added Member To Class: ClassName=LAMP Member=Component U17 Optoisolator1
+Added Member To Class: ClassName=MCU Member=Component U18 M24256
+Added Member To Class: ClassName=Power Member=Component U19 MC34063
+Added Member To Class: ClassName=LAMP Member=Component U20 Optoisolator1
+Added Member To Class: ClassName=LAMP Member=Component U21 Optoisolator1
+Added Member To Class: ClassName=LaserInterface Member=Component U22 TL431ACD
+Added Member To Class: ClassName=LaserInterface Member=Component U23 LM358AD
+Added Member To Class: ClassName=LAMP Member=Component U24 Optoisolator1
+Added Member To Class: ClassName=LaserInterface Member=Component U25 TLC6515CD
+Added Member To Class: ClassName=MISC Member=Component U26 Optoisolator1
+Added Member To Class: ClassName=MISC Member=Component U29 Optoisolator1
+Added Member To Class: ClassName=MISC Member=Component U30 Optoisolator1
+Added Member To Class: ClassName=MISC Member=Component U31 Optoisolator1
+Added Member To Class: ClassName=MISC Member=Component U32 Optoisolator1
+Added Member To Class: ClassName=MISC Member=Component U33 Optoisolator1
+Added Member To Class: ClassName=MISC Member=Component U34 HCPL-0931
+Added Member To Class: ClassName=MISC Member=Component U35 MCP2551
+Added Member To Class: ClassName=LAMP Member=Component U36 Optoisolator1
+Added Member To Class: ClassName=LAMP Member=Component U37 Optoisolator1
+Added Member To Class: ClassName=LAMP Member=Component U38 Optoisolator1
+Added Member To Class: ClassName=LAMP Member=Component U39 Optoisolator1
+Added Member To Class: ClassName=LAMP Member=Component U40 Optoisolator1
+Added Member To Class: ClassName=LaserInterface Member=Component U41 MCP601
+Added Member To Class: ClassName=LaserInterface Member=Component U42 MCP3201-CI/MS
+Added Member To Class: ClassName=LaserInterface Member=Component U43 MCP3201-CI/MS
+Added Member To Class: ClassName=LaserInterface Member=Component U44 MCP601
+Added Member To Class: ClassName=Power Member=Component U45 LM7805
+Added Member To Class: ClassName=MCU Member=Component U46 SN74AC04D
+Added Member To Class: ClassName=Power Member=Component U47 HCPL-0931
+Added Member To Class: ClassName=Audio Member=Component U48 LM1117
+Added Member To Class: ClassName=GPSModule Member=Component U49 ML8088s
+Added Member To Class: ClassName=GPSModule Member=Component U50 LM3671
+Added Member To Class: ClassName=MISC Member=Component U51 HCPL-0931
+Added Member To Class: ClassName=MISC Member=Component U52 MCP2551
+Added Member To Class: ClassName=MISC Member=Component U53 ESDA6V1U1
+Added Member To Class: ClassName=MISC Member=Component U54 ESDA6V1U1
+Added Member To Class: ClassName=MCU Member=Component U55 MT29F2G08AAC
+Added Member To Class: ClassName=MCU Member=Component U56 MT48LC32M16A2P
+Added Member To Class: ClassName=WiFi Member=Component WIFI1 ChipRes
+Added Member To Class: ClassName=WiFi Member=Component WIFI PWR 1 LED

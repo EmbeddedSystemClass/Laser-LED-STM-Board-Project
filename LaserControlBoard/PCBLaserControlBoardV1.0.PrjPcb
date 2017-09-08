@@ -430,7 +430,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document24]
-DocumentPath=Calipso V2.0 REV2.0 (new origin).PcbDoc
+DocumentPath=Calipso V3.0 REV0.0.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -498,107 +498,71 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0-NonPlated.TXT
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\NC Drill\Calipso V2.0 REV3.0-NonPlated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0-Plated.TXT
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\NC Drill\Calipso V2.0 REV3.0-Plated.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.DRR
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\NC Drill\Calipso V2.0 REV3.0.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.EXTREP
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.GBL
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.GBO
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.GBS
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.GKO
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.GTL
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.GTO
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.GTS
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.LDP
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.REP
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Calipso V2.0 REV2.0.RUL
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\NC Drill\Calipso V2.0 REV3.0.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Design Rule Check - Calipso V2.0 REV2.html
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.REP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Design Rule Check - LaserControlBoard (extended).html
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV3.0.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\LaserControlBoard (extended).BOM
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\LaserControlBoard (extended).CSV
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\LaserControlBoard (extended).cvg
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\LaserControlBoard (extended).DRR
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\LaserControlBoard (extended).EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\LaserControlBoard (extended).LDP
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\LaserControlBoard (extended).REP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\LaserControlBoard (extended).RUL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Pick Place for Calipso V2.0 REV2.0 (new origin).csv
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Pick Place for Calipso V2.0 REV2.0 (new origin).txt
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Pick Place\Pick Place for Calipso V2.0 REV3.0.txt
 DItemRevisionGUID=
 
 [Configuration1]

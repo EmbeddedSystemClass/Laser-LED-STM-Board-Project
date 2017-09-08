@@ -1,0 +1,421 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+U54        SOP8                113.665mm       -7.62mm     113.665mm       -7.62mm     111.265mm      -9.525mm  B        360.00 ESDA6V1U1      
+U53        SOP8                 124.46mm        8.89mm      124.46mm        8.89mm     122.555mm       11.29mm  B        270.00 ESDA6V1U1      
+U10        SOP8                 138.43mm        8.89mm      138.43mm        8.89mm     136.525mm       11.29mm  B        270.00 ESDA6V1U1      
+U7         SOP8                 171.45mm        5.08mm      171.45mm        5.08mm     173.355mm        7.48mm  T        270.00 ESDA6V1U1      
+P4         DHR-62M                 127mm     -0.0015mm         127mm           0mm      103.46mm        2.41mm  T        180.00 DHR-62M        
+J9         DSUB1.385-2H9F       70.485mm       -1.93mm      70.485mm      -11.43mm      76.025mm       -0.51mm  T        180.00 D Connector 9  
+J8         DSUB1.385-2H9F        34.29mm       -1.93mm       34.29mm      -11.43mm       39.83mm       -0.51mm  T        180.00 D Connector 9  
+TP21       PG-1.5-13.5-6P-2.54PH     141.605mm      48.895mm     141.605mm      55.245mm     141.605mm      55.245mm  B        180.00 Test Point 5x2 
+TP20       PG-1.5-13.5-4P-2.54PH       82.55mm       64.77mm       78.74mm       64.77mm       78.74mm       64.77mm  B        270.00 Test Point 5x2 
+TP18       PG-1.5-13.5-4P-2.54PH       91.44mm      130.81mm       87.63mm      130.81mm       87.63mm      130.81mm  B        270.00 Test Point 5x2 
+TP17       PG-1.5-13.5-4P-2.54PH      84.455mm     123.063mm      88.265mm     123.063mm      88.265mm     123.063mm  B         90.00 Test Point 5x2 
+TP16       PG-1.5-13.5-4P-2.54PH      74.803mm     127.635mm      74.803mm     123.825mm      74.803mm     123.825mm  B        360.00 Test Point 5x2 
+TP15       PG-1.5-13.5-4P-2.54PH       16.51mm       62.23mm        12.7mm       62.23mm        12.7mm       62.23mm  B        270.00 Test Point 5x2 
+TP14       PG-1.5-13.5-4P-2.54PH       6.985mm      17.018mm      10.795mm      17.018mm      10.795mm      17.018mm  B         90.00 Test Point 5x2 
+TP13       PG-1.5-13.5-4P-2.54PH     127.635mm      133.35mm     127.635mm      137.16mm     127.635mm      137.16mm  B        180.00 Test Point 5x2 
+TP12       PG-1.5-13.5-4P-2.54PH     109.855mm      133.35mm     109.855mm      137.16mm     109.855mm      137.16mm  B        180.00 Test Point 5x2 
+TP11       PG-1.5-13.5-4P-2.54PH     109.855mm       97.79mm     109.855mm       101.6mm     109.855mm       101.6mm  B        180.00 Test Point 5x2 
+TP10       PG-1.5-13.5-6P-2.54PH     109.855mm      116.84mm     109.855mm      123.19mm     109.855mm      123.19mm  B        180.00 Test Point 5x2 
+TP9        PG-1.5-13.5-6P-2.54PH     137.795mm      29.845mm     131.445mm      29.845mm     131.445mm      29.845mm  B        270.00 Test Point 5x2 
+TP8        PG-1.5-13.5-6P-2.54PH     122.555mm      29.845mm     116.205mm      29.845mm     116.205mm      29.845mm  B        270.00 Test Point 5x2 
+TP7        PG-1.5-13.5-6P-2.54PH     170.815mm       45.72mm     170.815mm       52.07mm     170.815mm       52.07mm  B        180.00 Test Point 5x2 
+TP6        PG-1.5-13.5-4P-2.54PH     109.855mm       87.63mm     109.855mm       91.44mm     109.855mm       91.44mm  B        180.00 Test Point 5x2 
+TP5        PG-1.5-13.5-6P-2.54PH       97.79mm      57.785mm       91.44mm      57.785mm       91.44mm      57.785mm  B        270.00 Test Point 5x2 
+TP4        PG-1.5-13.5-4P-2.54PH     36.8308mm      57.785mm     33.0208mm      57.785mm     33.0208mm      57.785mm  B        270.00 Test Point 5x2 
+TP3        PG-1.5-13.5-4P-2.54PH      31.115mm      23.495mm      31.115mm      27.305mm      31.115mm      27.305mm  B        180.00 Test Point 5x2 
+TP2        PG-1.5-13.5-4P-2.54PH     57.7858mm      42.545mm     53.9758mm      42.545mm     53.9758mm      42.545mm  B        270.00 Test Point 5x2 
+TP1        PG-1.5-13.5-4P-2.54PH     57.7858mm      57.785mm     53.9758mm      57.785mm     53.9758mm      57.785mm  B        270.00 Test Point 5x2 
+U5         SPWF01SA             65.532mm     124.487mm      65.532mm     129.032mm      72.967mm      116.84mm  T         90.00 SPWF01SA       
+P10        Socket_4x5.08          7.62mm           0mm        7.62mm           0mm           0mm           0mm  T         90.00 Terminal Block 4x5.08mm
+P5         Socket_4x5.08        170.18mm      78.105mm      170.18mm      78.105mm      170.18mm      70.485mm  T        180.00 Terminal Block 4x5.08mm
+P3         SOCKET_8x5.08        170.18mm      110.49mm      170.18mm      110.49mm      170.18mm       92.71mm  T        180.00 Terminal Block 8x5.08mm
+WIFI PWR 1 PLCC-2                48.26mm     139.065mm       48.26mm     139.065mm       46.76mm     139.065mm  T        360.00 LED            
+U50        SOT23-5                88.9mm     116.205mm        88.9mm     116.205mm        87.7mm     117.155mm  T          0.00 LM3671         
+U49        ML8088S              86.995mm     126.365mm      86.995mm     126.365mm      80.645mm     119.865mm  T         90.00 ML8088s        
+R141       RES0805              85.598mm      115.57mm      85.598mm      115.57mm      85.598mm      114.52mm  T         90.00 RES0805 10K 1% 
+P13        SMB_V-RJ45           83.185mm      138.43mm      83.185mm      138.43mm      83.185mm      138.43mm  T         90.00 SMB            
+GPS1       RES0805              89.535mm     112.776mm      89.535mm     112.776mm      90.585mm     112.776mm  T        180.00 ChipRes        
+C69        CAP0805              93.345mm     136.525mm      93.345mm     136.525mm      93.345mm       137.7mm  T        270.00 CAP0805 1uF X7R
+C68        CAP0805              90.805mm     136.525mm      90.805mm     136.525mm      90.805mm       137.7mm  T        270.00 CAP0805 1uF X7R
+C67        CAPC7343            100.965mm       114.3mm     100.965mm       114.3mm      97.465mm       114.3mm  T        360.00 Cap Pol SMD    
+C66        CAPC7343              81.28mm     113.665mm       81.28mm     113.665mm       81.28mm     110.165mm  T         90.00 Cap Pol SMD    
+U13        LQFP144              78.709mm      86.983mm      78.709mm      86.983mm      89.309mm      78.233mm  T        180.00 STM32F407      
+P12        BH810                 101.6mm      74.295mm       101.6mm      74.295mm       101.6mm      64.295mm  T        180.00 BH810          
+R115       RES0805              38.735mm      80.645mm      38.735mm      80.645mm      39.785mm      80.645mm  T        180.00 RES0805 1K 1%  
+R114       RES0805              38.735mm      84.455mm      38.735mm      84.455mm      39.785mm      84.455mm  T        180.00 RES0805 1K 1%  
+R96        RES0805              38.735mm      88.265mm      38.735mm      88.265mm      39.785mm      88.265mm  T        180.00 RES0805 1K 1%  
+R95        RES0805              38.735mm      92.075mm      38.735mm      92.075mm      39.785mm      92.075mm  T        180.00 RES0805 1K 1%  
+Q37        SOT23                32.385mm      80.645mm      32.385mm      80.645mm      33.585mm      79.695mm  T        180.00 BC847          
+Q36        SOT23                32.385mm      84.455mm      32.385mm      84.455mm      33.585mm      83.505mm  T        180.00 BC847          
+Q35        SOT23                32.385mm      88.265mm      32.385mm      88.265mm      33.585mm      87.315mm  T        180.00 BC847          
+Q34        SOT23                32.385mm      92.075mm      32.385mm      92.075mm      33.585mm      91.125mm  T        180.00 BC847          
+LED14      PLCC-2               27.305mm      80.645mm      27.305mm      80.645mm      28.805mm      80.645mm  T        180.00 LED 0603       
+LED13      PLCC-2               27.305mm       85.09mm      27.305mm       85.09mm      28.805mm       85.09mm  T        180.00 LED 0603       
+LED12      PLCC-2               27.305mm      89.535mm      27.305mm      89.535mm      28.805mm      89.535mm  T        180.00 LED 0603       
+LED11      PLCC-2               27.305mm       93.98mm      27.305mm       93.98mm      28.805mm       93.98mm  T        180.00 LED 0603       
+R51        RES0805              38.735mm       3.175mm      38.735mm       3.175mm      37.685mm       3.175mm  B        360.00 RES0805 120R 1%
+R50        RES0805              76.835mm      37.338mm      76.835mm      37.338mm      75.785mm      37.338mm  T        360.00 RES0805 1K 1%  
+C31        CAP0805              73.533mm      42.545mm      73.533mm      42.545mm      72.358mm      42.545mm  B          0.00 CAP0805 0.1uF X7R
+C30        CAP0805              69.215mm      42.545mm      69.215mm      42.545mm       68.04mm      42.545mm  B        360.00 CAP0805 30pF X7R
+C29        CAP0805               72.39mm       46.99mm       72.39mm       46.99mm      71.215mm       46.99mm  B          0.00 CAP0805 0.1uF X7R
+C27        CAP0805              74.295mm      55.118mm      74.295mm      55.118mm      74.295mm      56.293mm  T        270.00 CAP0805 0.1uF X7R
+U47        SOIC8                14.605mm      69.215mm      14.605mm      69.215mm        12.7mm      66.815mm  T         90.00 HCPL-0931      
+C25        CAP0805              13.589mm      65.405mm      13.589mm      65.405mm      13.589mm       64.23mm  B         90.00 CAP0805 0.1uF X7R
+C13        CAP0805              13.589mm      73.025mm      13.589mm      73.025mm      13.589mm        74.2mm  B        270.00 CAP0805 0.1uF X7R
+U18        SOIC8                81.661mm        63.5mm      81.661mm        63.5mm      79.756mm        61.1mm  T         90.00 M24256         
+C12        CAP0805               77.47mm      62.357mm       77.47mm      62.357mm       77.47mm      61.182mm  T         90.00 CAP0805 0.1uF X7R
+WIFI1      RES0805                50.8mm     108.585mm        50.8mm     108.585mm       51.85mm     108.585mm  T        180.00 ChipRes        
+Q33        SOT23                49.784mm      64.897mm      49.784mm      64.897mm      48.834mm      63.697mm  T         90.00 BC847          
+Q32        SOT23                45.339mm      64.897mm      45.339mm      64.897mm      44.389mm      63.697mm  T         90.00 BC847          
+K4         G5LA                 105.41mm      19.165mm      105.41mm      12.065mm      105.41mm      12.065mm  T         90.00 Relay 1 pole   
+K3         G5LA                  85.09mm      19.165mm       85.09mm      12.065mm       85.09mm      12.065mm  T         90.00 Relay 1 pole   
+R155       RES0805             125.095mm      33.655mm     125.095mm      33.655mm     125.095mm      34.705mm  B        270.00 RES0805 100R 1%
+R154       RES0805             130.175mm      33.655mm     130.175mm      33.655mm     130.175mm      34.705mm  B        270.00 RES0805 100R 1%
+R59        RES0805                 127mm      76.835mm         127mm      76.835mm      125.95mm      76.835mm  T        360.00 RES0805 4K7 1% 
+U45        TO-220                20.32mm       22.86mm       20.32mm       22.86mm       20.32mm       20.32mm  T         90.00 LM7805         
+C62        CAP0805               22.86mm       24.13mm       22.86mm       24.13mm       22.86mm      22.955mm  B         90.00 CAP0805 0.1uF X7R
+C41        CAPC7343              22.86mm       13.97mm       22.86mm       13.97mm       19.36mm       13.97mm  T        360.00 Cap Pol SMD    
+U19        SOP8                  1.905mm      74.295mm       1.905mm      74.295mm       4.305mm       72.39mm  T        180.00 MC34063        
+R56        RES0805                7.62mm       78.74mm        7.62mm       78.74mm        8.67mm       78.74mm  T        180.00 RES0805 11K 1% 
+R55        RES0805               1.905mm       78.74mm       1.905mm       78.74mm       2.955mm       78.74mm  T        180.00 RES0805 18K 1% 
+R70        RES0805               -6.35mm       67.31mm       -6.35mm       67.31mm       -6.35mm       66.26mm  T         90.00 RES0805 1R2 1% 
+R71        RES0805               -3.81mm       67.31mm       -3.81mm       67.31mm       -3.81mm       66.26mm  T         90.00 RES0805 1R2 1% 
+D9         SMB1                 10.795mm      86.106mm      10.795mm      86.106mm       13.17mm      86.106mm  T        180.00 STPS2150A      
+C26        CAP0805                8.89mm       74.93mm        8.89mm       74.93mm      10.065mm       74.93mm  T        180.00 CAP0805 1000pF NP0
+C22        CAPC7343               5.08mm      90.805mm        5.08mm      90.805mm        1.58mm      90.805mm  T        360.00 Cap Pol SMD    
+C28        CAPC7343              3.175mm      64.135mm       3.175mm      64.135mm      -0.325mm      64.135mm  T        360.00 Cap Pol SMD    
+C33        CAP0805              148.59mm       54.61mm      148.59mm       54.61mm      148.59mm      55.785mm  T        270.00 CAP0805 0.1uF X7R
+U29        DIP-4               43.1808mm      48.895mm     43.1808mm      48.895mm     41.9108mm      45.085mm  T         90.00 Optoisolator1  
+U35        SOIC8               72.3908mm      39.751mm     72.3908mm      39.751mm     74.2958mm      42.151mm  T        270.00 MCP2551        
+U34        SOIC8               72.3908mm      48.895mm     72.3908mm      48.895mm     74.2958mm      51.295mm  T        270.00 HCPL-0931      
+R109       RES0805             41.9108mm      41.275mm     41.9108mm      41.275mm     41.9108mm      40.225mm  T         90.00 RES0805 100R 1%
+R90        RES0805             41.9108mm      56.515mm     41.9108mm      56.515mm     41.9108mm      55.465mm  T         90.00 RES0805 510R 1%
+U20        DIP-4                119.38mm       69.85mm      119.38mm       69.85mm      123.19mm       68.58mm  T        180.00 Optoisolator1  
+U40        DIP-4                111.76mm      48.895mm      111.76mm      48.895mm      113.03mm      52.705mm  T        270.00 Optoisolator1  
+U37        DIP-4                94.615mm      48.895mm      94.615mm      48.895mm      93.345mm      45.085mm  T         90.00 Optoisolator1  
+U39        DIP-4               106.045mm      48.895mm     106.045mm      48.895mm     104.775mm      45.085mm  T         90.00 Optoisolator1  
+U24        DIP-4                119.38mm       58.42mm      119.38mm       58.42mm      123.19mm       57.15mm  T        180.00 Optoisolator1  
+U36        DIP-4                  88.9mm      48.895mm        88.9mm      48.895mm       90.17mm      52.705mm  T        270.00 Optoisolator1  
+U38        DIP-4                100.33mm      48.895mm      100.33mm      48.895mm       99.06mm      45.085mm  T         90.00 Optoisolator1  
+U21        DIP-4                119.38mm      64.135mm      119.38mm      64.135mm      115.57mm      65.405mm  T        360.00 Optoisolator1  
+U17        DIP-4                119.38mm      75.565mm      119.38mm      75.565mm      115.57mm      76.835mm  T        360.00 Optoisolator1  
+U16        DIP-4                119.38mm       81.28mm      119.38mm       81.28mm      123.19mm       80.01mm  T        180.00 Optoisolator1  
+R120       RES0805              110.49mm      41.275mm      110.49mm      41.275mm      110.49mm      40.225mm  T         90.00 RES0805 4K7 1% 
+R73        RES0805                 127mm       68.58mm         127mm       68.58mm      125.95mm       68.58mm  T        360.00 RES0805 220R 1%
+R72        RES0805             113.284mm       67.31mm     113.284mm       67.31mm     113.284mm       68.36mm  T        270.00 RES0805 1K 1%  
+R102       RES0805             109.855mm       57.15mm     109.855mm       57.15mm     108.805mm       57.15mm  T        360.00 RES0805 100R 1%
+R117       RES0805              93.345mm      41.275mm      93.345mm      41.275mm      93.345mm      42.325mm  T        270.00 RES0805 220R 1%
+R98        RES0805              93.345mm      56.515mm      93.345mm      56.515mm      93.345mm      55.465mm  T         90.00 RES0805 1K 1%  
+R119       RES0805             104.775mm      41.275mm     104.775mm      41.275mm     104.775mm      42.325mm  T        270.00 RES0805 220R 1%
+R100       RES0805             104.775mm      56.515mm     104.775mm      56.515mm     104.775mm      55.465mm  T         90.00 RES0805 1K 1%  
+R103       RES0805                 127mm       57.15mm         127mm       57.15mm      125.95mm       57.15mm  T        360.00 RES0805 220R 1%
+R83        RES0805              111.76mm      60.325mm      111.76mm      60.325mm      112.81mm      60.325mm  T        180.00 RES0805 1K 1%  
+R97        RES0805               90.17mm      56.515mm       90.17mm      56.515mm       90.17mm      57.565mm  T        270.00 RES0805 100R 1%
+R116       RES0805               90.17mm      41.275mm       90.17mm      41.275mm       90.17mm      42.325mm  T        270.00 RES0805 1K 1%  
+R118       RES0805               99.06mm      41.275mm       99.06mm      41.275mm       99.06mm      42.325mm  T        270.00 RES0805 1K 1%  
+R99        RES0805               99.06mm      56.515mm       99.06mm      56.515mm       99.06mm      55.465mm  T         90.00 RES0805 1K 1%  
+R81        RES0805                 127mm      62.865mm         127mm      62.865mm      128.05mm      62.865mm  T        180.00 RES0805 4K7 1% 
+R75        RES0805              111.76mm      62.865mm      111.76mm      62.865mm      110.71mm      62.865mm  T        360.00 RES0805 100R 1%
+R61        RES0805                 127mm      74.295mm         127mm      74.295mm      125.95mm      74.295mm  T        360.00 RES0805 100R 1%
+R58        RES0805              111.76mm      80.645mm      111.76mm      80.645mm      110.71mm      80.645mm  T        360.00 RES0805 100R 1%
+R52        RES0805                 127mm       82.55mm         127mm       82.55mm      125.95mm       82.55mm  T        360.00 RES0805 220R 1%
+R54        RES0805              111.76mm      83.185mm      111.76mm      83.185mm      112.81mm      83.185mm  T        180.00 RES0805 1K 1%  
+Q31        SOT23               144.145mm      -6.985mm     144.145mm      -6.985mm     145.345mm      -6.035mm  B        180.00 BC857          
+U33        DIP-4                 66.04mm      48.895mm       66.04mm      48.895mm       67.31mm      52.705mm  T        270.00 Optoisolator1  
+R94        RES0805             67.3108mm      56.261mm     67.3108mm      56.261mm     67.3108mm      57.311mm  T        270.00 RES0805 100R 1%
+R113       RES0805               67.31mm      41.275mm       67.31mm      41.275mm       67.31mm      42.325mm  T        270.00 RES0805 510R 1%
+R134       RES0805              94.107mm       24.13mm      94.107mm       24.13mm      94.107mm       23.08mm  T         90.00 RES0805 1K 1%  
+R138       RES0805               93.98mm      14.605mm       93.98mm      14.605mm       93.98mm      13.555mm  T         90.00 RES0805 220R 1%
+Q26        SOT23                 95.25mm       31.75mm       95.25mm       31.75mm        94.3mm       30.55mm  T         90.00 BC847          
+Q30        SOT23                 95.25mm       19.05mm       95.25mm       19.05mm       94.05mm          20mm  T          0.00 BC847          
+LED10      LED_0603              96.52mm      14.605mm       96.52mm      14.605mm       96.52mm      15.355mm  T        270.00 LED 0603       
+D18        DO-41               107.315mm       34.29mm     107.315mm       34.29mm     102.085mm       34.29mm  T        360.00 Diode 1N4007   
+U26        DIP-4                26.035mm      48.895mm      26.035mm      48.895mm      27.305mm      52.705mm  T        270.00 Optoisolator1  
+R87        RES0805              27.305mm      56.515mm      27.305mm      56.515mm      27.305mm      57.565mm  T        270.00 RES0805 330R 1%
+R106       RES0805              27.305mm      41.275mm      27.305mm      41.275mm      27.305mm      42.325mm  T        270.00 RES0805 1K 1%  
+R79        RES0805              45.085mm       60.96mm      45.085mm       60.96mm      45.085mm       59.91mm  T         90.00 RES0805 1K 1%  
+LED1       LED_0603             46.355mm      69.088mm      46.355mm      69.088mm      46.355mm      68.338mm  T         90.00 LED 0603       
+STM PWR 1  PLCC-2                 12.7mm      93.345mm        12.7mm      93.345mm        12.7mm      91.845mm  T         90.00 LED            
+R9         RES0805              53.975mm     139.065mm      53.975mm     139.065mm      55.025mm     139.065mm  T        180.00 RES0805 1K 1%  
+R41        RES0805               6.985mm      94.615mm       6.985mm      94.615mm       8.035mm      94.615mm  T        180.00 RES0805 1K 1%  
+R157       RES0805             149.225mm      -8.255mm     149.225mm      -8.255mm     150.275mm      -8.255mm  B        180.00 RES0805 1K 1%  
+RU2        S14K25               22.225mm       5.715mm      22.225mm       5.715mm      26.035mm       4.826mm  T        180.00 Varistor S14F25
+F2         PTC1812               15.24mm      12.065mm       15.24mm      12.065mm       15.24mm       9.965mm  T         90.00 Fuse           
+D20        DO-214AS             22.225mm       9.525mm      22.225mm       9.525mm      20.125mm       9.525mm  T        360.00 SMBJ5.0CA      
+C40        CAPPR5-10X17_1        11.43mm       22.86mm       11.43mm       22.86mm       11.43mm       25.36mm  T        270.00 Cap Pol 100/47 
+RU1        S14K25                5.715mm       5.715mm       5.715mm       5.715mm       9.525mm       4.826mm  T        180.00 Varistor S14F25
+C39        CAPPR5-10X17_1       -0.635mm       22.86mm      -0.635mm       22.86mm      -3.135mm       22.86mm  T        360.00 Cap Pol 100/47 
+D6         DO-214AS            102.235mm      125.73mm     102.235mm      125.73mm     104.335mm      125.73mm  T        180.00 SS12           
+U31        DIP-4                 54.61mm      48.895mm       54.61mm      48.895mm       55.88mm      52.705mm  T        270.00 Optoisolator1  
+U28        DIP-4                37.465mm      48.895mm      37.465mm      48.895mm      36.195mm      45.085mm  T         90.00 Optoisolator1  
+U30        DIP-4                48.895mm      48.895mm      48.895mm      48.895mm      50.165mm      52.705mm  T        270.00 Optoisolator1  
+R92        RES0805             55.8808mm      56.261mm     55.8808mm      56.261mm     55.8808mm      57.311mm  T        270.00 RES0805 100R 1%
+R108       RES0805              36.195mm      41.275mm      36.195mm      41.275mm      36.195mm      40.225mm  T         90.00 RES0805 100R 1%
+R111       RES0805               55.88mm      41.275mm       55.88mm      41.275mm       55.88mm      42.325mm  T        270.00 RES0805 510R 1%
+R89        RES0805              36.195mm      56.515mm      36.195mm      56.515mm      36.195mm      55.465mm  T         90.00 RES0805 510R 1%
+R131       RES0805              52.705mm        25.4mm      52.705mm        25.4mm      52.705mm       24.35mm  T         90.00 RES0805 1K 1%  
+R135       RES0805              52.705mm      15.875mm      52.705mm      15.875mm      52.705mm      14.825mm  T         90.00 RES0805 220R 1%
+R91        RES0805             50.1658mm      56.261mm     50.1658mm      56.261mm     50.1658mm      57.311mm  T        270.00 RES0805 100R 1%
+R11        RES0805               101.6mm     132.715mm       101.6mm     132.715mm      100.55mm     132.715mm  T        360.00 RES0805 4K7 1% 
+R110       RES0805              50.165mm      41.275mm      50.165mm      41.275mm      50.165mm      42.325mm  T        270.00 RES0805 510R 1%
+R132       RES0805               31.75mm      24.765mm       31.75mm      24.765mm       31.75mm      23.715mm  T         90.00 RES0805 1K 1%  
+R136       RES0805               31.75mm       15.24mm       31.75mm       15.24mm       31.75mm       14.19mm  T         90.00 RES0805 220R 1%
+Q24        SOT23                53.975mm       31.75mm      53.975mm       31.75mm      53.025mm       30.55mm  T         90.00 BC847          
+Q27        SOT23                53.975mm       20.32mm      53.975mm       20.32mm      52.775mm       21.27mm  T        360.00 BC847          
+Q23        SOT23                 33.02mm      32.385mm       33.02mm      32.385mm       32.07mm      31.185mm  T         90.00 BC847          
+Q28        SOT23                 33.02mm      19.685mm       33.02mm      19.685mm       31.82mm      20.635mm  T        360.00 BC847          
+P1         HEADER_3_LATCH       100.33mm      137.16mm      100.33mm      137.16mm      102.87mm      137.16mm  T        180.00 Header 3 Latch 
+LED8       LED_0603             55.245mm       15.24mm      55.245mm       15.24mm      55.245mm       15.99mm  T        270.00 LED 0603       
+LED7       LED_0603              34.29mm       15.24mm       34.29mm       15.24mm       34.29mm       15.99mm  T        270.00 LED 0603       
+K2         G5LA                 64.135mm      19.165mm      64.135mm      12.065mm      64.135mm      12.065mm  T         90.00 Relay 1 pole   
+K1         G5LA                 43.815mm      19.165mm      43.815mm      12.065mm      43.815mm      12.065mm  T         90.00 Relay 1 pole   
+D16        DO-41                 62.23mm       34.29mm       62.23mm       34.29mm          57mm       34.29mm  T        360.00 Diode 1N4007   
+D4         DO-214AS            102.489mm      129.54mm     102.489mm      129.54mm     104.589mm      129.54mm  T        180.00 SMBJ5.0CA      
+D1         SOT23                97.155mm     131.445mm      97.155mm     131.445mm      96.205mm     130.245mm  T         90.00 BAT54S         
+D15        DO-41                45.085mm       34.29mm      45.085mm       34.29mm      39.855mm       34.29mm  T        360.00 Diode 1N4007   
+Q12        TO-263AB            149.225mm      99.695mm      154.94mm      99.695mm      143.51mm      102.29mm  T        270.00 IRFZ44         
+Q6         TO-263AB            149.225mm     123.825mm      154.94mm     123.825mm      143.51mm      126.42mm  T        270.00 IRFZ44         
+Q14        TO-263AB            149.225mm       87.63mm      154.94mm       87.63mm      143.51mm      90.225mm  T        270.00 IRFZ44         
+Q16        TO-263AB            149.225mm      75.565mm      154.94mm      75.565mm      143.51mm       78.16mm  T        270.00 IRFZ44         
+Q9         TO-263AB            149.225mm     111.633mm      154.94mm     111.633mm      143.51mm     114.228mm  T        270.00 IRFZ44         
+Q1         TO-263AB            149.225mm      135.89mm      154.94mm      135.89mm      143.51mm     138.485mm  T        270.00 IRFZ44         
+U9         SOIC8                119.38mm     111.125mm      119.38mm     111.125mm      116.98mm      113.03mm  T          0.00 HCPL0631       
+U11        SOIC8                119.38mm     104.775mm      119.38mm     104.775mm      121.78mm      102.87mm  T        180.00 HCPL0631       
+U41        SOIC8                156.21mm      45.085mm      156.21mm      45.085mm      158.61mm       43.18mm  T        180.00 MCP601         
+U42        MSOP8                142.24mm       45.72mm      142.24mm       45.72mm     144.215mm      44.745mm  T        180.00 MCP3201-CI/MS  
+U44        SOIC8                156.21mm       36.83mm      156.21mm       36.83mm      158.61mm      34.925mm  T        180.00 MCP601         
+U43        MSOP8                142.24mm        38.1mm      142.24mm        38.1mm     144.215mm      37.125mm  T        180.00 MCP3201-CI/MS  
+U8         SOIC8                119.38mm     117.475mm      119.38mm     117.475mm      116.98mm      119.38mm  T          0.00 HCPL0631       
+U25        SOIC8                143.51mm      53.975mm      143.51mm      53.975mm      141.11mm       55.88mm  T          0.00 TLC6515CD      
+U23        SOIC8                154.94mm       60.96mm      154.94mm       60.96mm      157.34mm      59.055mm  T        180.00 LM358AD        
+U6         SOIC8                119.38mm     123.825mm      119.38mm     123.825mm      116.98mm      125.73mm  T          0.00 HCPL0631       
+U22        SOIC8                143.51mm      62.865mm      143.51mm      62.865mm      145.91mm       60.96mm  T        180.00 TL431ACD       
+U15        DIP-4                119.38mm       87.63mm      119.38mm       87.63mm      123.19mm       86.36mm  T        180.00 Optoisolator1  
+U12        DIP-4                119.38mm       99.06mm      119.38mm       99.06mm      115.57mm      100.33mm  T        360.00 Optoisolator1  
+U14        DIP-4                119.38mm      93.345mm      119.38mm      93.345mm      123.19mm      92.075mm  T        180.00 Optoisolator1  
+U4         SOIC8                119.38mm     130.175mm      119.38mm     130.175mm      116.98mm      132.08mm  T        360.00 HCPL0631       
+U3         SOIC8                119.38mm     136.525mm      119.38mm     136.525mm      116.98mm      138.43mm  T        360.00 HCPL0631       
+R101       RES0805             161.925mm      57.277mm     161.925mm      57.277mm     160.875mm      57.277mm  T        360.00 RES0805 3K3 1% 
+R57        RES0805             38.7349mm      76.835mm     38.7349mm      76.835mm      37.685mm      76.835mm  T        360.00 RES0805 10K 1% 
+R60        RES0805             38.7349mm      74.295mm     38.7349mm      74.295mm      37.685mm      74.295mm  T        360.00 RES0805 10K 1% 
+R67        RES0805             38.7349mm      71.755mm     38.7349mm      71.755mm      37.685mm      71.755mm  T        360.00 RES0805 10K 1% 
+R68        RES0805             38.7349mm      69.215mm     38.7349mm      69.215mm      37.685mm      69.215mm  T        360.00 RES0805 10K 1% 
+R78        RES0805             38.7349mm      64.135mm     38.7349mm      64.135mm      37.685mm      64.135mm  T        360.00 RES0805 10K 1% 
+R74        RES0805             38.7349mm      66.675mm     38.7349mm      66.675mm      37.685mm      66.675mm  T        360.00 RES0805 10K 1% 
+R30        RES0805             112.395mm     109.855mm     112.395mm     109.855mm     111.345mm     109.855mm  T        360.00 RES0805 330R 1%
+R26        RES0805             112.395mm      113.03mm     112.395mm      113.03mm     111.345mm      113.03mm  T        360.00 RES0805 330R 1%
+R31        RES0805             126.365mm     108.585mm     126.365mm     108.585mm     125.315mm     108.585mm  T        360.00 RES0805 510R 1%
+R29        RES0805             126.365mm     111.125mm     126.365mm     111.125mm     125.315mm     111.125mm  T        360.00 RES0805 510R 1%
+R105       RES0805             163.195mm      44.831mm     163.195mm      44.831mm     164.245mm      44.831mm  T        180.00 RES0805 10K 1% 
+R35        RES0805             112.395mm      104.14mm     112.395mm      104.14mm     113.445mm      104.14mm  T        180.00 RES0805 510R 1%
+R104       RES0805             163.195mm       46.99mm     163.195mm       46.99mm     164.245mm       46.99mm  T        180.00 RES0805 10K 1% 
+R37        RES0805             126.365mm      102.87mm     126.365mm      102.87mm     125.315mm      102.87mm  T        360.00 RES0805 470R 1%
+R121       RES0805             163.195mm      38.735mm     163.195mm      38.735mm     164.245mm      38.735mm  T        180.00 RES0805 10K 1% 
+R130       RES0805             163.195mm      36.576mm     163.195mm      36.576mm     164.245mm      36.576mm  T        180.00 RES0805 10K 1% 
+R28        RES0805                76.2mm     116.205mm        76.2mm     116.205mm       77.25mm     116.205mm  T        180.00 RES0805 4K7 1% 
+R6         RES0805              53.975mm      130.81mm      53.975mm      130.81mm      55.025mm      130.81mm  T        180.00 RES0805 510R 1%
+R7         RES0805              53.975mm      133.35mm      53.975mm      133.35mm      55.025mm      133.35mm  T        180.00 RES0805 510R 1%
+R8         RES0805              53.975mm      135.89mm      53.975mm      135.89mm      55.025mm      135.89mm  T        180.00 RES0805 510R 1%
+R25        RES0805             112.395mm      115.57mm     112.395mm      115.57mm     111.345mm      115.57mm  T        360.00 RES0805 330R 1%
+R23        RES0805             112.395mm      119.38mm     112.395mm      119.38mm     111.345mm      119.38mm  T        360.00 RES0805 330R 1%
+R76        RES0805             161.925mm       64.77mm     161.925mm       64.77mm     160.875mm       64.77mm  T        360.00 RES0805 47K 1% 
+R21        RES0805             112.395mm      121.92mm     112.395mm      121.92mm     111.345mm      121.92mm  T        360.00 RES0805 330R 1%
+R82        RES0805             161.925mm       62.23mm     161.925mm       62.23mm     162.975mm       62.23mm  T        180.00 RES0805 5K1 1% 
+R19        RES0805             112.395mm      125.73mm     112.395mm      125.73mm     111.345mm      125.73mm  T        360.00 RES0805 330R 1%
+R24        RES0805             126.365mm     116.332mm     126.365mm     116.332mm     125.315mm     116.332mm  T        360.00 RES0805 510R 1%
+R22        RES0805             126.365mm      120.65mm     126.365mm      120.65mm     125.315mm      120.65mm  T        360.00 RES0805 510R 1%
+R20        RES0805             126.365mm      123.19mm     126.365mm      123.19mm     125.315mm      123.19mm  T        360.00 RES0805 510R 1%
+R86        RES0805             146.685mm       58.42mm     146.685mm       58.42mm     145.635mm       58.42mm  T        360.00 RES0805 5K1 1% 
+R85        RES0805             141.605mm       58.42mm     141.605mm       58.42mm     140.555mm       58.42mm  T        360.00 RES0805 5K1 1% 
+R84        RES0805             161.925mm       59.69mm     161.925mm       59.69mm     160.875mm       59.69mm  T        360.00 RES0805 10K 1% 
+R77        RES0805             149.225mm      62.865mm     149.225mm      62.865mm     149.225mm      61.815mm  T         90.00 RES0805 1K 1%  
+R48        RES0805                 127mm       86.36mm         127mm       86.36mm      125.95mm       86.36mm  T        360.00 RES0805 510R 1%
+R47        RES0805              111.76mm       86.36mm      111.76mm       86.36mm      112.81mm       86.36mm  T        180.00 RES0805 1K 1%  
+R39        RES0805                 127mm       97.79mm         127mm       97.79mm      128.05mm       97.79mm  T        180.00 RES0805 10K 1% 
+R38        RES0805              111.76mm       99.06mm      111.76mm       99.06mm      110.71mm       99.06mm  T        360.00 RES0805 100R 1%
+R44        RES0805                 127mm      92.075mm         127mm      92.075mm      125.95mm      92.075mm  T        360.00 RES0805 1K 1%  
+R43        RES0805              111.76mm      92.075mm      111.76mm      92.075mm      112.81mm      92.075mm  T        180.00 RES0805 1K 1%  
+R42        RES0805               139.7mm      92.075mm       139.7mm      92.075mm       139.7mm      93.125mm  T        270.00 RES0805 10K 1% 
+R46        RES0805               139.7mm      85.725mm       139.7mm      85.725mm       139.7mm      86.775mm  T        270.00 RES0805 1K 1%  
+R49        RES0805              135.89mm      83.185mm      135.89mm      83.185mm      136.94mm      83.185mm  T        180.00 RES0805 1K 1%  
+R14        RES0805             126.365mm      130.81mm     126.365mm      130.81mm     125.315mm      130.81mm  T        360.00 RES0805 1K 1%  
+R53        RES0805               139.7mm       78.74mm       139.7mm       78.74mm       139.7mm       79.79mm  T        270.00 RES0805 10K 1% 
+R16        RES0805             112.395mm      128.27mm     112.395mm      128.27mm     111.345mm      128.27mm  T        360.00 RES0805 330R 1%
+R62        RES0805               139.7mm       72.39mm       139.7mm       72.39mm       139.7mm       73.44mm  T        270.00 RES0805 1K 1%  
+R69        RES0805              135.89mm      69.215mm      135.89mm      69.215mm      134.84mm      69.215mm  T        360.00 RES0805 1K 1%  
+R13        RES0805             112.395mm      132.08mm     112.395mm      132.08mm     111.345mm      132.08mm  T        360.00 RES0805 330R 1%
+R17        RES0805             126.365mm      128.27mm     126.365mm      128.27mm     127.415mm      128.27mm  T        180.00 RES0805 1K 1%  
+R36        RES0805              137.16mm     103.886mm      137.16mm     103.886mm      136.11mm     103.886mm  T        360.00 RES0805 10K 1% 
+R34        RES0805              137.16mm     106.045mm      137.16mm     106.045mm      138.21mm     106.045mm  T        180.00 RES0805 1K 1%  
+R27        RES0805              137.16mm     112.395mm      137.16mm     112.395mm      138.21mm     112.395mm  T        180.00 RES0805 1K 1%  
+R5         RES0805             126.365mm      135.89mm     126.365mm      135.89mm     125.315mm      135.89mm  T        360.00 RES0805 1K 1%  
+R18        RES0805              137.16mm     128.016mm      137.16mm     128.016mm      136.11mm     128.016mm  T        360.00 RES0805 10K 1% 
+R10        RES0805             112.395mm      134.62mm     112.395mm      134.62mm     111.345mm      134.62mm  T        360.00 RES0805 330R 1%
+R15        RES0805              137.16mm     130.175mm      137.16mm     130.175mm      138.21mm     130.175mm  T        180.00 RES0805 1K 1%  
+R4         RES0805              137.16mm     136.525mm      137.16mm     136.525mm      136.11mm     136.525mm  T        360.00 RES0805 1K 1%  
+R2         RES0805             112.395mm      138.43mm     112.395mm      138.43mm     111.345mm      138.43mm  T        360.00 RES0805 330R 1%
+R3         RES0805             126.365mm      138.43mm     126.365mm      138.43mm     127.415mm      138.43mm  T        180.00 RES0805 1K 1%  
+Q13        SOT23               136.525mm      92.075mm     136.525mm      92.075mm     135.575mm      90.875mm  T         90.00 BC857          
+Q15        SOT23               137.033mm       86.36mm     137.033mm       86.36mm     136.083mm       85.16mm  T         90.00 BC847          
+Q17        SOT23               136.525mm       78.74mm     136.525mm       78.74mm     135.575mm       77.54mm  T         90.00 BC857          
+Q18        SOT23               136.525mm       72.39mm     136.525mm       72.39mm     135.575mm       71.19mm  T         90.00 BC847          
+Q11        SOT23               139.065mm      109.22mm     139.065mm      109.22mm     137.865mm      110.17mm  T        360.00 BC857          
+Q10        SOT23               135.001mm      109.22mm     135.001mm      109.22mm     133.801mm      110.17mm  T        360.00 BC847          
+Q5         SOT23               139.065mm      133.35mm     139.065mm      133.35mm     137.865mm       134.3mm  T        360.00 BC857          
+Q4         SOT23               135.001mm      133.35mm     135.001mm      133.35mm     133.801mm       134.3mm  T        360.00 BC847          
+P6         WR-CRD_SD_MICRO      27.296mm      70.162mm      31.496mm      76.962mm      25.626mm      74.692mm  T        270.00 Micro SD Card Connector
+C14        CAP0805             126.365mm     113.665mm     126.365mm     113.665mm      125.19mm     113.665mm  T        360.00 CAP0805 0.1uF X7R
+C21        CAP0805              111.76mm       101.6mm      111.76mm       101.6mm     112.935mm       101.6mm  T        180.00 CAP0805 0.1uF X7R
+C36        CAP0805             159.417mm      41.021mm     159.417mm      41.021mm     158.242mm      41.021mm  T        360.00 CAP0805 0.1uF X7R
+C35        CAP0805              142.24mm      42.545mm      142.24mm      42.545mm     141.065mm      42.545mm  T        360.00 CAP0805 1uF X7R
+C38        CAP0805             158.115mm      32.512mm     158.115mm      32.512mm      156.94mm      32.512mm  T        360.00 CAP0805 0.1uF X7R
+C37        CAP0805              142.24mm      34.925mm      142.24mm      34.925mm     141.065mm      34.925mm  T        360.00 CAP0805 1uF X7R
+C16        CAP0805              76.835mm      121.92mm      76.835mm      121.92mm      76.835mm     120.745mm  T         90.00 CAP0805 0.1uF X7R
+C6         CAP0805               54.61mm     117.475mm       54.61mm     117.475mm       54.61mm       116.3mm  T         90.00 CAP0805 0.1uF X7R
+C11        CAP0805             126.365mm     118.745mm     126.365mm     118.745mm      125.19mm     118.745mm  T        360.00 CAP0805 0.1uF X7R
+C8         CAP0805             126.365mm      125.73mm     126.365mm      125.73mm      125.19mm      125.73mm  T        360.00 CAP0805 0.1uF X7R
+C32        CAP0805             153.035mm      56.515mm     153.035mm      56.515mm      151.86mm      56.515mm  T        360.00 CAP0805 0.1uF X7R
+C1         CAP0805             126.365mm      140.97mm     126.365mm      140.97mm      125.19mm      140.97mm  T        360.00 CAP0805 0.1uF X7R
+C7         CAP0805             126.365mm      133.35mm     126.365mm      133.35mm      125.19mm      133.35mm  T        360.00 CAP0805 0.1uF X7R
+BOOT1      RES0805                76.2mm     118.491mm        76.2mm     118.491mm       77.25mm     118.491mm  T        180.00 ChipRes        
+R63        RES0805               54.61mm      70.993mm       54.61mm      70.993mm       54.61mm      69.943mm  T         90.00 RES0805 10K 1% 
+R64        RES0805              56.896mm      70.993mm      56.896mm      70.993mm      56.896mm      69.943mm  T         90.00 RES0805 10K 1% 
+R65        RES0805              58.928mm      70.993mm      58.928mm      70.993mm      58.928mm      69.943mm  T         90.00 RES0805 10K 1% 
+R66        RES0805               60.96mm      70.993mm       60.96mm      70.993mm       60.96mm      69.943mm  T         90.00 RES0805 10K 1% 
+P7         IDC-10MS(MR)          64.77mm        63.5mm       64.77mm        63.5mm       59.69mm       62.23mm  T        360.00 IDC-10MS (JTAG connector)
+C52        CAP0805              70.485mm       85.09mm      70.485mm       85.09mm      70.485mm      86.265mm  B        270.00 CAP0805 0.01uF X7R
+R33        RES0805             126.365mm     106.045mm     126.365mm     106.045mm     127.415mm     106.045mm  T        180.00 RES0805 470R 1%
+R32        RES0805             112.395mm      106.68mm     112.395mm      106.68mm     111.345mm      106.68mm  T        360.00 RES0805 510R 1%
+C2         CAPC7343             50.673mm     112.649mm      50.673mm     112.649mm      47.173mm     112.649mm  T        360.00 Cap Pol SMD    
+C5         CAPC7343              54.61mm     124.587mm       54.61mm     124.587mm       54.61mm     128.087mm  T        270.00 Cap Pol SMD    
+L1         CDRH2D14             48.895mm      124.46mm      48.895mm      124.46mm     49.9557mm    125.5207mm  T        180.00 Inductance     
+U1         SOT23-5              48.895mm     120.015mm      48.895mm     120.015mm      47.945mm     118.815mm  T         90.00 LM3671         
+D12        SOT23                 3.175mm      46.355mm       3.175mm      46.355mm       4.375mm      45.405mm  T        180.00 BAT54S         
+D10        SOT23                 3.175mm      50.165mm       3.175mm      50.165mm       4.375mm      49.215mm  T        180.00 BAT54S         
+D23        SOT23                 3.175mm      46.355mm       3.175mm      46.355mm       4.375mm      47.305mm  B        180.00 BAT54S         
+D21        SOT23                 3.175mm      50.165mm       3.175mm      50.165mm       1.975mm      49.215mm  B        360.00 BAT54S         
+D11        SOT23                  7.62mm       48.26mm        7.62mm       48.26mm        8.82mm       47.31mm  T        180.00 PESD5V0        
+D22        SOT23                  7.62mm       48.26mm        7.62mm       48.26mm        6.42mm       47.31mm  B        360.00 PESD5V0        
+P8         MOLEX_HEADER_8_2MM_PITCH      -4.645mm      48.895mm      -1.905mm      48.895mm      -1.905mm       55.88mm  T        270.00 FPC_Socket     
+P11        MOLEX_FPC/FFC_10PIN      -3.715mm      48.895mm       -5.08mm      48.895mm       -2.54mm      44.395mm  B         90.00 FPC_Socket     
+D17        DO-41                 83.82mm       34.29mm       83.82mm       34.29mm       78.59mm       34.29mm  T        360.00 Diode 1N4007   
+Q29        SOT23                 74.93mm       19.05mm       74.93mm       19.05mm       73.73mm          20mm  T        360.00 BC847          
+U32        DIP-4                60.325mm      48.895mm      60.325mm      48.895mm      61.595mm      52.705mm  T        270.00 Optoisolator1  
+LED9       LED_0603               76.2mm      14.605mm        76.2mm      14.605mm        76.2mm      15.355mm  T        270.00 LED 0603       
+R137       RES0805               73.66mm      14.605mm       73.66mm      14.605mm       73.66mm      13.555mm  T         90.00 RES0805 220R 1%
+R133       RES0805               73.66mm       24.13mm       73.66mm       24.13mm       73.66mm       23.08mm  T         90.00 RES0805 1K 1%  
+R112       RES0805              61.595mm      41.275mm      61.595mm      41.275mm      61.595mm      42.325mm  T        270.00 RES0805 510R 1%
+R93        RES0805             61.5958mm      56.261mm     61.5958mm      56.261mm     61.5958mm      57.311mm  T        270.00 RES0805 100R 1%
+Q25        SOT23                74.295mm       31.75mm      74.295mm       31.75mm      73.345mm       30.55mm  T         90.00 BC847          
+C49        CAP0805              70.485mm       90.17mm      70.485mm       90.17mm      70.485mm      91.345mm  B        270.00 CAP0805 0.01uF X7R
+C44        CAP0805              72.898mm      98.298mm      72.898mm      98.298mm      72.898mm      99.473mm  B        270.00 CAP0805 0.01uF X7R
+C59        CAP0805               67.31mm      74.803mm       67.31mm      74.803mm      66.135mm      74.803mm  B        360.00 CAP0805 0.01uF X7R
+C47        CAP0805                76.2mm       95.25mm        76.2mm       95.25mm      77.375mm       95.25mm  B        180.00 CAP0805 0.01uF X7R
+C46        CAP0805              80.645mm       95.25mm      80.645mm       95.25mm       81.82mm       95.25mm  B        180.00 CAP0805 0.01uF X7R
+C45        CAP0805              85.852mm       95.25mm      85.852mm       95.25mm      87.027mm       95.25mm  B        180.00 CAP0805 0.01uF X7R
+C48        CAP0805              86.995mm      92.075mm      86.995mm      92.075mm      86.995mm       93.25mm  B        270.00 CAP0805 0.01uF X7R
+C51        CAP0805              86.995mm      85.725mm      86.995mm      85.725mm      86.995mm       84.55mm  B         90.00 CAP0805 0.01uF X7R
+C50        CAP0805              89.408mm        88.9mm      89.408mm        88.9mm      90.583mm        88.9mm  B        180.00 CAP0805 0.1uF X7R
+C24        CAP0805             104.775mm       90.17mm     104.775mm       90.17mm     104.775mm      91.345mm  T        270.00 CAP0805 22pF X7R
+C54        CAP0805              86.995mm      81.407mm      86.995mm      81.407mm      86.995mm      82.582mm  B        270.00 CAP0805 0.01uF X7R
+C58        CAP0805               87.63mm      76.327mm       87.63mm      76.327mm       87.63mm      75.152mm  B         90.00 CAP0805 0.01uF X7R
+C56        CAP0805              80.645mm       78.74mm      80.645mm       78.74mm       79.47mm       78.74mm  B        360.00 CAP0805 0.01uF X7R
+C57        CAP0805              75.565mm       78.74mm      75.565mm       78.74mm       74.39mm       78.74mm  B        360.00 CAP0805 0.01uF X7R
+C55        CAP0805              70.485mm       78.74mm      70.485mm       78.74mm      70.485mm      79.915mm  B        270.00 CAP0805 0.01uF X7R
+C19        CAPC7343              92.71mm      105.41mm       92.71mm      105.41mm       89.21mm      105.41mm  T        360.00 Cap Pol SMD    
+C60        CAP0805               31.75mm      73.025mm       31.75mm      73.025mm      30.575mm      73.025mm  B        360.00 CAP0805 0.1uF X7R
+C23        CAP0805             104.775mm      94.615mm     104.775mm      94.615mm     104.775mm       93.44mm  T         90.00 CAP0805 22pF X7R
+L4         CM45                  91.44mm     100.965mm       91.44mm     100.965mm      89.035mm     100.965mm  T        360.00 Inductance     
+LED2       LED_0603             48.895mm      69.088mm      48.895mm      69.088mm      48.895mm      68.338mm  T         90.00 LED 0603       
+LED5       PLCC-2              128.905mm      47.625mm     128.905mm      47.625mm     128.905mm      49.125mm  T        270.00 LED 0603       
+LED4       PLCC-2              123.825mm      47.625mm     123.825mm      47.625mm     123.825mm      49.125mm  T        270.00 LED 0603       
+LED3       PLCC-2              118.745mm      47.625mm     118.745mm      47.625mm     118.745mm      49.125mm  T        270.00 LED 0603       
+LED6       PLCC-2              133.985mm      47.625mm     133.985mm      47.625mm     133.985mm      49.125mm  T        270.00 LED 0603       
+Q21        SOT23               128.905mm       41.91mm     128.905mm       41.91mm     127.955mm       40.71mm  T         90.00 BC857          
+Q20        SOT23               123.825mm       41.91mm     123.825mm       41.91mm     122.875mm       40.71mm  T         90.00 BC857          
+Q19        SOT23               118.745mm       41.91mm     118.745mm       41.91mm     117.795mm       40.71mm  T         90.00 BC857          
+Q22        SOT23               133.985mm       41.91mm     133.985mm       41.91mm     133.035mm       40.71mm  T         90.00 BC857          
+R153       RES0805               83.49mm      76.395mm       83.49mm      76.395mm       83.49mm      77.445mm  B        270.00 RES0805 10K 1% 
+R40        RES0805               95.25mm      95.885mm       95.25mm      95.885mm        96.3mm      95.885mm  T        180.00 RES0805 220R 1%
+R80        RES0805              50.165mm       60.96mm      50.165mm       60.96mm      50.165mm       59.91mm  T         90.00 RES0805 1K 1%  
+R152       RES0805               85.49mm      76.395mm       85.49mm      76.395mm       85.49mm      77.445mm  B        270.00 RES0805 10K 1% 
+R45        RES0805              97.155mm      88.265mm      97.155mm      88.265mm      97.155mm      89.315mm  T        270.00 RES0805 220R 1%
+R151       RES0805              93.091mm      91.821mm      93.091mm      91.821mm      93.091mm      92.871mm  B        270.00 RES0805 10K 1% 
+R127       RES0805             130.175mm       36.83mm     130.175mm       36.83mm     130.175mm       37.88mm  T        270.00 RES0805 510R 1%
+R126       RES0805             127.635mm       36.83mm     127.635mm       36.83mm     127.635mm       35.78mm  T         90.00 RES0805 1K 1%  
+R125       RES0805             125.095mm       36.83mm     125.095mm       36.83mm     125.095mm       37.88mm  T        270.00 RES0805 510R 1%
+R124       RES0805             122.555mm       36.83mm     122.555mm       36.83mm     122.555mm       35.78mm  T         90.00 RES0805 1K 1%  
+R122       RES0805             117.475mm       36.83mm     117.475mm       36.83mm     117.475mm       35.78mm  T         90.00 RES0805 1K 1%  
+R129       RES0805             135.255mm       36.83mm     135.255mm       36.83mm     135.255mm       37.88mm  T        270.00 RES0805 510R 1%
+R128       RES0805             132.715mm       36.83mm     132.715mm       36.83mm     132.715mm       35.78mm  T         90.00 RES0805 1K 1%  
+X1         BCY-W2/E4.7         100.965mm      92.075mm     100.965mm      92.075mm     100.965mm      89.635mm  T         90.00 XTAL           
+R123       RES0805             120.015mm       36.83mm     120.015mm       36.83mm     120.015mm       37.88mm  T        270.00 RES0805 510R 1%
+R107       RES0805             33.0208mm      41.275mm     33.0208mm      41.275mm     33.0208mm      42.325mm  T        270.00 ChipRes        
+R88        RES0805             33.0208mm      56.515mm     33.0208mm      56.515mm     33.0208mm      57.565mm  T        270.00 RES0805 330R 1%
+U27        DIP-4               31.7508mm      48.895mm     31.7508mm      48.895mm     33.0208mm      52.705mm  T        270.00 Optoisolator1  
+R1         RES0805              48.895mm     116.205mm      48.895mm     116.205mm      49.945mm     116.205mm  T        180.00 RES0805 10K 1% 
+C42        CAP0805              137.16mm      133.35mm      137.16mm      133.35mm     138.335mm      133.35mm  B        180.00 CAP0805 0.1uF X7R
+C43        CAP0805             139.573mm      109.22mm     139.573mm      109.22mm     140.748mm      109.22mm  B        180.00 CAP0805 0.1uF X7R
+C53        CAP0805               139.7mm       72.39mm       139.7mm       72.39mm     140.875mm       72.39mm  B        180.00 CAP0805 0.1uF X7R
+C61        CAP0805               139.7mm      85.725mm       139.7mm      85.725mm     140.875mm      85.725mm  B        180.00 CAP0805 0.1uF X7R
+R156       RES0805             149.225mm      -5.715mm     149.225mm      -5.715mm     148.175mm      -5.715mm  B          0.00 RES0805 10K 1% 
+D14        DO-214AS            150.495mm       35.56mm     150.495mm       35.56mm     150.495mm       37.66mm  T        270.00 SMBJ5.0CA      
+D13        DO-214AS            150.495mm       43.18mm     150.495mm       43.18mm     150.495mm       45.28mm  T        270.00 SMBJ5.0CA      
+C17        CAP0805              87.757mm      110.49mm      87.757mm      110.49mm      88.932mm      110.49mm  T        180.00 CAP0805 0.01uF X7R
+U46        D014_N                92.71mm      106.68mm       92.71mm      106.68mm       95.11mm      110.49mm  B        180.00 SN74AC04D      
+C34        CAPPR7.5-16X25_1       8.255mm      36.322mm       8.255mm      36.322mm       5.005mm      36.322mm  T        360.00 Cap Pol 200/100
+LINK1      LED_0603             48.768mm      130.81mm      48.768mm      130.81mm      49.518mm      130.81mm  T        180.00 LED 0603       
+PWR1       LED_0603             48.768mm      133.35mm      48.768mm      133.35mm      49.518mm      133.35mm  T        180.00 LED 0603       
+RUN1       LED_0603             48.768mm      135.89mm      48.768mm      135.89mm      49.518mm      135.89mm  T        180.00 LED 0603       
+L6         CM45                134.493mm     136.271mm     134.493mm     136.271mm     132.088mm     136.271mm  B        360.00 Inductance     
+L7         CM45                139.065mm     113.919mm     139.065mm     113.919mm     139.065mm     111.514mm  B         90.00 Inductance     
+L8         CM45                140.716mm      66.294mm     140.716mm      66.294mm     140.716mm      68.699mm  B        270.00 Inductance     
+L9         CM45                138.557mm      91.313mm     138.557mm      91.313mm     138.557mm      88.908mm  B         90.00 Inductance     
+L5         IHPL-3232            -2.286mm      84.074mm      -2.286mm      84.074mm     -5.8987mm      84.074mm  T          0.00 Inductance     
+R139       RES0805              88.234mm      66.155mm      88.234mm      66.155mm      89.284mm      66.155mm  T        180.00 RES0805 10K 1% 
+R140       RES0805              88.234mm      67.933mm      88.234mm      67.933mm      89.284mm      67.933mm  T        180.00 RES0805 10K 1% 
+L10        CDRH2D14             93.345mm     116.205mm      93.345mm     116.205mm     92.2843mm    115.1443mm  T          0.00 Inductance     
+X2         KX-327NHT            93.345mm      81.915mm      93.345mm      81.915mm      93.345mm      80.665mm  B         90.00 XTAL           
+C70        CAP0805               92.71mm       78.74mm       92.71mm       78.74mm      91.535mm       78.74mm  B        360.00 CAP0805 22pF X7R
+C71        CAP0805               92.71mm       85.09mm       92.71mm       85.09mm      91.535mm       85.09mm  B        360.00 CAP0805 22pF X7R
+C74        CAP0805              78.105mm      42.545mm      78.105mm      42.545mm       76.93mm      42.545mm  B        360.00 CAP0805 30pF X7R
+R12        RES0805              85.725mm      37.338mm      85.725mm      37.338mm      84.675mm      37.338mm  T        360.00 RES0805 1K 1%  
+U51        SOIC8                 81.28mm      48.895mm       81.28mm      48.895mm      83.185mm      51.295mm  T        270.00 HCPL-0931      
+C72        CAP0805              83.185mm      55.118mm      83.185mm      55.118mm      83.185mm      56.293mm  T        270.00 CAP0805 0.1uF X7R
+C73        CAP0805              80.645mm       46.99mm      80.645mm       46.99mm       79.47mm       46.99mm  B        360.00 CAP0805 0.1uF X7R
+C75        CAP0805               82.55mm      42.545mm       82.55mm      42.545mm      81.375mm      42.545mm  B        360.00 CAP0805 0.1uF X7R
+U52        SOIC8                 81.28mm      39.751mm       81.28mm      39.751mm      83.185mm      42.151mm  T        270.00 MCP2551        
+R142       RES0805              74.295mm       1.905mm      74.295mm       1.905mm      73.245mm       1.905mm  B        360.00 RES0805 120R 1%
+C3         CAPPR5-10x17_1         7.62mm     127.127mm        7.62mm     127.127mm        5.12mm     127.127mm  T        360.00 Cap Pol 100/47 
+C4         CAP0805              29.845mm     125.222mm      29.845mm     125.222mm       31.02mm     125.222mm  T        180.00 CAP0805 1uF X7R
+C9         CAP0603              15.875mm     122.809mm      15.875mm     122.809mm      16.875mm     122.809mm  T        180.00 ChipCap 0.47u X7R
+C10        CAP0805              29.845mm     123.063mm      29.845mm     123.063mm       31.02mm     123.063mm  T        180.00 CAP0805 1uF X7R
+C15        CAP0805                5.08mm     116.205mm        5.08mm     116.205mm        5.08mm      115.03mm  T         90.00 CAP0805 1000pF NP0
+C18        CAP0603              15.875mm     115.951mm      15.875mm     115.951mm      16.875mm     115.951mm  T        180.00 ChipCap 0.47u X7R
+C20        CAP0805                5.08mm     111.125mm        5.08mm     111.125mm        5.08mm       112.3mm  T        270.00 CAP0805 1000pF NP0
+C64        CAPC7343              5.715mm     102.235mm       5.715mm     102.235mm       5.715mm      98.735mm  T         90.00 Cap Pol SMD    
+C65        CAPC7343              20.32mm     102.235mm       20.32mm     102.235mm       20.32mm      98.735mm  T         90.00 Cap Pol SMD    
+C77        CAP0805              15.875mm     126.365mm      15.875mm     126.365mm        14.7mm     126.365mm  T        360.00 CAP0805 0.1uF X7R
+C78        CAP0805               20.32mm     127.254mm       20.32mm     127.254mm      21.495mm     127.254mm  T        180.00 CAP0805 0.1uF X7R
+C79        CAP0805              15.875mm     112.395mm      15.875mm     112.395mm        14.7mm     112.395mm  T        360.00 CAP0805 0.1uF X7R
+C80        CAP0805               20.32mm     111.506mm       20.32mm     111.506mm      21.495mm     111.506mm  T        180.00 CAP0805 0.1uF X7R
+C81        CAP0603               20.32mm     125.349mm       20.32mm     125.349mm       21.32mm     125.349mm  T        180.00 ChipCap 1000 NP0
+C82        CAP0603              15.875mm      124.46mm      15.875mm      124.46mm      14.875mm      124.46mm  T        360.00 ChipCap 1000 NP0
+C83        CAP0603              15.875mm       114.3mm      15.875mm       114.3mm      14.875mm       114.3mm  T        360.00 ChipCap 1000 NP0
+C84        CAP0603               20.32mm     113.411mm       20.32mm     113.411mm       21.32mm     113.411mm  T        180.00 ChipCap 1000 NP0
+D2         SMB1                   7.62mm      134.62mm        7.62mm      134.62mm       9.995mm      134.62mm  T        180.00 SMP100LC-35    
+FB1        RES0805              13.335mm     121.031mm      13.335mm     121.031mm      14.385mm     121.031mm  T        180.00 Ferrite        
+FB2        RES0805              13.335mm     117.729mm      13.335mm     117.729mm      14.385mm     117.729mm  T        180.00 Ferrite        
+P2         Socket_4x5.08        -0.635mm     118.745mm      -0.635mm     118.745mm      -0.635mm     126.365mm  T          0.00 Terminal Block 4x5.08mm
+R143       RES0805              29.845mm     114.173mm      29.845mm     114.173mm      30.895mm     114.173mm  T        180.00 RES0805 1K 1%  
+R144       RES0805              29.845mm     112.268mm      29.845mm     112.268mm      30.895mm     112.268mm  T        180.00 RES0805 1K 1%  
+R147       RES0805              33.655mm     114.173mm      33.655mm     114.173mm      34.705mm     114.173mm  T        180.00 RES0805 100K 1%
+U2         TSSOP-28             22.225mm      119.38mm      22.225mm      119.38mm      25.175mm     115.155mm  T        180.00 TPA3112D1      
+U48        SOT223-4M            13.335mm     102.235mm      13.335mm     102.235mm      10.385mm     104.535mm  T          0.00 LM1117         
+C63        CAP0805              29.845mm     118.745mm      29.845mm     118.745mm       31.02mm     118.745mm  T        180.00 CAP0805 1uF X7R
+C76        CAP0805              29.845mm     120.904mm      29.845mm     120.904mm       28.67mm     120.904mm  T        360.00 CAP0805 1uF X7R
+R145       RES1206              29.845mm     116.459mm      29.845mm     116.459mm      31.395mm     116.459mm  T        180.00 RES1206 10R 1% 
+R146       RES0805              29.845mm     127.254mm      29.845mm     127.254mm      30.895mm     127.254mm  T        180.00 RES0805 100K 1%
+
