@@ -1,0 +1,41 @@
+Added Component: Designator=C85(CAP0603)
+Added Component: Designator=C86(CAP1210)
+Added Component: Designator=C87(CAP1210)
+Added Component: Designator=C88(CAP1210)
+Added Component: Designator=C89(CAP1210)
+Added Component: Designator=C90(CAP1210)
+Added Component: Designator=L2(CDRH5D28RHP)
+Added Component: Designator=R166(RES0603)
+Added Component: Designator=R167(RES0603)
+Added Component: Designator=U57(SOT23-6)
+Added Pin To Net: NetName=12V Pin=C86-1
+Added Pin To Net: NetName=AGND Pin=C86-2
+Added Pin To Net: NetName=12V Pin=C87-1
+Added Pin To Net: NetName=AGND Pin=C87-2
+Added Pin To Net: NetName=AGND Pin=C88-1
+Added Pin To Net: NetName=I5V Pin=C88-2
+Added Pin To Net: NetName=AGND Pin=C89-1
+Added Pin To Net: NetName=I5V Pin=C89-2
+Added Pin To Net: NetName=AGND Pin=C90-1
+Added Pin To Net: NetName=I5V Pin=C90-2
+Added Pin To Net: NetName=I5V Pin=L2-1
+Added Pin To Net: NetName=12V Pin=R166-2
+Added Pin To Net: NetName=I5V Pin=R167-2
+Added Pin To Net: NetName=AGND Pin=U57-1
+Added Pin To Net: NetName=12V Pin=U57-3
+Added Pin To Net: NetName=NetC85_2 Pin=C85-2
+Added Pin To Net: NetName=NetC85_2 Pin=U57-6
+Added Net: Name=NetC85_2
+Added Pin To Net: NetName=NetR166_1 Pin=R166-1
+Added Pin To Net: NetName=NetR166_1 Pin=U57-5
+Added Net: Name=NetR166_1
+Added Member To Class: ClassName=MISC Member=Component C85 ChipCap 0.1u X7R
+Added Member To Class: ClassName=MISC Member=Component C86 ChipCap 10u X7R
+Added Member To Class: ClassName=MISC Member=Component C87 ChipCap 10u X7R
+Added Member To Class: ClassName=MISC Member=Component C88 ChipCap 22u X7R
+Added Member To Class: ClassName=MISC Member=Component C89 ChipCap 22u X7R
+Added Member To Class: ClassName=MISC Member=Component C90 ChipCap 22u X7R
+Added Member To Class: ClassName=MISC Member=Component L2 Inductance
+Added Member To Class: ClassName=MISC Member=Component R166 ChipRes 47K 1%
+Added Member To Class: ClassName=MISC Member=Component R167 ChipRes 33K2 1%
+Added Member To Class: ClassName=MISC Member=Component U57 TPS563200

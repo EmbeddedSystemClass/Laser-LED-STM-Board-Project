@@ -1,0 +1,3 @@
+Added Component: Designator=R168(RES0603)
+Added Pin To Net: NetName=AGND Pin=R168-1
+Added Member To Class: ClassName=MISC Member=Component R168 ChipRes 10K 1%
