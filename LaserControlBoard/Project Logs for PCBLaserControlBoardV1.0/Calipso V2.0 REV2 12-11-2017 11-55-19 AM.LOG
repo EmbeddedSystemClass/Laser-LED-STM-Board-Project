@@ -1,0 +1,8 @@
+Added Component: Designator=U55(SOIC8)
+Added Pin To Net: NetName=SPI_MOSI Pin=U55-1
+Added Pin To Net: NetName=MON_CLK Pin=U55-2
+Added Pin To Net: NetName=IGND Pin=U55-5
+Added Pin To Net: NetName=REF2.5V Pin=U55-6
+Added Pin To Net: NetName=NetR150_1 Pin=U55-7
+Added Pin To Net: NetName=I5V Pin=U55-8
+Added Member To Class: ClassName=LaserInterface Member=Component U55 TLC6515CD

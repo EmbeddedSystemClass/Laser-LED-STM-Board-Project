@@ -1,0 +1,5 @@
+Added Component: Designator=Q5(SOT23)
+Added Pin To Net: NetName=NetQ4_1 Pin=Q5-1
+Added Pin To Net: NetName=IGND Pin=Q5-2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q5-3
+Added Member To Class: ClassName=Peltier Member=Component Q5 BC857

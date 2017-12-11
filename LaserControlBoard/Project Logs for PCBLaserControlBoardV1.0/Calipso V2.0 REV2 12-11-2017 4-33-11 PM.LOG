@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=CAN2_RX Pin=U13-73
+Removed Pin From Net: NetName=CAN2_TX Pin=U13-74
+Removed Pin From Net: NetName=RELAY2 Pin=U13-135
+Removed Pin From Net: NetName=RELAY3 Pin=U13-136
+Added Pin To Net: NetName=RELAY2 Pin=U13-44
+Added Pin To Net: NetName=RELAY3 Pin=U13-45
+Added Pin To Net: NetName=CAN2_RX Pin=U13-135
+Added Pin To Net: NetName=CAN2_TX Pin=U13-136
+Added Pin To Net: NetName=USB_ID Pin=U13-73
+Added Net: Name=USB_ID
+Added Pin To Net: NetName=USB_N Pin=U13-75
+Added Net: Name=USB_N
+Added Pin To Net: NetName=USB_P Pin=U13-76
+Added Net: Name=USB_P
+Added Pin To Net: NetName=USB_VBUS Pin=U13-74
+Added Net: Name=USB_VBUS
+Added Class: Name=USB

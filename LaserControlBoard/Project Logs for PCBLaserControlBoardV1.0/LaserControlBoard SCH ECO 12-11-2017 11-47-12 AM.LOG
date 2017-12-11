@@ -1,0 +1,21 @@
+Remove Pin=U55-3 From Net=IMON_NCS
+Change Component Footprint: Designator=D9 Old Footprint=DO-214AS New Footprint=SMB1
+Change Component Footprint: Designator=J4 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J5 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J6 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J7 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J10 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J11 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J12 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J13 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J14 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J15 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J16 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J17 Old Footprint=J0805 New Footprint=
+Change Component Footprint: Designator=J18 Old Footprint=J0805 New Footprint=
+Change Component Comment: Designator=Q1 Old Comment=IRL640SPBF New Comment=IRFZ44
+Change Component Comment: Designator=Q6 Old Comment=IRL640SPBF New Comment=IRFZ44
+Change Component Comment: Designator=Q9 Old Comment=IRL640SPBF New Comment=IRFZ44
+Change Component Comment: Designator=Q12 Old Comment=IRL640SPBF New Comment=IRFZ44
+Change Component Comment: Designator=Q14 Old Comment=IRL640SPBF New Comment=IRFZ44
+Change Component Comment: Designator=Q16 Old Comment=IRL640SPBF New Comment=IRFZ44

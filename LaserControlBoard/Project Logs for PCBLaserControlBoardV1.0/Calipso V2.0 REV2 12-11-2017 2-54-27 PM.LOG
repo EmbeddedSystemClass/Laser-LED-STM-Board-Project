@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=AGND Pin=R161-1
+Removed Pin From Net: NetName=AGND Pin=R162-2
+Removed Member From Class: ClassName=Audio Member=R161
+Removed Member From Class: ClassName=Audio Member=R162
+Added Pin To Net: NetName=AGND Pin=C10-1
+Change Net Name : Old Net Name=AGND New Net Name=DACIN_N

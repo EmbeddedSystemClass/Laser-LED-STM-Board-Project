@@ -1,0 +1,37 @@
+Change Component DesignItemId : Designator=P5 Old DesignItemId=miniUSB New DesignItemId=Socket_4x5.08_RA_2Wall
+Change Component Footprint: Designator=P5 Old Footprint=USB/SM0.8-6H5 New Footprint=Socket 4x5.08
+Change Component Comment : Designator=P5 Old Comment=mini-USB New Comment=Terminal Block 4x5.08mm
+Change Component Designator: OldDesignator=LED? NewDesignator=LED15
+Change Component Designator: OldDesignator=Q? NewDesignator=Q2
+Change Component Designator: OldDesignator=R? NewDesignator=R161
+Change Component Designator: OldDesignator=R? NewDesignator=R162
+Change Component Designator: OldDesignator=R? NewDesignator=R163
+Change Component Designator: OldDesignator=R? NewDesignator=R164
+Change Component Designator: OldDesignator=R? NewDesignator=R165
+Added Component: Designator=P9(USB/SM0.8-6H5)
+Added Component: Designator=U56(SOT23-6)
+Added Pin To Net: NetName=USB_VBUS Pin=P9-1
+Added Pin To Net: NetName=USBCON_N Pin=P9-2
+Added Pin To Net: NetName=USBCON_P Pin=P9-3
+Added Pin To Net: NetName=AGND Pin=P9-5
+Added Pin To Net: NetName=AGND Pin=P9-6
+Added Pin To Net: NetName=AGND Pin=P9-7
+Added Pin To Net: NetName=AGND Pin=P9-8
+Added Pin To Net: NetName=AGND Pin=P9-9
+Added Pin To Net: NetName=USBCON_N Pin=U56-1
+Added Pin To Net: NetName=AGND Pin=U56-2
+Added Pin To Net: NetName=USBCON_P Pin=U56-3
+Added Pin To Net: NetName=USB_VBUS Pin=U56-5
+Change Net Name : Old Net Name=NetLED?_1 New Net Name=NetLED15_1
+Change Net Name : Old Net Name=NetLED?_2 New Net Name=NetLED15_2
+Change Net Name : Old Net Name=NetQ?_3 New Net Name=NetQ2_3
+Added Pin To Net: NetName=NetP9_4 Pin=P9-4
+Added Pin To Net: NetName=NetP9_4 Pin=R165-2
+Added Net: Name=NetP9_4
+Added Member To Class: ClassName=Peltier Member=Component P5 Terminal Block 4x5.08mm
+Added Member To Class: ClassName=USB Member=Component P9 mini-USB
+Added Member To Class: ClassName=USB Member=Component R161 ChipRes 330R 1%
+Added Member To Class: ClassName=USB Member=Component R163 ChipRes
+Added Member To Class: ClassName=USB Member=Component R164 ChipRes
+Added Member To Class: ClassName=USB Member=Component R165 ChipRes
+Added Member To Class: ClassName=USB Member=Component U56 SRV05

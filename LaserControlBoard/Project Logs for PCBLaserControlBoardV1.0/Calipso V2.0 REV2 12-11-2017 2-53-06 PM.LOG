@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=DAC_OUT Pin=C4-1
+Removed Pin From Net: NetName=AGND Pin=C10-1
+Added Component: Designator=R159(RES0603)
+Added Component: Designator=R160(RES0603)
+Added Component: Designator=R161(RES0603)
+Added Component: Designator=R162(RES0603)
+Added Pin To Net: NetName=DAC_OUT Pin=R159-1
+Added Pin To Net: NetName=AGND Pin=R160-2
+Added Pin To Net: NetName=AGND Pin=R161-1
+Added Pin To Net: NetName=AGND Pin=R162-2
+Added Pin To Net: NetName=DACIN_N Pin=C10-1
+Added Pin To Net: NetName=DACIN_N Pin=R161-2
+Added Pin To Net: NetName=DACIN_N Pin=R162-1
+Added Net: Name=DACIN_N
+Added Pin To Net: NetName=DACIN_P Pin=C4-1
+Added Pin To Net: NetName=DACIN_P Pin=R159-2
+Added Pin To Net: NetName=DACIN_P Pin=R160-1
+Added Net: Name=DACIN_P
+Added Member To Class: ClassName=Audio Member=Component R159 RES0603 10K 1%
+Added Member To Class: ClassName=Audio Member=Component R160 RES0603 10K 1%
+Added Member To Class: ClassName=Audio Member=Component R161 RES0603 10K 1%
+Added Member To Class: ClassName=Audio Member=Component R162 RES0603 10K 1%

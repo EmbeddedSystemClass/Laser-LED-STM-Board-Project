@@ -1,0 +1,94 @@
+Removed Pin From Net: NetName=LASER_IPROG Pin=P4-20
+Removed Pin From Net: NetName=LASER_IPROG Pin=P4-21
+Removed Pin From Net: NetName=NetQ4_2 Pin=Q5-2
+Removed Pin From Net: NetName=IGND Pin=Q5-3
+Removed Pin From Net: NetName=NetQ10_2 Pin=Q11-2
+Removed Pin From Net: NetName=IGND Pin=Q11-3
+Removed Pin From Net: NetName=IGND Pin=Q13-3
+Removed Pin From Net: NetName=IGND Pin=Q17-3
+Removed Pin From Net: NetName=LASER_IPROG Pin=TP7-3
+Removed Pin From Net: NetName=NetR76_2 Pin=U23-5
+Change Component DesignItemId : Designator=Q1 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q6 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q9 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q12 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q14 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component DesignItemId : Designator=Q16 Old DesignItemId=IRFZ44 New DesignItemId=IRL640SPBF
+Change Component Library : Designator=Q1 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q4 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q5 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q6 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q9 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q10 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q11 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q12 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q13 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q14 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q15 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q16 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q17 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q18 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q19 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q20 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q21 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q22 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q23 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q24 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q25 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q26 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q27 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q28 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q29 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q30 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q31 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q32 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q33 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q34 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q35 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q36 Old Library=BJT.SchLib New Library=BJT.IntLib
+Change Component Library : Designator=Q37 Old Library=BJT.SchLib New Library=BJT.IntLib
+Added Component: Designator=C85(CAP0805)
+Added Component: Designator=R148(RES0805)
+Added Component: Designator=R149(RES0805)
+Added Component: Designator=R150(RES0805)
+Added Component: Designator=R158(RES0805)
+Added Pin To Net: NetName=IGND Pin=C85-1
+Added Pin To Net: NetName=12V Pin=C85-2
+Added Pin To Net: NetName=IGND Pin=Q5-2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q5-3
+Added Pin To Net: NetName=IGND Pin=Q11-2
+Added Pin To Net: NetName=NetQ10_2 Pin=Q11-3
+Added Pin To Net: NetName=IGND Pin=Q13-2
+Added Pin To Net: NetName=IGND Pin=Q17-2
+Added Pin To Net: NetName=IGND Pin=R148-2
+Added Pin To Net: NetName=IGND Pin=R158-1
+Added Pin To Net: NetName=LDD_IPROG Pin=P4-21
+Added Pin To Net: NetName=LDD_IPROG Pin=R149-2
+Added Pin To Net: NetName=LDD_IPROG Pin=TP7-3
+Added Pin To Net: NetName=LDD_IPROG Pin=U23-7
+Added Net: Name=LDD_IPROG
+Added Pin To Net: NetName=LMP_VPROG Pin=P4-20
+Added Net: Name=LMP_VPROG
+Added Pin To Net: NetName=NetQ13_3 Pin=Q13-3
+Added Pin To Net: NetName=NetQ13_3 Pin=Q15-2
+Added Pin To Net: NetName=NetQ13_3 Pin=R46-2
+Added Net: Name=NetQ13_3
+Added Pin To Net: NetName=NetQ17_3 Pin=Q17-3
+Added Pin To Net: NetName=NetQ17_3 Pin=Q18-2
+Added Pin To Net: NetName=NetQ17_3 Pin=R62-2
+Added Net: Name=NetQ17_3
+Added Pin To Net: NetName=NetR148_1 Pin=R148-1
+Added Pin To Net: NetName=NetR148_1 Pin=R149-1
+Added Pin To Net: NetName=NetR148_1 Pin=U23-6
+Added Net: Name=NetR148_1
+Added Pin To Net: NetName=NetR150_1 Pin=R150-1
+Added Pin To Net: NetName=NetR150_1 Pin=R158-2
+Added Net: Name=NetR150_1
+Added Pin To Net: NetName=NetR150_2 Pin=R150-2
+Added Pin To Net: NetName=NetR150_2 Pin=U23-5
+Added Net: Name=NetR150_2
+Added Member To Class: ClassName=LaserInterface Member=Component C85 CAP0805 0.1uF X7R
+Added Member To Class: ClassName=LaserInterface Member=Component R148 RES0805 3K3 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R149 RES0805 10K 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R150 RES0805 5K1 1%
+Added Member To Class: ClassName=LaserInterface Member=Component R158 RES0805 47K 1%

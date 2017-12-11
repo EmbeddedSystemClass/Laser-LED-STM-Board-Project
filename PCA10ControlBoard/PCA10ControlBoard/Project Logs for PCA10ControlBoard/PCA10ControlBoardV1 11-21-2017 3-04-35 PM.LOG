@@ -1,0 +1,42 @@
+Change Component DesignItemId : Designator=R9 Old DesignItemId=RES0805 10K 1% New DesignItemId=RES0805 5K1 1%
+Change Component Comment : Designator=R9 Old Comment=RES0805 10K 1% New Comment=RES0805 5K1 1%
+Added Member To Class: ClassName=Main Member=Component C1 ChipCap 10u X7R
+Added Member To Class: ClassName=Main Member=Component C2 ChipCap 4700 X7R
+Added Member To Class: ClassName=Main Member=Component C3 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C4 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C5 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C6 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C7 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C8 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C9 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C10 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C11 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C12 ChipCap 1u X7R
+Added Member To Class: ClassName=Main Member=Component C13 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C14 CAP0603 16pF NP0
+Added Member To Class: ClassName=Main Member=Component C15 CAP0603 16pF NP0
+Added Member To Class: ClassName=Main Member=Component C16 ChipCap 1u X7R
+Added Member To Class: ClassName=Main Member=Component C17 ChipCap 10u X7R
+Added Member To Class: ClassName=Main Member=Component C18 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Main Member=Component C19 ChipCap 1u X7R
+Added Member To Class: ClassName=Main Member=Component J1 D Connector 9
+Added Member To Class: ClassName=Main Member=Component J2 D Connector 25
+Added Member To Class: ClassName=Main Member=Component P7 IDC-10MS (JTAG connector)
+Added Member To Class: ClassName=Main Member=Component R1 RES0805 10K 1%
+Added Member To Class: ClassName=Main Member=Component R2 RES0805 10K 1%
+Added Member To Class: ClassName=Main Member=Component R3 RES0805 10K 1%
+Added Member To Class: ClassName=Main Member=Component R4 ChipRes 220R 1%
+Added Member To Class: ClassName=Main Member=Component R5 RES0805 10K 1%
+Added Member To Class: ClassName=Main Member=Component R6 RES0805 10K 1%
+Added Member To Class: ClassName=Main Member=Component R7 RES0805 47K 1%
+Added Member To Class: ClassName=Main Member=Component R8 RES0805 5K1 1%
+Added Member To Class: ClassName=Main Member=Component R9 RES0805 5K1 1%
+Added Member To Class: ClassName=Main Member=Component R10 RES0805 10K 1%
+Added Member To Class: ClassName=Main Member=Component R11 RES0805 10K 1%
+Added Member To Class: ClassName=Main Member=Component R12 RES0805 10K 1%
+Added Member To Class: ClassName=Main Member=Component U1 STM32F042K6T6
+Added Member To Class: ClassName=Main Member=Component U2 MCP2551
+Added Member To Class: ClassName=Main Member=Component U3 AD5320BRTZ
+Added Member To Class: ClassName=Main Member=Component U4 OPA237
+Added Member To Class: ClassName=Main Member=Component U5 OPA237
+Added Member To Class: ClassName=Main Member=Component X1 XTAL

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=LDD_IPROG Pin=P4-20
+Added Pin To Net: NetName=LASER_IMON Pin=P4-19
+Change Net Name : Old Net Name=LASER_IPROG New Net Name=LPMP_VPROG
+Added Pin To Net: NetName=LMP_VPROG Pin=P4-20
+Added Net: Name=LMP_VPROG

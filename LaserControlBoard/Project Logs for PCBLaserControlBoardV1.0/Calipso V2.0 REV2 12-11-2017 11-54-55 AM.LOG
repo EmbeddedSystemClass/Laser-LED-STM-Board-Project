@@ -1,0 +1,25 @@
+Added Component: Designator=Q5(SOT23)
+Added Component: Designator=Q11(SOT23)
+Added Component: Designator=Q13(SOT23)
+Added Component: Designator=Q15(SOT23)
+Added Component: Designator=Q17(SOT23)
+Added Pin To Net: NetName=NetQ4_1 Pin=Q5-1
+Added Pin To Net: NetName=IGND Pin=Q5-2
+Added Pin To Net: NetName=NetQ4_2 Pin=Q5-3
+Added Pin To Net: NetName=NetQ10_1 Pin=Q11-1
+Added Pin To Net: NetName=IGND Pin=Q11-2
+Added Pin To Net: NetName=NetQ10_2 Pin=Q11-3
+Added Pin To Net: NetName=NetQ13_1 Pin=Q13-1
+Added Pin To Net: NetName=IGND Pin=Q13-2
+Added Pin To Net: NetName=NetQ13_3 Pin=Q13-3
+Added Pin To Net: NetName=NetQ13_1 Pin=Q15-1
+Added Pin To Net: NetName=NetQ13_3 Pin=Q15-2
+Added Pin To Net: NetName=NetC61_2 Pin=Q15-3
+Added Pin To Net: NetName=NetQ17_1 Pin=Q17-1
+Added Pin To Net: NetName=IGND Pin=Q17-2
+Added Pin To Net: NetName=NetQ17_3 Pin=Q17-3
+Added Member To Class: ClassName=Peltier Member=Component Q5 BC857
+Added Member To Class: ClassName=Peltier Member=Component Q11 BC857
+Added Member To Class: ClassName=Peltier Member=Component Q13 BC857
+Added Member To Class: ClassName=Peltier Member=Component Q15 BC847
+Added Member To Class: ClassName=Peltier Member=Component Q17 BC857
