@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: EmitterControllerV2.GBR   3/15/2018  11:53:33 AM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Component Side                          
+.GP1                Ground Plane                            
+.GP2                Power Plane                             
+.GBL                Solder Side                             
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GKO                Keep-Out Layer                          
+------------------------------------------------------------------------------------------

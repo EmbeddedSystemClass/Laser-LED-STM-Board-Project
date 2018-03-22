@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=12V Pin=C40-1
+Removed Pin From Net: NetName=12V Pin=C41-1
+Removed Pin From Net: NetName=12V Pin=D20-1
+Removed Pin From Net: NetName=12V Pin=F2-1
+Removed Pin From Net: NetName=12V Pin=RU2-2
+Removed Pin From Net: NetName=12V Pin=U45-1
+Added Component: Designator=C85(CAP1210)
+Added Component: Designator=C86(CAP1210)
+Added Component: Designator=C87(CAP0603)
+Added Component: Designator=C88(CAP1210)
+Added Component: Designator=C89(CAP0603)
+Added Component: Designator=L2(SDR0403)
+Added Component: Designator=R166(RES0603)
+Added Component: Designator=R167(RES0603)
+Added Component: Designator=U57(SOIC8)
+Added Pin To Net: NetName=IGND Pin=C85-1
+Added Pin To Net: NetName=I5V Pin=C85-2
+Added Pin To Net: NetName=IGND Pin=C86-1
+Added Pin To Net: NetName=I5V Pin=C86-2
+Added Pin To Net: NetName=I5V Pin=C87-2
+Added Pin To Net: NetName=IGND Pin=C88-1
+Added Pin To Net: NetName=12V Pin=C88-2
+Added Pin To Net: NetName=IGND Pin=C89-1
+Added Pin To Net: NetName=12V Pin=C89-2
+Added Pin To Net: NetName=12V Pin=F2-2
+Added Pin To Net: NetName=I5V Pin=L2-1
+Added Pin To Net: NetName=12V Pin=P10-3
+Added Pin To Net: NetName=I5V Pin=R166-1
+Added Pin To Net: NetName=IGND Pin=R167-2
+Added Pin To Net: NetName=12V Pin=U57-1
+Added Pin To Net: NetName=12V Pin=U57-2
+Added Pin To Net: NetName=IGND Pin=U57-4
+Added Pin To Net: NetName=IGND Pin=U57-5
+Added Pin To Net: NetName=12V Pin=U57-6
+Added Pin To Net: NetName=IGND Pin=U57-8
+Added Pin To Net: NetName=NetC40_1 Pin=C40-1
+Added Pin To Net: NetName=NetC40_1 Pin=C41-1
+Added Pin To Net: NetName=NetC40_1 Pin=D20-1
+Added Pin To Net: NetName=NetC40_1 Pin=F2-1
+Added Pin To Net: NetName=NetC40_1 Pin=RU2-2
+Added Pin To Net: NetName=NetC40_1 Pin=U45-1
+Added Net: Name=NetC40_1
+Added Pin To Net: NetName=NetC87_1 Pin=C87-1
+Added Pin To Net: NetName=NetC87_1 Pin=R166-2
+Added Pin To Net: NetName=NetC87_1 Pin=R167-1
+Added Pin To Net: NetName=NetC87_1 Pin=U57-3
+Added Net: Name=NetC87_1
+Added Pin To Net: NetName=NetL2_2 Pin=L2-2
+Added Pin To Net: NetName=NetL2_2 Pin=U57-7
+Added Net: Name=NetL2_2
+Added Member To Class: ClassName=MISC Member=Component C85 ChipCap 22u X7R
+Added Member To Class: ClassName=MISC Member=Component C86 ChipCap 22u X7R
+Added Member To Class: ClassName=MISC Member=Component C87 ChipCap 4700 X7R
+Added Member To Class: ClassName=MISC Member=Component C88 ChipCap 22u X7R
+Added Member To Class: ClassName=MISC Member=Component C89 ChipCap 0.1u X7R
+Added Member To Class: ClassName=MISC Member=Component L2 Inductance
+Added Member To Class: ClassName=MISC Member=Component R166 ChipRes 68K 1%
+Added Member To Class: ClassName=MISC Member=Component R167 ChipRes 13K 1%
+Added Member To Class: ClassName=MISC Member=Component U57 ST1S10

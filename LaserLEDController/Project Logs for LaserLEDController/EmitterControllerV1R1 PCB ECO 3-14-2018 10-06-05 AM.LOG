@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=VSENS Pin=P1-4
+Removed Pin From Net: NetName=VSENS Pin=P2-1
+Added Component: Designator=D1(DO-214AS)
+Added Component: Designator=D2(SOT23)
+Added Component: Designator=F1(PTC1812)
+Added Component: Designator=R10(RES0603)
+Added Component: Designator=R11(RES0603)
+Added Component: Designator=R12(RES0603)
+Added Pin To Net: NetName=VSENS Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=CANH Pin=D2-1
+Added Pin To Net: NetName=CANL Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D2-3
+Added Pin To Net: NetName=VSENS Pin=F1-1
+Added Pin To Net: NetName=USART1_RX Pin=R10-1
+Added Pin To Net: NetName=VSENS Pin=R10-2
+Added Pin To Net: NetName=USART1_TX Pin=R11-1
+Added Pin To Net: NetName=VSENS Pin=R11-2
+Added Pin To Net: NetName=VSENS Pin=R12-2
+Change Net Name : Old Net Name=VSENS New Net Name=5V
+Added Pin To Net: NetName=NetF1_2 Pin=F1-2
+Added Pin To Net: NetName=NetF1_2 Pin=P1-4
+Added Net: Name=NetF1_2
+Added Pin To Net: NetName=VSENS Pin=P2-1
+Added Pin To Net: NetName=VSENS Pin=R12-1
+Added Net: Name=VSENS
+Added Member To Class: ClassName=LaserLEDController Member=Component D1 SMBJ5.0CA
+Added Member To Class: ClassName=LaserLEDController Member=Component D2 PESD5V0
+Added Member To Class: ClassName=LaserLEDController Member=Component F1 Fuse
+Added Member To Class: ClassName=LaserLEDController Member=Component R10 ChipRes
+Added Member To Class: ClassName=LaserLEDController Member=Component R11 ChipRes
+Added Member To Class: ClassName=LaserLEDController Member=Component R12 ChipRes

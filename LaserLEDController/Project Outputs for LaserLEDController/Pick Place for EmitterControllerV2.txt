@@ -1,0 +1,38 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+R9         RES0805             -20.955mm      -0.635mm     -20.955mm      -0.635mm     -20.955mm      -1.685mm  B         90.00 RES0805 510R 1%
+R7         RES0603             -14.079mm       -0.42mm     -14.079mm       -0.42mm     -14.841mm       -0.42mm  B        360.00 ChipRes        
+R6         RES0603             -14.079mm        1.08mm     -14.079mm        1.08mm     -14.841mm        1.08mm  B        360.00 ChipRes        
+U5         SOIC8                -9.244mm       5.461mm      -9.244mm       5.461mm      -6.844mm       7.366mm  B        180.00 DS1631         
+C10        CAP0603             -13.527mm       6.223mm     -13.527mm       6.223mm     -13.527mm       5.223mm  B         90.00 ChipCap        
+C1         CAP0603              -2.204mm       8.955mm      -2.204mm       8.955mm      -2.204mm       9.955mm  B        270.00 ChipCap        
+R2         RES0603              -7.493mm       1.143mm      -7.493mm       1.143mm      -8.255mm       1.143mm  B        360.00 ChipRes        
+R3         RES0603              -1.704mm       1.205mm      -1.704mm       1.205mm      -1.704mm       1.967mm  B        270.00 ChipRes        
+LED1       PLCC-2              -17.079mm       9.705mm     -17.079mm       9.705mm     -15.579mm       9.705mm  B        180.00 LED    
+LED2       PLCC-2              -17.079mm        5.53mm     -17.079mm        5.53mm     -15.579mm        5.53mm  B        180.00 LED
+R4         RES0603              -7.747mm      14.732mm      -7.747mm      14.732mm      -7.747mm      15.494mm  B        270.00 ChipRes        
+R5         RES0603               -6.35mm      14.732mm       -6.35mm      14.732mm       -6.35mm      15.494mm  B        270.00 ChipRes        
+D1         DO-214AS              3.125mm       13.75mm       3.125mm       13.75mm       3.125mm       11.65mm  B         90.00 SMBJ5.0A      
+D2         SOT23                 3.125mm        1.25mm       3.125mm        1.25mm       4.325mm         2.2mm  B        180.00 PESD5V0        
+F1         PTC1210               3.125mm       7.112mm       3.125mm       7.112mm       3.125mm       8.462mm  B        270.00 Fuse           
+R11        RES0603             -20.955mm      15.875mm     -20.955mm      15.875mm     -20.955mm      16.775mm  B        270.00 ChipRes        
+R8         RES0603             -13.125mm         9.5mm     -13.125mm         9.5mm     -13.125mm         8.6mm  T         90.00 ChipRes        
+P2         HDR1X5              -20.955mm        7.62mm     -20.955mm        2.54mm     -20.955mm        2.54mm  T         90.00 Header 5       
+U4         SOT23-5             -14.224mm      15.748mm     -14.224mm      15.748mm     -15.174mm      14.548mm  T         90.00 ST715M33R      
+C9         CAP0805             -18.288mm       15.24mm     -18.288mm       15.24mm     -18.288mm      14.065mm  T         90.00 ChipCap        
+C8         CAP0805              -3.683mm       16.51mm      -3.683mm       16.51mm      -4.858mm       16.51mm  T        360.00 ChipCap        
+P1         HDR1X7                    0mm        7.62mm           0mm           0mm           0mm           0mm  T         90.00 Header 7       
+U1         LQFP32              -6.8581mm      10.033mm     -6.8581mm      10.033mm    -11.2081mm      12.833mm  T          0.00 STM32F042K6T6  
+X1         ABM3_CERAMIC_CRYSTAL     -16.002mm       8.763mm     -16.002mm       8.763mm     -16.002mm      10.813mm  T        270.00 XTAL           
+R1         RES0603              -13.97mm      13.081mm      -13.97mm      13.081mm     -13.208mm      13.081mm  T        180.00 ChipRes        
+C7         CAP0603             -18.796mm       6.985mm     -18.796mm       6.985mm     -18.796mm       5.985mm  T         90.00 ChipCap        
+C6         CAP0603             -18.796mm      11.049mm     -18.796mm      11.049mm     -18.796mm      12.049mm  T        270.00 ChipCap        
+C5         CAP0603             -16.079mm        4.83mm     -16.079mm        4.83mm     -17.079mm        4.83mm  T        360.00 ChipCap        
+C4         CAP0603              -9.704mm        0.83mm      -9.704mm        0.83mm      -9.704mm       -0.17mm  T         90.00 ChipCap        
+C3         CAP0603             -13.125mm       5.625mm     -13.125mm       5.625mm     -13.125mm       4.625mm  T         90.00 ChipCap        
+C2         CAP0603            -10.1601mm      16.383mm    -10.1601mm      16.383mm     -9.1601mm      16.383mm  T        180.00 ChipCap        
+U2         SOIC8               -15.875mm        1.27mm     -15.875mm        1.27mm     -18.275mm       3.175mm  T        360.00 M24256         
+U3         SOIC8                 -5.08mm        1.27mm       -5.08mm        1.27mm       -7.48mm       3.175mm  T        360.00 MCP2551        
+R10        RES0603             -20.955mm      15.875mm     -20.955mm      15.875mm     -20.955mm      16.775mm  T        270.00 ChipRes        
+R12        RES0603             -20.955mm      -0.635mm     -20.955mm      -0.635mm     -20.955mm       0.265mm  T        270.00 ChipRes        
+

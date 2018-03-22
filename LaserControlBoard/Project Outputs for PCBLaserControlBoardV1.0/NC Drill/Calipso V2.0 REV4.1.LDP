@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.1.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=calipso v2.0 rev4.1-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=calipso v2.0 rev4.1-nonplated.txt|DrillLayers=gtl,gbl

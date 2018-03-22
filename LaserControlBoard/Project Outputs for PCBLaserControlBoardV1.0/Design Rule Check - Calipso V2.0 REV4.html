@@ -1,0 +1,510 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD16\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3/2/2018</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12:57:44 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:14</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc" class="file"><acronym title="C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc">C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">4</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">30</td></tr>
+</table>
+</td>
+</table><a name="IDAOHU1ZVA13TTHJR5ULQ0GBCUN3KRSWBFWSTB4IRKZD2UTIDFICP"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID531PF2W5UVYVIXNL0ZDD3PGX2LAYQONMVC3ETWIARSNWKYNYTHBK">4 Net Ties failed verification</a></td>
+<td class="column2">4</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">4</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTXIB2NCAJEPYJTNZLZPQUYNULEWQDQWWCBRYX3MD3VPA3HOINTOK">Room Audio (Bounding Region = (52.705mm, 135.89mm, 99.695mm, 182.245mm) (InComponentClass('Audio'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSO21A0UYWRLNDCLAO2GAXOWPZEEMNFKPOBBUWXJEN0M5SITJ4NFK">Room GPSModule (Bounding Region = (142.24mm, 147.32mm, 169.545mm, 182.245mm) (InComponentClass('GPSModule'))</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1FBLBFWJNRSKF2LYWNRJL2WKUG1EA0N1HDGPATMN4WDEXAWPPGAO">Room Peltier (Bounding Region = (169.545mm, 101.727mm, 244.475mm, 182.245mm) (InComponentClass('Peltier'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYJMPYAPYZGGTMVT5OFRTXU5RTK2OMOR1M2DFM3JUFLETECCFHOYG">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDRZADFQJPUQ1TCVDNBT2RQFATGL2LQX5NTZGXO2JUU5HOEMDVUEHF">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDM2GRJDUEJEEXC2ZCWF3XWOCAOCK3VUGMBHYVUPBOYXPNN3SX4CJK">Clearance Constraint (Gap=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZPUFZCAPACV4NDSYQLZWHBOSRJ4JMKT0OPGMZTBDPY5ZBYP1MMJN">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InNet('GND'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVLXJZTGO5JYPK4EM4O3NDLCA4ERYLRRA23FBBBOIRF4K1RQRNLRC">Width Constraint (Min=0.2mm) (Max=0.254mm) (Preferred=0.254mm) (InNetClass('SignalNets'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5QCTAIMU3JBFIOVQK2TT0CVTTCGE21BDVFDS2HFWBZ5JWV5GXKD">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGMMKSIPF1KSSJBPSDFK2Z1EOBCA2ILPFWLXOS2MZD22QOQ0QANVO">Hole Size Constraint (Min=0.4mm) (Max=8mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDY1BBIZY5OYPXIATFJYL350NWZLDEU0INM2IBQXHTJLEYSGRDSFJC">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLM1ZRTNFHALTPTNOILWX3JZCZKI4RKITUDUAYUJVPEK4Y5ICMMRM">Minimum Solder Mask Sliver (Gap=0mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDUXD3SG1HXNFOLDX4NBG3L4HVECL04C434DJOTPJZUORSRTTBEJWL">Silk To Solder Mask (Clearance=0.2mm) (IsPad),(All)</a></td>
+<td class="column2">11</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBJHLGLNYFXYUPID03HQH1FEZIFBQX1WYFWPUBQFYAFLPWGZ2COPG">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">16</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBKJKCY22TCVTDMRG1LJJJCGZYB1J1KW3IQZGJSDAQVXT5N05W2GP">Silk primitive without silk layer</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUGIN1JFCYETRBO0NW0OYA0XDGDXRFPOEMJCDP0PF0NC5WIJWDL0E">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWV4FFMFDLPONNA44ZR4R03YH1J5DDWVFSV5V21BGCKOCL15OQXOL">Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=1mm) (InNetClass('PowerNet'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJCE5EF5WHY1MOEIWLVKBB0H3HHS5W3RHNDNPRUPS4UL01XHOBV5N">Width Constraint (Min=0.128mm) (Max=1.016mm) (Preferred=0.508mm) (InNetClass('AnalogPowerNet'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWIVHJULXC23RIDQBZX3DCGXO0HPYJSGKH0BT2IOP2T5HXYTCEMNP">Width Constraint (Min=0.2mm) (Max=5mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDAWMGKXUVFPQKD51YD1KYJ4P3KKG3ZAPW205RPELL2HWZ0S3KFJ5J">Room WiFi (Bounding Region = (108.585mm, 146.05mm, 142.24mm, 182.245mm) (InComponentClass('WiFi'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHOTCKDLQM2PXNRU3HVGX4QSGUFADWR4ZZFTZXQCPJ0XODDNSTMOC">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('All Pads'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDUDHKPFN0LAOPBWOUTYQ2VNN4MHQ5QNGJZ3OTSDILJ22B4DZTOHC">Room MCU (Bounding Region = (84.455mm, 93.345mm, 177.8mm, 182.245mm) (InComponentClass('MCU'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMAEVHXTEVY5YMQDTAHIU0BJG5IRLZKBY5ITREKCNN4IBTG15ZJVG">Room LAMP (Bounding Region = (149.479mm, 66.675mm, 209.55mm, 123.825mm) (InComponentClass('LAMP'))</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQF4P3ESHQ25YH4C1CDT3LHQ3AHPMO2A024V0N0OZKVLZJFPOCXWO">Room Power (Bounding Region = (52.705mm, 28.575mm, 93.98mm, 135.89mm) (InComponentClass('Power'))</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWTO12PMQJY3CLFJ44WFY3N5MLJU1YPS4CEQVUIO5TGGMES2C3LCC">Room MISC (Bounding Region = (81.915mm, 1.71mm, 244.475mm, 99.06mm) (InComponentClass('MISC'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJQSVSESYY1QNHMBT40R4L3PFEOQZSMVBZ2IHG4GT0DY12PFABIDC">Room LaserInterface (Bounding Region = (169.545mm, 54.61mm, 244.475mm, 166.37mm) (InComponentClass('LaserInterface'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDH5PNSAAGR01TBNGLVK1VTXRU0NH3NGSXXEOAJPIPZCUNROH4GGJF">Room USB (Bounding Region = (94.615mm, 145.161mm, 108.585mm, 185.039mm) (InComponentClass('USB'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">30</td>
+</tr>
+</table><br><a name="IDJCDGOJAV3FBSPJI5MADBSBOTGNBBILGOFPWPHEO4UJKIB1S0CGPM"><h2>Warnings</h2></a><a name="ID531PF2W5UVYVIXNL0ZDD3PGX2LAYQONMVC3ETWIARSNWKYNYTHBK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning">4 Net Ties failed verification</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3188.583mil|Location2.X=3305mil|Location1.Y=4192.26mil|Location2.Y=4357.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3188.583mil|Location2.X=3305mil|Location1.Y=4192.26mil|Location2.Y=4357.74mil|Absolute=True">SMT Small Component J4-Jumper (18.415mm,69.215mm) on Top Layer</acronym></a>, SMT Small Component J4-Jumper (18.415mm,69.215mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2847.45mil|Location2.X=2961.417mil|Location1.Y=4192.26mil|Location2.Y=4357.74mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2847.45mil|Location2.X=2961.417mil|Location1.Y=4192.26mil|Location2.Y=4357.74mil|Absolute=True">SMT Small Component J5-Jumper (10.795mm,69.215mm) on Top Layer</acronym></a>, SMT Small Component J5-Jumper (10.795mm,69.215mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.26mil|Location2.X=8667.74mil|Location1.Y=2688.583mil|Location2.Y=2797.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.26mil|Location2.X=8667.74mil|Location1.Y=2688.583mil|Location2.Y=2797.55mil|Absolute=True">SMT Small Component J6-Jumper (154.559mm,29.845mm) on Top Layer</acronym></a>, SMT Small Component J6-Jumper (154.559mm,29.845mm) on Top Layer, has isolated copper</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.26mil|Location2.X=8667.74mil|Location1.Y=3023.583mil|Location2.Y=3137.55mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8502.26mil|Location2.X=8667.74mil|Location1.Y=3023.583mil|Location2.Y=3137.55mil|Absolute=True">SMT Small Component J7-Jumper (154.559mm,38.354mm) on Top Layer</acronym></a>, SMT Small Component J7-Jumper (154.559mm,38.354mm) on Top Layer, has isolated copper</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDSO21A0UYWRLNDCLAO2GAXOWPZEEMNFKPOBBUWXJEN0M5SITJ4NFK"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room GPSModule (Bounding Region = (142.24mm, 147.32mm, 169.545mm, 182.245mm) (InComponentClass('GPSModule'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5600mil|Location2.X=6675mil|Location1.Y=5800mil|Location2.Y=7175mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5600mil|Location2.X=6675mil|Location1.Y=5800mil|Location2.Y=7175mil|Absolute=True">Room Definition: Between SMT SIP Component TP18-Test Point 5x2 (87.63mm,130.81mm) on Bottom Layer And Room GPSModule (Bounding Region = (142.24mm, 147.32mm, 169.545mm, 182.245mm) (InComponentClass('GPSModule')) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDUXD3SG1HXNFOLDX4NBG3L4HVECL04C434DJOTPJZUORSRTTBEJWL"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.2mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2683.432mil|Location2.X=2689.681mil|Location1.Y=5849.944mil|Location2.Y=5856.193mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2683.432mil|Location2.X=2689.681mil|Location1.Y=5849.944mil|Location2.Y=5856.193mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.2mm) Between Text "C64" (3.645mm,107.912mm) on Top Overlay And Pad C20-2(5.08mm,109.95mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2932.249mil|Location2.X=2941.373mil|Location1.Y=6800.162mil|Location2.Y=6809.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2932.249mil|Location2.X=2941.373mil|Location1.Y=6800.162mil|Location2.Y=6809.286mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (11.245mm,132.715mm)(11.245mm,136.525mm) on Top Overlay And Pad D2-1(9.995mm,134.62mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2658.627mil|Location2.X=2667.751mil|Location1.Y=6800.162mil|Location2.Y=6809.286mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2658.627mil|Location2.X=2667.751mil|Location1.Y=6800.162mil|Location2.Y=6809.286mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.1mm &lt; 0.2mm) Between Track (3.995mm,132.715mm)(3.995mm,136.525mm) on Top Overlay And Pad D2-2(5.245mm,134.62mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.1mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7983.669mil|Location2.X=7989.919mil|Location1.Y=4683.94mil|Location2.Y=4690.189mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7983.669mil|Location2.X=7989.919mil|Location1.Y=4683.94mil|Location2.Y=4690.189mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.2mm) Between Text "Q17" (139.433mm,80.429mm) on Top Overlay And Pad R53-1(139.7mm,79.79mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8100.13mil|Location2.X=8109.254mil|Location1.Y=3874.38mil|Location2.Y=3883.504mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8100.13mil|Location2.X=8109.254mil|Location1.Y=3874.38mil|Location2.Y=3883.504mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.17mm &lt; 0.2mm) Between Text "R85" (140.843mm,59.309mm) on Top Overlay And Pad R85-2(142.655mm,58.42mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.17mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8040.438mil|Location2.X=8049.562mil|Location1.Y=3874.38mil|Location2.Y=3883.504mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8040.438mil|Location2.X=8049.562mil|Location1.Y=3874.38mil|Location2.Y=3883.504mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.17mm &lt; 0.2mm) Between Text "R85" (140.843mm,59.309mm) on Top Overlay And Pad R85-1(140.555mm,58.42mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.17mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4484.706mil|Location2.X=4490.955mil|Location1.Y=4038.329mil|Location2.Y=4044.578mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4484.706mil|Location2.X=4490.955mil|Location1.Y=4038.329mil|Location2.Y=4044.578mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.2mm) Between Text "R80" (49.276mm,62.865mm) on Top Overlay And Pad Q33-2(50.734mm,63.697mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4432.274mil|Location2.X=4441.398mil|Location1.Y=4033.509mil|Location2.Y=4042.633mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4432.274mil|Location2.X=4441.398mil|Location1.Y=4033.509mil|Location2.Y=4042.633mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.023mm &lt; 0.2mm) Between Text "R80" (49.276mm,62.865mm) on Top Overlay And Pad Q33-1(48.834mm,63.697mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.023mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4258.253mil|Location2.X=4264.502mil|Location1.Y=4034.946mil|Location2.Y=4041.195mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4258.253mil|Location2.X=4264.502mil|Location1.Y=4034.946mil|Location2.Y=4041.195mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.2mm) Between Text "R79" (44.026mm,62.972mm) on Top Overlay And Pad Q32-1(44.389mm,63.697mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4306.365mil|Location2.X=4312.615mil|Location1.Y=4037.959mil|Location2.Y=4044.209mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4306.365mil|Location2.X=4312.615mil|Location1.Y=4037.959mil|Location2.Y=4044.209mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.2mm) Between Text "R79" (44.026mm,62.972mm) on Top Overlay And Pad Q32-2(46.289mm,63.697mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3768.119mil|Location2.X=3774.368mil|Location1.Y=6860.15mil|Location2.Y=6866.4mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3768.119mil|Location2.X=3774.368mil|Location1.Y=6860.15mil|Location2.Y=6866.4mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.2mm) Between Text "P9" (33.058mm,134.607mm) on Top Overlay And Pad R161-1(32.639mm,134.586mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDBJHLGLNYFXYUPID03HQH1FEZIFBQX1WYFWPUBQFYAFLPWGZ2COPG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2962.151mil|Location2.X=2969.818mil|Location1.Y=6443.5mil|Location2.Y=6451.167mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2962.151mil|Location2.X=2969.818mil|Location1.Y=6443.5mil|Location2.Y=6451.167mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.254mm) Between Text "C82" (11.811mm,124.079mm) on Top Overlay And Arc (7.62mm,127.127mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7979.131mil|Location2.X=7990.381mil|Location1.Y=4654.905mil|Location2.Y=4668.405mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7979.131mil|Location2.X=7990.381mil|Location1.Y=4654.905mil|Location2.Y=4668.405mil|Absolute=True">Silk To Silk Clearance Constraint: (0.158mm &lt; 0.254mm) Between Text "Q17" (139.433mm,80.429mm) on Top Overlay And Track (139.15mm,78.49mm)(139.15mm,78.99mm) on Top Overlay Silk Text to Silk Clearance [0.158mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8015.923mil|Location2.X=8023.59mil|Location1.Y=4646.497mil|Location2.Y=4654.164mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8015.923mil|Location2.X=8023.59mil|Location1.Y=4646.497mil|Location2.Y=4654.164mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.254mm) Between Text "Q17" (139.433mm,80.429mm) on Top Overlay And Track (140.25mm,78.49mm)(140.25mm,78.99mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8071.517mil|Location2.X=8082.767mil|Location1.Y=3873.317mil|Location2.Y=3884.567mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8071.517mil|Location2.X=8082.767mil|Location1.Y=3873.317mil|Location2.Y=3884.567mil|Absolute=True">Silk To Silk Clearance Constraint: (0.17mm &lt; 0.254mm) Between Text "R85" (140.843mm,59.309mm) on Top Overlay And Track (141.355mm,58.97mm)(141.855mm,58.97mm) on Top Overlay Silk Text to Silk Clearance [0.17mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8108.942mil|Location2.X=8120.192mil|Location1.Y=3913.322mil|Location2.Y=3924.572mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8108.942mil|Location2.X=8120.192mil|Location1.Y=3913.322mil|Location2.Y=3924.572mil|Absolute=True">Silk To Silk Clearance Constraint: (0.187mm &lt; 0.254mm) Between Text "R85" (140.843mm,59.309mm) on Top Overlay And Track (142.61mm,60.365mm)(144.41mm,60.365mm) on Top Overlay Silk Text to Silk Clearance [0.187mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8108.942mil|Location2.X=8120.192mil|Location1.Y=3913.322mil|Location2.Y=3924.572mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8108.942mil|Location2.X=8120.192mil|Location1.Y=3913.322mil|Location2.Y=3924.572mil|Absolute=True">Silk To Silk Clearance Constraint: (0.187mm &lt; 0.254mm) Between Text "R85" (140.843mm,59.309mm) on Top Overlay And Track (142.61mm,60.365mm)(142.61mm,65.365mm) on Top Overlay Silk Text to Silk Clearance [0.187mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2374.542mil|Location2.X=2385.792mil|Location1.Y=4197.586mil|Location2.Y=4208.836mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2374.542mil|Location2.X=2385.792mil|Location1.Y=4197.586mil|Location2.Y=4208.836mil|Absolute=True">Silk To Silk Clearance Constraint: (0.232mm &lt; 0.254mm) Between Text "R71" (-2.159mm,66.294mm) on Top Overlay And Track (-3.26mm,67.06mm)(-3.26mm,67.56mm) on Top Overlay Silk Text to Silk Clearance [0.232mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5835.493mil|Location2.X=5843.16mil|Location1.Y=2951.285mil|Location2.Y=2958.951mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5835.493mil|Location2.X=5843.16mil|Location1.Y=2951.285mil|Location2.Y=2958.951mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.254mm) Between Text "R12" (86.614mm,36.195mm) on Top Overlay And Track (81.17mm,35.69mm)(86.47mm,35.69mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3763.639mil|Location2.X=3774.889mil|Location1.Y=6876.017mil|Location2.Y=6887.267mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3763.639mil|Location2.X=3774.889mil|Location1.Y=6876.017mil|Location2.Y=6887.267mil|Absolute=True">Silk To Silk Clearance Constraint: (0.101mm &lt; 0.254mm) Between Text "P9" (33.058mm,134.607mm) on Top Overlay And Track (32.089mm,135.386mm)(32.089mm,135.886mm) on Top Overlay Silk Text to Silk Clearance [0.101mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3800.373mil|Location2.X=3808.039mil|Location1.Y=6878.93mil|Location2.Y=6886.596mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3800.373mil|Location2.X=3808.039mil|Location1.Y=6878.93mil|Location2.Y=6886.596mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.254mm) Between Text "P9" (33.058mm,134.607mm) on Top Overlay And Track (33.189mm,135.386mm)(33.189mm,135.886mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7508.609mil|Location2.X=7519.859mil|Location1.Y=2120.088mil|Location2.Y=2131.338mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7508.609mil|Location2.X=7519.859mil|Location1.Y=2120.088mil|Location2.Y=2131.338mil|Absolute=True">Silk To Silk Clearance Constraint: (0.155mm &lt; 0.254mm) Between Text "C85" (125.349mm,14.478mm) on Top Overlay And Text "C90" (127.508mm,14.478mm) on Top Overlay Silk Text to Silk Clearance [0.155mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3330.801mil|Location2.X=3338.468mil|Location1.Y=5858.474mil|Location2.Y=5866.141mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3330.801mil|Location2.X=3338.468mil|Location1.Y=5858.474mil|Location2.Y=5866.141mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.254mm) Between Text "C65" (18.25mm,107.912mm) on Top Overlay And Text "C80" (19.304mm,109.601mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5872.937mil|Location2.X=5880.604mil|Location1.Y=2951.27mil|Location2.Y=2958.937mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5872.937mil|Location2.X=5880.604mil|Location1.Y=2951.27mil|Location2.Y=2958.937mil|Absolute=True">Silk To Silk Clearance Constraint: (Collision &lt; 0.254mm) Between Area Fill (85.77mm,32.89mm) (86.57mm,35.69mm) on Top Overlay And Text "R12" (86.614mm,36.195mm) on Top Overlay Silk Text to Silk Clearance [0mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7996.517mil|Location2.X=8007.767mil|Location1.Y=4717.625mil|Location2.Y=4728.875mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7996.517mil|Location2.X=8007.767mil|Location1.Y=4717.625mil|Location2.Y=4728.875mil|Absolute=True">Silk To Silk Clearance Constraint: (0.205mm &lt; 0.254mm) Between Text "Q17" (139.433mm,80.429mm) on Top Overlay And Text "R53" (138.938mm,80.772mm) on Top Overlay Silk Text to Silk Clearance [0.205mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7455.799mil|Location2.X=7468.718mil|Location1.Y=5242.853mil|Location2.Y=5254.103mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7455.799mil|Location2.X=7468.718mil|Location1.Y=5242.853mil|Location2.Y=5254.103mil|Absolute=True">Silk To Silk Clearance Constraint: (0.221mm &lt; 0.254mm) Between Text "U14" (124.333mm,94.107mm) on Top Overlay And Text "R44" (126.111mm,93.091mm) on Top Overlay Silk Text to Silk Clearance [0.221mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3847.588mil|Location2.X=3858.838mil|Location1.Y=6611.645mil|Location2.Y=6622.895mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3847.588mil|Location2.X=3858.838mil|Location1.Y=6611.645mil|Location2.Y=6622.895mil|Absolute=True">Silk To Silk Clearance Constraint: (0.207mm &lt; 0.254mm) Between Text "R162" (34.544mm,128.524mm) on Top Overlay And Text "R160" (31.75mm,128.524mm) on Top Overlay Silk Text to Silk Clearance [0.207mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDMAEVHXTEVY5YMQDTAHIU0BJG5IRLZKBY5ITREKCNN4IBTG15ZJVG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room LAMP (Bounding Region = (149.479mm, 66.675mm, 209.55mm, 123.825mm) (InComponentClass('LAMP'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5885mil|Location2.X=8250mil|Location1.Y=2625mil|Location2.Y=5179mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5885mil|Location2.X=8250mil|Location1.Y=2625mil|Location2.Y=5179mil|Absolute=True">Room Definition: Between SMT SIP Component TP6-Test Point 5x2 (109.855mm,91.44mm) on Bottom Layer And Room LAMP (Bounding Region = (149.479mm, 66.675mm, 209.55mm, 123.825mm) (InComponentClass('LAMP')) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDQF4P3ESHQ25YH4C1CDT3LHQ3AHPMO2A024V0N0OZKVLZJFPOCXWO"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Room Power (Bounding Region = (52.705mm, 28.575mm, 93.98mm, 135.89mm) (InComponentClass('Power'))</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2075mil|Location2.X=3700mil|Location1.Y=1125mil|Location2.Y=5350mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\FxSlava\Documents\Laser-LED-STM-Board-Project\LaserControlBoard\Calipso V2.0 REV4.0.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2075mil|Location2.X=3700mil|Location1.Y=1125mil|Location2.Y=5350mil|Absolute=True">Room Definition: Between SMT SIP Component TP15-Test Point 5x2 (12.7mm,62.23mm) on Bottom Layer And Room Power (Bounding Region = (52.705mm, 28.575mm, 93.98mm, 135.89mm) (InComponentClass('Power')) </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

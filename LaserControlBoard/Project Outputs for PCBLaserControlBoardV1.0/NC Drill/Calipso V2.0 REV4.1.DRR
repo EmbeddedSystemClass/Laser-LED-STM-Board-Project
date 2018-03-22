@@ -1,0 +1,29 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Calipso V2.0 REV4.1.PcbDoc   3/2/2018  2:33:59 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Calipso V2.0 REV4.1-Plated.TXT
+ASCII Non-Plated RoundHoles File : Calipso V2.0 REV4.1-NonPlated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      16mil (0.399mm)                                           Round             1541      PTH        244.45inch (6209.04mm)
+T2      32mil (0.8mm)                                             Round             2         PTH        0.19inch (4.88mm)
+T3      35mil (0.899mm)                                           Round             84        PTH        14.80inch (375.94mm)
+T4      39mil (1.001mm)                                           Round             27        PTH        15.54inch (394.72mm)
+T5      43mil (1.09mm)                                            Round             18        PTH        3.20inch (81.29mm)
+T6      43mil (1.1mm)                                             Round             8         PTH        3.37inch (85.60mm)
+T7      47mil (1.199mm)                                           Round             72        PTH        15.74inch (399.73mm)
+T8      51mil (1.3mm)                                             Round             15        PTH        8.20inch (208.35mm)
+T9      59mil (1.501mm)                                           Round             5         PTH        0.67inch (17.07mm)
+T10     63mil (1.6mm)                                             Round             20        PTH        23.63inch (600.14mm)
+T11     79mil (1.999mm)                                           Round             2         PTH        0.79inch (20.02mm)
+T12     118mil (3mm)                                              Round             8         PTH        24.84inch (631.00mm)
+T13     120mil (3.051mm)                                          Round             2         PTH        2.50inch (63.50mm)
+T14     128mil (3.259mm)                                          Round             4         PTH        2.41inch (61.18mm)
+T15     35mil (0.899mm)                                           Round             2         NPTH       0.17inch (4.40mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1810
+
+Total Processing Time (hh:mm:ss) : 00:00:01

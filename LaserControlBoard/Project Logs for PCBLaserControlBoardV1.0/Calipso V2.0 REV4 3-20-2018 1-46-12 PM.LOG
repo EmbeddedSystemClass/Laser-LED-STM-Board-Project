@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NetD13_1 Pin=D13-1
+Removed Pin From Net: NetName=IGND Pin=D13-2
+Removed Pin From Net: NetName=NetD14_1 Pin=D14-1
+Removed Pin From Net: NetName=IGND Pin=D14-2
+Removed Member From Class: ClassName=LaserInterface Member=D13
+Removed Member From Class: ClassName=LaserInterface Member=D14
+Change Net Name : Old Net Name=NetD13_1 New Net Name=NetJ7_0
+Change Net Name : Old Net Name=NetD14_1 New Net Name=NetJ6_1

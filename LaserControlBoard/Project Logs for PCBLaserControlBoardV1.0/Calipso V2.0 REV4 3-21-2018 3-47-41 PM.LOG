@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=VCC Pin=C22-1
+Removed Pin From Net: NetName=AGND Pin=C22-2
+Removed Pin From Net: NetName=5V Pin=C28-1
+Removed Pin From Net: NetName=AGND Pin=C28-2
+Change Component DesignItemId : Designator=C22 Old DesignItemId=Cap Pol Chip New DesignItemId=ChipCap 22uF X7R
+Change Component DesignItemId : Designator=C28 Old DesignItemId=Cap Pol Chip New DesignItemId=ChipCap 22uF X7R
+Change Component DesignItemId : Designator=R70 Old DesignItemId=RES0805 1R2 1% New DesignItemId=ChipRes 1R2 1%
+Change Component DesignItemId : Designator=R71 Old DesignItemId=RES0805 1R2 1% New DesignItemId=ChipRes 1R2 1%
+Change Component Footprint: Designator=C22 Old Footprint=CAPC7343 New Footprint=CAP1210
+Change Component Footprint: Designator=C28 Old Footprint=CAPC7343 New Footprint=CAP1210
+Change Component Footprint: Designator=R70 Old Footprint=RES0805 New Footprint=RES1206
+Change Component Footprint: Designator=R71 Old Footprint=RES0805 New Footprint=RES1206
+Change Component Comment : Designator=C22 Old Comment=Cap Pol SMD New Comment=ChipCap 22u X7R
+Change Component Comment : Designator=C28 Old Comment=Cap Pol SMD New Comment=ChipCap 22u X7R
+Change Component Comment : Designator=R70 Old Comment=RES0805 1R2 1% New Comment=ChipRes 1R2 1%
+Change Component Comment : Designator=R71 Old Comment=RES0805 1R2 1% New Comment=ChipRes 1R2 1%
+Added Component: Designator=C90(CAP1210)
+Added Component: Designator=C92(CAP0603)
+Added Component: Designator=C93(CAP1210)
+Added Pin To Net: NetName=AGND Pin=C22-1
+Added Pin To Net: NetName=VCC Pin=C22-2
+Added Pin To Net: NetName=AGND Pin=C28-1
+Added Pin To Net: NetName=5V Pin=C28-2
+Added Pin To Net: NetName=AGND Pin=C90-1
+Added Pin To Net: NetName=5V Pin=C90-2
+Added Pin To Net: NetName=AGND Pin=C92-1
+Added Pin To Net: NetName=5V Pin=C92-2
+Added Pin To Net: NetName=AGND Pin=C93-1
+Added Pin To Net: NetName=VCC Pin=C93-2
+Added Member To Class: ClassName=Power Member=Component C90 ChipCap 22u X7R
+Added Member To Class: ClassName=Power Member=Component C92 ChipCap 0.1u X7R
+Added Member To Class: ClassName=Power Member=Component C93 ChipCap 22u X7R

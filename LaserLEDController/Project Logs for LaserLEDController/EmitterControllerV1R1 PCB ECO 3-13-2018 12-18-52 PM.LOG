@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=USART1_TX Pin=P2-1
+Removed Pin From Net: NetName=USART1_RX Pin=P2-2
+Removed Pin From Net: NetName=GND Pin=P2-3
+Change Component DesignItemId : Designator=P2 Old DesignItemId=Header 3 New DesignItemId=Header 5
+Change Component Footprint: Designator=P2 Old Footprint=HDR1X3 New Footprint=HDR1X5
+Change Component Comment : Designator=P2 Old Comment=Header 3 New Comment=Header 5
+Added Component: Designator=R9(RES0805)
+Added Pin To Net: NetName=5V Pin=P2-1
+Added Pin To Net: NetName=USART1_TX Pin=P2-3
+Added Pin To Net: NetName=USART1_RX Pin=P2-4
+Added Pin To Net: NetName=GND Pin=P2-5
+Added Pin To Net: NetName=GND Pin=R9-1
+Change Net Name : Old Net Name=5V New Net Name=VSENS
+Added Pin To Net: NetName=AIN0 Pin=P2-2
+Added Pin To Net: NetName=AIN0 Pin=R9-2
+Added Pin To Net: NetName=AIN0 Pin=U1-6
+Added Net: Name=AIN0
+Added Member To Class: ClassName=LaserLEDController Member=Component R9 RES0805 510R 1%

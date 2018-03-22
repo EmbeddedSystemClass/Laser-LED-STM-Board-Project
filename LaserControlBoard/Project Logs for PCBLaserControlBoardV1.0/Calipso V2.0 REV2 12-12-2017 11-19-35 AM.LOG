@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=LASER_IMON Pin=P4-19
+Added Pin To Net: NetName=LDD_VMON Pin=P4-19
+Added Net: Name=LDD_VMON

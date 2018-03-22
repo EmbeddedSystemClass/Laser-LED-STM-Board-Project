@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=RS232_DWIN_TX Pin=J4-0
+Removed Pin From Net: NetName=DWIN_TX Pin=J4-1
+Removed Pin From Net: NetName=RS232_DWIN_RX Pin=J5-0
+Removed Pin From Net: NetName=DWIN_RX Pin=J5-1
+Removed Member From Class: ClassName=Power Member=J4
+Removed Member From Class: ClassName=Power Member=J5
