@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=5V Pin=C2-1
+Removed Pin From Net: NetName=AGND Pin=C2-2
+Removed Pin From Net: NetName=WIFI3V3 Pin=C5-1
+Removed Pin From Net: NetName=AGND Pin=C5-2
+Removed Pin From Net: NetName=5V Pin=C66-1
+Removed Pin From Net: NetName=AGND Pin=C66-2
+Removed Pin From Net: NetName=GPS3V3 Pin=C67-1
+Removed Pin From Net: NetName=AGND Pin=C67-2
+Change Component DesignItemId : Designator=C2 Old DesignItemId=Cap Pol Chip New DesignItemId=ChipCap 4.7uF X7R
+Change Component DesignItemId : Designator=C66 Old DesignItemId=Cap Pol Chip New DesignItemId=ChipCap 4.7uF X7R
+Change Component DesignItemId : Designator=C5 Old DesignItemId=Cap Pol Chip New DesignItemId=ChipCap 10uF X7R
+Change Component DesignItemId : Designator=C67 Old DesignItemId=Cap Pol Chip New DesignItemId=ChipCap 10uF X7R
+Change Component Footprint: Designator=C5 Old Footprint=CAPC7343 New Footprint=CAP0805
+Change Component Footprint: Designator=C66 Old Footprint=CAPC7343 New Footprint=CAP0805
+Change Component Footprint: Designator=C2 Old Footprint=CAPC7343 New Footprint=CAP1210
+Change Component Footprint: Designator=C67 Old Footprint=CAPC7343 New Footprint=CAP1210
+Change Component Comment : Designator=C2 Old Comment=Cap Pol SMD New Comment=ChipCap 4.7u X7R
+Change Component Comment : Designator=C66 Old Comment=Cap Pol SMD New Comment=ChipCap 4.7u X7R
+Change Component Comment : Designator=C5 Old Comment=Cap Pol SMD New Comment=ChipCap 10u X7R
+Change Component Comment : Designator=C67 Old Comment=Cap Pol SMD New Comment=ChipCap 10u X7R
+Added Pin To Net: NetName=AGND Pin=C2-1
+Added Pin To Net: NetName=5V Pin=C2-2
+Added Pin To Net: NetName=AGND Pin=C5-1
+Added Pin To Net: NetName=WIFI3V3 Pin=C5-2
+Added Pin To Net: NetName=AGND Pin=C66-1
+Added Pin To Net: NetName=5V Pin=C66-2
+Added Pin To Net: NetName=AGND Pin=C67-1
+Added Pin To Net: NetName=GPS3V3 Pin=C67-2
+Added Member To Class: ClassName=WiFi Member=Component C2 ChipCap 4.7u X7R
