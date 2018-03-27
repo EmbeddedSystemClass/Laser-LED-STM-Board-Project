@@ -30,7 +30,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for PCBLaserControlBoardV1.0
 LogFolderPath=
 ManagedProjectGUID=
 
@@ -277,7 +277,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YIIWJHVT
 
 [Document15]
-DocumentPath=PCBLaserControlBoardV2.0R4.0.OutJob
+DocumentPath=PCBLaserControlBoardV2.0R4.2.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -376,7 +376,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HIHLGBNS
 
 [Document21]
 DocumentPath=[6] Audio, Full bridge.SchDoc
@@ -430,7 +430,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document24]
-DocumentPath=Calipso V2.0 REV4.0.PcbDoc
+DocumentPath=Calipso V2.0 REV4.2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -616,6 +616,74 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\NC Drill\Calipso V2.0 REV4.2-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\NC Drill\Calipso V2.0 REV4.2-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\NC Drill\Calipso V2.0 REV4.2.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\NC Drill\Calipso V2.0 REV4.2.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.REP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Gerber\Calipso V2.0 REV4.2.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for PCBLaserControlBoardV1.0\Pick Place\Pick Place for Calipso V2.0 REV4.2.txt
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -642,7 +710,7 @@ GlobalBookmarks=0
 ExportBOM=0
 TemplateFilename=Board Stack Report.XLT
 TemplateStoreRelative=-1
-PCB_PrintColor=1
+PCB_PrintColor=0
 SCH_PrintColor=0
 PrintQuality=-4
 SCH_ShowNoErc=0
@@ -660,10 +728,10 @@ SCH_ExpandPorts=0
 SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
-SaveSettingsToOutJob=-1
+SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for PCBLaserControlBoardV1.0
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1121,7 +1189,7 @@ Configuration4_Item4=Value=True|Comment=True|Footprint=True
 Configuration4_Name5=SortOrder
 Configuration4_Item5=Comment=Up
 Configuration4_Name6=VisibleOrder
-Configuration4_Item6=Designator=255|Description=241|Footprint=110|Manufacturer=56|Manufacturer Part Number=129|Value=88|Raiting=71|Tolerance=82|Type=71|Voltage=58|Quantity=100
+Configuration4_Item6=Designator=255|Description=241|Footprint=110|Manufacturer=56|Manufacturer Part Number=159|Value=82|Raiting=66|Tolerance=77|Type=66|Voltage=55|Quantity=94
 OutputType5=ComponentCrossReference
 OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
